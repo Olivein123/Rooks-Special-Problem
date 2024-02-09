@@ -2,7 +2,7 @@
 {
     public class CollegeInformation
     {
-        public int Id { get; set; } 
+        public int StudentId { get; set; } 
         public string? Course { get; set; }
         public string? YearLevel { get; set; }
         public int Prog1MidtermGrade {get; set;}
