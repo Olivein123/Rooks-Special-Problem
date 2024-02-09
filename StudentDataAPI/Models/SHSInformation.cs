@@ -5,6 +5,8 @@
         public int StudentId { get; set; }
         public string ? TypeOfSchool { get; set;}
         public string ? SeniorHighSchool { get; set; }
+        public string? JoinedScienceHigh { get; set; }
+        public string? ScienceHighSchool { get; set; }
         public string ? Strand { get; set; }
         public string ? WithHonors { get; set; }
         public string ? TopNotcher { get; set; }
