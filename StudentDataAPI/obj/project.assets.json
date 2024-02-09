@@ -460,19 +460,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\M S I   GAMING\\.nuget\\packages\\": {}
+    "C:\\Users\\Dell\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\4th Year 2nd Sem\\CS498\\Thesis\\StudentDataAPI\\StudentDataAPI\\StudentDataAPI.csproj",
+      "projectUniqueName": "C:\\Code\\Rooks-Special-Problem\\StudentDataAPI\\StudentDataAPI.csproj",
       "projectName": "StudentDataAPI",
-      "projectPath": "G:\\4th Year 2nd Sem\\CS498\\Thesis\\StudentDataAPI\\StudentDataAPI\\StudentDataAPI.csproj",
-      "packagesPath": "C:\\Users\\M S I   GAMING\\.nuget\\packages\\",
-      "outputPath": "G:\\4th Year 2nd Sem\\CS498\\Thesis\\StudentDataAPI\\StudentDataAPI\\obj\\",
+      "projectPath": "C:\\Code\\Rooks-Special-Problem\\StudentDataAPI\\StudentDataAPI.csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "C:\\Code\\Rooks-Special-Problem\\StudentDataAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\M S I   GAMING\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
