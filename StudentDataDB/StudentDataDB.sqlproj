@@ -61,6 +61,7 @@
   <ItemGroup>
     <Build Include="Tables\Personal_Info.sql" />
     <Build Include="Tables\Family_Profile.sql" />
+    <Build Include="Tables\SHS_Information.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="StudentDataDB.refactorlog" />
