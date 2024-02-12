@@ -3,7 +3,7 @@
 	[StudentId] INT NOT NULL, 
     [Course] VARCHAR(MAX) NULL, 
     [YearLevel] VARCHAR(MAX) NULL, 
-    [ProgMidtermGrade] INT NOT NULL, 
+    [ProgMidtermGrade] VARCHAR(MAX) NOT NULL, 
     [ExpectedProg1Grade] VARCHAR(MAX) NOT NULL, 
     [Prog1Professor] VARCHAR(MAX) NULL, 
     [ModeOfDelivery] VARCHAR(MAX) NULL, 
