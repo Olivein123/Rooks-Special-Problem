@@ -14,5 +14,5 @@
     [GradeRangeMath] NCHAR(40) NOT NULL,
     [GradeRangeScience] NCHAR(40) NOT NULL,
     [GPA] NCHAR(40) NOT NULL,
-    CONSTRAINT [FK_StudentId] FOREIGN KEY ([StudentId]) REFERENCES [dbo].[Personal_info] ([IdNumber])
+    CONSTRAINT [FK_StudentIdNumber] FOREIGN KEY ([StudentId]) REFERENCES [dbo].[Personal_info] ([IdNumber])
 )
