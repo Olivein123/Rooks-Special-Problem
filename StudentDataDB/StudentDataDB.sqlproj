@@ -61,7 +61,11 @@
   <ItemGroup>
     <Build Include="Tables\Personal_Info.sql" />
     <Build Include="Tables\Family_Profile.sql" />
+<<<<<<< HEAD
     <Build Include="Tables\College_Information.sql" />
+=======
+    <Build Include="Tables\SHS_Information.sql" />
+>>>>>>> 2174b2d2b844e0a1339ecf8f051063c9b5efa01f
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="StudentDataDB.refactorlog" />
