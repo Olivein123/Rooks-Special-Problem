@@ -4,7 +4,7 @@
 
 	[MotherOccupation] VARCHAR(MAX) NOT NULL, 
     [FatherOccupation] VARCHAR(MAX) NOT NULL, 
-    [TotalIncome] INT NOT NULL, 
+    [TotalIncome] VARCHAR(MAX) NOT NULL, 
     [TotalSiblings] INT NOT NULL, 
     [ParentDependentSiblings] INT NOT NULL, 
     [GraduatedSiblings] INT NOT NULL, 
