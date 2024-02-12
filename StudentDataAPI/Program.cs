@@ -1,4 +1,7 @@
 using Microsoft.OpenApi.Models;
+using StudentDataAPI.Context;
+using StudentDataAPI.Repositories.Students;
+using StudentDataAPI.Services.StudentServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,24 +26,29 @@ builder.Services.AddSwaggerGen(options =>
 });
 
     // Configure Services
-    ConfigureServices(builder.Services);
+ConfigureServices(builder.Services);
 
-    void ConfigureServices(IServiceCollection services)
-    { }
+void ConfigureServices(IServiceCollection services)
+{
+    services.AddTransient<DapperContext>();
+    services.AddScoped<IStudentRepositories, StudentRepository>();
+    services.AddScoped<IStudentService, StudentService>();
+}
+  
 
-    var app = builder.Build();
+var app = builder.Build();
 
-    // Configure the HTTP request pipeline.
-    if (app.Environment.IsDevelopment())
-    {
-        app.UseSwagger();
-        app.UseSwaggerUI();
-    }
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
-    app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
-    app.UseAuthorization();
+app.UseAuthorization();
 
-    app.MapControllers();
+app.MapControllers();
 
-    app.Run();
+app.Run();
