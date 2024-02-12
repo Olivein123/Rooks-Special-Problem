@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{7eff305d-0bf5-4b1d-84f3-87c2c7e15bd2}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -58,6 +58,7 @@
     <Folder Include="Properties" />
     <Folder Include="dbo" />
     <Folder Include="dbo\Tables" />
+    <Folder Include="dbo\Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\College_Information.sql" />
@@ -67,5 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="StudentDataDB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dbo\Scripts\PopulateTables.sql" />
+    <None Include="dbo\Scripts\GetAll.sql" />
+    <None Include="StudentDataDB.publish.xml" />
   </ItemGroup>
 </Project>

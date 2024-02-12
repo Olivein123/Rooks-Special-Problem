@@ -1,13 +1,13 @@
 ﻿CREATE TABLE [dbo].[Personal_Info]
 (
 	[IdNumber] INT NOT NULL PRIMARY KEY, 
-    [LastName] NCHAR(40) NOT NULL, 
-    [FirstName] NCHAR(40) NOT NULL, 
-    [MiddleName] NCHAR(40) NULL, 
-    [Address] NCHAR(40) NOT NULL, 
-    [FundSource] NCHAR(40) NOT NULL, 
-    [FundSourceType] NCHAR(40) NOT NULL, 
-    [Job] NCHAR(40) NOT NULL, 
-    [SalaryEnough] NCHAR(40) NOT NULL, 
-    [SalaryRange] NCHAR(40) NOT NULL
+    [LastName] VARCHAR(MAX) NOT NULL, 
+    [FirstName] VARCHAR(MAX) NOT NULL, 
+    [MiddleName] VARCHAR(MAX) NULL, 
+    [Address] VARCHAR(MAX) NOT NULL, 
+    [FundSource] VARCHAR(MAX) NOT NULL, 
+    [FundSourceType] VARCHAR(MAX) NOT NULL, 
+    [Job] VARCHAR(MAX) NOT NULL, 
+    [SalaryEnough] VARCHAR(MAX) NOT NULL, 
+    [SalaryRange] VARCHAR(MAX) NOT NULL
 )
