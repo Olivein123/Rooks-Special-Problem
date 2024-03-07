@@ -25,6 +25,6 @@
     [CommuteDurationToHome] VARCHAR(MAX) NULL, 
     [ArriveHomeFeeling] VARCHAR(MAX) NULL, 
     [PursueCourseReason] VARCHAR(MAX) NULL,
-    CONSTRAINT [FK_StudentId] FOREIGN KEY ([StudentId]) REFERENCES [dbo].[Personal_Info] ([IdNumber])
+    CONSTRAINT [FK_StudentId] FOREIGN KEY ([StudentId]) REFERENCES [dbo].[Personal_Info] ([StudentId])
 
 )

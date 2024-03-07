@@ -73,5 +73,6 @@
     <None Include="dbo\Scripts\PopulateTables.sql" />
     <None Include="dbo\Scripts\GetAll.sql" />
     <None Include="StudentDataDB.publish.xml" />
+    <None Include="dbo\Scripts\Test.sql" />
   </ItemGroup>
 </Project>

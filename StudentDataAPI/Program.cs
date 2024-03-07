@@ -2,6 +2,7 @@ using Microsoft.OpenApi.Models;
 using StudentDataAPI.Context;
 using StudentDataAPI.Repositories.Students;
 using StudentDataAPI.Services.StudentServices;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,7 @@ builder.Services.AddSwaggerGen(options =>
             Url = new Uri("https://github.com/Olivein123/Rooks-Special-Problem")
         }
     });
+  
 });
 
     // Configure Services
