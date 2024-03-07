@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import BrowserRouter
+import Home from './HomeScreen/Home'
+import Personal from './PersonalProfileScreen/Personal';
+import FamilyBackground from './FamilyBackgroundScreen/Family';
+import Senior from './SHS Information Screen/Senior';
+import College from './CollegeInformationScreen/College';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path="/personal-info" element={<Personal />} />
+        <Route path="/family-bg" element={<FamilyBackground />} />
+        <Route path="/senior-info" element={<Senior />} />
+        <Route path="/college-info" element={<College />} /> 
+      </Routes>
+    </Router>
   );
 }
 
