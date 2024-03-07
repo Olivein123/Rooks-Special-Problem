@@ -1,8 +1,12 @@
 import './Home.css';
 import React from 'react';
+import MuiNavBar from '../components/MuiNavBar';
 function Home(){
     return (
-        <div>Home Page</div>
+        <div>
+            <MuiNavBar/>
+            Home Page
+        </div>
     );
 }
 export default Home;

@@ -1,8 +1,12 @@
 import './Senior.css';
 import React from 'react';
+import MuiNavBar from '../components/MuiNavBar';
 function Senior(){
     return (
-        <div>SHS Information Page</div>
+        <div>
+            <MuiNavBar/>
+            SHS Information Page
+        </div>
     );
 }
 export default Senior;
