@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Personal_Info]
 (
-	[IdNumber] INT NOT NULL PRIMARY KEY, 
+	[StudentId] INT NOT NULL PRIMARY KEY, 
     [LastName] VARCHAR(MAX) NOT NULL, 
     [FirstName] VARCHAR(MAX) NOT NULL, 
     [MiddleName] VARCHAR(MAX) NULL, 

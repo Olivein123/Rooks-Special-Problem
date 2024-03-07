@@ -1,7 +1,7 @@
 ﻿Use[StudentDataDB]
 GO
 
-INSERT INTO Personal_Info(IdNumber, LastName, FirstName, MiddleName, Address, FundSource, FundSourceType, Job, SalaryEnough, SalaryRange)
+INSERT INTO Personal_Info(StudentId, LastName, FirstName, MiddleName, Address, FundSource, FundSourceType, Job, SalaryEnough, SalaryRange)
 VALUES
 	('215048994', 'Ong', 'Lovely Shane', 'Pameron', 'Mambaling, Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('231987729', 'Cararag', 'Trisha Raye', 'Verano', 'Kimba Cansojong Talisay City Cebu', 'Parents/Guardians', '', '', '', ''),

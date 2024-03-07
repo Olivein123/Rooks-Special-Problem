@@ -4,7 +4,8 @@ using StudentDataAPI.Services.StudentServices;
 
 namespace StudentDataAPI.Controllers
 {
-    [Route("api/Students")]
+    
+    [Route("api/GetStudentInformation")]
     [ApiController]
     public class StudentsController : ControllerBase
     {
@@ -18,30 +19,109 @@ namespace StudentDataAPI.Controllers
             _logger = logger;
         }
 
-
-        [HttpGet(Name = "GetAllStudents")]
+        /// <summary>
+        /// Gets all student related information based on inputted choice
+        /// </summary>
+        /// <param name="choice">Choice of information to display. 
+        /// 1.Personal Information
+        /// 2.Family Profile
+        /// 3.Senior High School Information
+        /// 4.College Information
+        /// </param>
+        /// <returns>Student information based in given choice</returns>
+        /// <remarks>
+        /// Gets all student related information based on inputted choice
+        /// 1.Personal Information
+        /// 2.Family Profile
+        /// 3.Senior High School Information
+        /// 4.College Information
+        /// </remarks>
+        [HttpGet(Name = "GetAllInformation")]
         [Consumes("application/json")]
         [Produces("application/json")]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> GetAllStudents()
+        public async Task<IActionResult> GetAllPersonalInformation([FromQuery] int choice)
         {
-            try
+            /*      
+              2 = Family Profile
+              3 = SHS Information
+            */
+            switch (choice)
             {
-                var students = await _charService.GetAllStudents();
-                if (!students.Any())
-                {
-                    _logger.LogInformation("No students found.");
-                    return NoContent(); // Status Code 204
-                }
+                case 1:
+                    try
+                    {
+                        var personalInfo = await _charService.GetPersonalInformation();
+                        if (!personalInfo.Any())
+                        {
+                            _logger.LogInformation("No personal information found.");
+                            return NoContent(); // Status Code 204
+                        }
 
-                return Ok(students);
+                        return Ok(personalInfo);
+                    }
+                    catch (Exception e)
+                    {
+                        _logger.LogError(e.Message);
+                        return StatusCode(500, e.Message);
+                    }
+                    
+                case 2:
+                    try
+                    {
+                        var familyProfile = await _charService.GetFamilyProfile();
+                        if (!familyProfile.Any())
+                        {
+                            _logger.LogInformation("No family profiles found.");
+                            return NoContent(); // Status Code 204
+                        }
+
+                        return Ok(familyProfile);
+                    }
+                    catch (Exception e)
+                    {
+                        _logger.LogError(e.Message);
+                        return StatusCode(500, e.Message);
+                    }
+                    
+                case 3:
+                    try
+                    {
+                        var shsInfo = await _charService.GetSHSInformation();
+                        if (!shsInfo.Any())
+                        {
+                            _logger.LogInformation("No senior high school information found.");
+                            return NoContent(); // Status Code 204
+                        }
+
+                        return Ok(shsInfo);
+                    }
+                    catch (Exception e)
+                    {
+                        _logger.LogError(e.Message);
+                        return StatusCode(500, e.Message);
+                    }
+                case 4:
+                    try
+                    {
+                        var collegeInfo = await _charService.GetCollegeInformation();
+                        if (!collegeInfo.Any())
+                        {
+                            _logger.LogInformation("No personal information found.");
+                            return NoContent(); // Status Code 204
+                        }
+
+                        return Ok(collegeInfo);
+                    }
+                    catch (Exception e)
+                    {
+                        _logger.LogError(e.Message);
+                        return StatusCode(500, e.Message);
+                    }
+                default: return NoContent();
             }
-            catch (Exception e)
-            {
-                _logger.LogError(e.Message);
-                return StatusCode(500, e.Message);
-            }
-        }
+        } 
+
     }
 }

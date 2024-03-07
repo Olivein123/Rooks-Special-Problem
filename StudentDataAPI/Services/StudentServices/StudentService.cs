@@ -12,11 +12,32 @@ namespace StudentDataAPI.Services.StudentServices
             _repository = repository;
         }
 
-        public async Task<IEnumerable<Student>> GetAllStudents()
+        public async Task<IEnumerable<CollegeInformation>> GetCollegeInformation()
         {
-            var charModels = await _repository.GetAllStudents();
+            var collegeInfo = await _repository.GetCollegeInformation();
 
-            return charModels;
+            return collegeInfo;
+        }
+
+        public async Task<IEnumerable<FamilyProfile>> GetFamilyProfile()
+        {
+            var familyProfile = await _repository.GetFamilyProfile();
+
+            return familyProfile;
+        }
+
+        public async Task<IEnumerable<PersonalInformation>> GetPersonalInformation()
+        {
+            var personalInfo = await _repository.GetPersonalInformation();
+
+            return personalInfo;
+        }
+
+        public async Task<IEnumerable<SHSInformation>> GetSHSInformation()
+        {
+            var shsInfo = await _repository.GetSHSInformation();
+
+            return shsInfo;
         }
     }
 }

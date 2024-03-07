@@ -13,22 +13,48 @@ public class StudentRepository : IStudentRepositories
             _context = context;
         }
 
-    public async Task<IEnumerable<Student>> GetAllStudents()
+    public async Task<IEnumerable<PersonalInformation>> GetPersonalInformation()
     {
-        var sql = "SELECT * " +
-            " FROM Personal_Info P" +
-            " INNER JOIN Family_Profile F ON P.IdNumber = F.StudentId" +
-            " INNER JOIN SHS_Information S ON P.IdNumber = S.StudentId" +
-            " INNER JOIN College_Information C ON P.IdNumber = C.StudentId";
+       var sql = "SELECT * FROM Personal_Info";
+
+       using (var con = _context.CreateConnection())
+        {
+            return await con.QueryAsync<PersonalInformation>(sql);
+        }
+
+    }
+
+    public async Task<IEnumerable<FamilyProfile>> GetFamilyProfile()
+    {
+        var sql = "SELECT * FROM Family_Profile";
 
         using (var con = _context.CreateConnection())
         {
-            return await con.QueryAsync<Student, PersonalInformation, FamilyProfile, SHSInformation, CollegeInformation, Student>(sql, MapStudent);
-
+            return await con.QueryAsync<FamilyProfile>(sql);
         }
     }
 
-    private static Student MapStudent(Student student, PersonalInformation personal,  FamilyProfile family, SHSInformation shs, CollegeInformation college)
+    public async Task<IEnumerable<SHSInformation>> GetSHSInformation()
+    {
+        var sql = "SELECT * FROM SHS_Information";
+
+        using (var con = _context.CreateConnection())
+        {
+            return await con.QueryAsync<SHSInformation>(sql);
+        }
+    }
+
+    public async Task<IEnumerable<CollegeInformation>> GetCollegeInformation()
+    {
+        var sql = "SELECT * FROM College_Information";
+
+        using (var con = _context.CreateConnection())
+        {
+            return await con.QueryAsync<CollegeInformation>(sql);
+        }
+    }
+
+    private static Student MapStudent(Student student, PersonalInformation personal, FamilyProfile family, SHSInformation shs, CollegeInformation college)
     {
         student.PersonalInformation = personal;
         student.FamilyProfile = family;
@@ -36,5 +62,4 @@ public class StudentRepository : IStudentRepositories
         student.CollegeInformation = college;
         return student;
     }
-    
 }

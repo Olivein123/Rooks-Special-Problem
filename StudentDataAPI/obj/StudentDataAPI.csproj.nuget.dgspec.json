@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\Rooks-Special-Problem\\StudentDataAPI\\StudentDataAPI.csproj": {}
+    "G:\\4th Year 2nd Sem\\CS498\\Thesis\\Rooks-Special-Problem\\StudentDataAPI\\StudentDataAPI.csproj": {}
   },
   "projects": {
-    "C:\\Code\\Rooks-Special-Problem\\StudentDataAPI\\StudentDataAPI.csproj": {
+    "G:\\4th Year 2nd Sem\\CS498\\Thesis\\Rooks-Special-Problem\\StudentDataAPI\\StudentDataAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\Rooks-Special-Problem\\StudentDataAPI\\StudentDataAPI.csproj",
+        "projectUniqueName": "G:\\4th Year 2nd Sem\\CS498\\Thesis\\Rooks-Special-Problem\\StudentDataAPI\\StudentDataAPI.csproj",
         "projectName": "StudentDataAPI",
-        "projectPath": "C:\\Code\\Rooks-Special-Problem\\StudentDataAPI\\StudentDataAPI.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\Rooks-Special-Problem\\StudentDataAPI\\obj\\",
+        "projectPath": "G:\\4th Year 2nd Sem\\CS498\\Thesis\\Rooks-Special-Problem\\StudentDataAPI\\StudentDataAPI.csproj",
+        "packagesPath": "C:\\Users\\M S I   GAMING\\.nuget\\packages\\",
+        "outputPath": "G:\\4th Year 2nd Sem\\CS498\\Thesis\\Rooks-Special-Problem\\StudentDataAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\M S I   GAMING\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,13 +40,29 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.28, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.5, )"
             },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

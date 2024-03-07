@@ -8,6 +8,6 @@
     [TotalSiblings] INT NOT NULL, 
     [ParentDependentSiblings] INT NOT NULL, 
     [GraduatedSiblings] INT NOT NULL, 
-    CONSTRAINT [FK_IDStudent] FOREIGN KEY ([StudentId]) REFERENCES [dbo].[Personal_Info] ([IdNumber]), 
+    CONSTRAINT [FK_IDStudent] FOREIGN KEY ([StudentId]) REFERENCES [dbo].[Personal_Info] ([StudentId]), 
     
 )
