@@ -34,31 +34,19 @@ ConfigureServices(builder.Services);
 
 void ConfigureServices(IServiceCollection services)
 {
-    services.AddCors(options =>
-    {
-        options.AddPolicy("AllowLocalhost3000",
-            builder =>
-            {
-                builder.WithOrigins("http://localhost:3000")
-                    .AllowAnyMethod()
-                    .AllowAnyHeader();
-            });
-    });
+    
     services.AddTransient<DapperContext>();
     services.AddScoped<IStudentRepositories, StudentRepository>();
     services.AddScoped<IStudentService, StudentService>();
 }
-void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-{
-    // Other app configurations...
-
-    app.UseCors("AllowLocalhost3000");
-
-    // Other app configurations...
-}
 
 
 var app = builder.Build();
+
+app.UseCors(builder => builder
+    .WithOrigins("http://localhost:3000") // Specify your allowed origins here
+    .AllowAnyMethod()
+    .AllowAnyHeader());
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
