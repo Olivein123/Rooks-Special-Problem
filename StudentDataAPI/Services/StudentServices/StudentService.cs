@@ -1,5 +1,6 @@
 ﻿using StudentDataAPI.Models;
 using StudentDataAPI.Repositories.Students;
+using System.Reflection;
 
 namespace StudentDataAPI.Services.StudentServices
 {
@@ -31,6 +32,13 @@ namespace StudentDataAPI.Services.StudentServices
             var personalInfo = await _repository.GetPersonalInformation();
 
             return personalInfo;
+        }
+
+        public async Task<PersonalInformation> GetPersonalInformationById(int id)
+        {
+            var shsInfo = await _repository.GetPersonalInformationById(id);
+            
+            return shsInfo;
         }
 
         public async Task<IEnumerable<SHSInformation>> GetSHSInformation()

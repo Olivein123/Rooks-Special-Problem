@@ -8,5 +8,6 @@ namespace StudentDataAPI.Services.StudentServices
         Task<IEnumerable<FamilyProfile>> GetFamilyProfile();
         Task<IEnumerable<SHSInformation>> GetSHSInformation();
         Task<IEnumerable<CollegeInformation>> GetCollegeInformation();
+        Task<PersonalInformation> GetPersonalInformationById(int id);
     }
 }
