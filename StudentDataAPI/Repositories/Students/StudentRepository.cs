@@ -62,4 +62,14 @@ public class StudentRepository : IStudentRepositories
         student.CollegeInformation = college;
         return student;
     }
+
+    public async Task<PersonalInformation> GetPersonalInformationById(int id)
+    {
+        var sql = "SELECT * FROM Personal_Info where StudentId = @id";
+
+        using (var con = _context.CreateConnection())
+        {
+            return await con.QuerySingleAsync<PersonalInformation>(sql, new { id });
+        }
+    }
 }

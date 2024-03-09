@@ -121,7 +121,25 @@ namespace StudentDataAPI.Controllers
                     }
                 default: return NoContent();
             }
-        } 
+        }
 
+        [HttpGet("{id}", Name = "GetPersonalInformationById")]
+        public async Task<IActionResult> GetPersonalInformation(int id)
+        {
+            try
+            {
+                var personalInfo = await _charService.GetPersonalInformationById(id);
+                if (personalInfo == null)
+                {
+                    return NotFound($"Student with Id = {id} is not found!");
+                }
+                return Ok(personalInfo);
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e.Message);
+                return StatusCode(500, "Something went wrong");
+            }
+        }
     }
 }

@@ -27,18 +27,26 @@ builder.Services.AddSwaggerGen(options =>
   
 });
 
+
+
     // Configure Services
 ConfigureServices(builder.Services);
 
 void ConfigureServices(IServiceCollection services)
 {
+    
     services.AddTransient<DapperContext>();
     services.AddScoped<IStudentRepositories, StudentRepository>();
     services.AddScoped<IStudentService, StudentService>();
 }
-  
+
 
 var app = builder.Build();
+
+app.UseCors(builder => builder
+    .WithOrigins("http://localhost:3000") // Specify your allowed origins here
+    .AllowAnyMethod()
+    .AllowAnyHeader());
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
