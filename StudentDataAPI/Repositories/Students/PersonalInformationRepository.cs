@@ -23,9 +23,9 @@ namespace StudentDataAPI.Repositories.Students
             }
         }
 
-        public async Task<IEnumerable<string>> GetMotherOccupation()
+        public async Task<IEnumerable<string>> GetFundType()
         {
-            var sql = "SELECT MotherOccupation FROM Family_Profile";
+            var sql = "SELECT FundSourceType FROM Personal_Info";
 
             using (var con = _context.CreateConnection())
             {
@@ -33,6 +33,34 @@ namespace StudentDataAPI.Repositories.Students
             }
         }
 
+        public async Task<IEnumerable<string>> GetJob()
+        {
+            var sql = "SELECT Job FROM Personal_Info";
 
+            using (var con = _context.CreateConnection())
+            {
+                return await con.QueryAsync<string>(sql);
+            }
+        }
+
+        public async Task<IEnumerable<string>> GetSalaryEnough()
+        {
+            var sql = "SELECT SalaryEnough FROM Personal_Info";
+
+            using (var con = _context.CreateConnection())
+            {
+                return await con.QueryAsync<string>(sql);
+            }
+        }
+
+        public async Task<IEnumerable<string>> GetSalaryRange()
+        {
+            var sql = "SELECT SalaryRange FROM Personal_Info";
+
+            using (var con = _context.CreateConnection())
+            {
+                return await con.QueryAsync<string>(sql);
+            }
+        }
     }
 }

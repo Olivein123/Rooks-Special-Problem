@@ -24,7 +24,8 @@ builder.Services.AddSwaggerGen(options =>
             Url = new Uri("https://github.com/Olivein123/Rooks-Special-Problem")
         }
     });
-  
+    var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
 });
 
 
@@ -37,10 +38,10 @@ void ConfigureServices(IServiceCollection services)
     
     services.AddTransient<DapperContext>();
 
-    services.AddScoped<IStudentRepositories, StudentRepository>();
+    //Repository injections
     services.AddScoped<IPersonalInformationRepository, PersonalInformationRepository>();
 
-    services.AddScoped<IStudentService, StudentService>();
+    //Service injections
     services.AddScoped<IPersonalInformationService, PersonalInformationService>();
 }
 
