@@ -4,7 +4,11 @@ namespace StudentDataAPI.Repositories.Students
 {
     public interface IPersonalInformationRepository
     {
-        Task<IEnumerable<string>> GetMotherOccupation();
         Task<IEnumerable<string>> GetFundSource();
+        Task<IEnumerable<string>> GetFundType();
+        Task<IEnumerable<string>> GetJob();
+        Task<IEnumerable<string>> GetSalaryEnough();
+        Task<IEnumerable<string>> GetSalaryRange();
+
     }
 }
