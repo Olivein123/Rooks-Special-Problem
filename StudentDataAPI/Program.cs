@@ -36,10 +36,13 @@ void ConfigureServices(IServiceCollection services)
 {
     
     services.AddTransient<DapperContext>();
-    services.AddScoped<IStudentRepositories, StudentRepository>();
-    services.AddScoped<IStudentService, StudentService>();
-}
 
+    services.AddScoped<IStudentRepositories, StudentRepository>();
+    services.AddScoped<IPersonalInformationRepository, PersonalInformationRepository>();
+
+    services.AddScoped<IStudentService, StudentService>();
+    services.AddScoped<IPersonalInformationService, PersonalInformationService>();
+}
 
 var app = builder.Build();
 
