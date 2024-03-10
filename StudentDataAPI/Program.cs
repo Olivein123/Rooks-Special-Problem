@@ -40,9 +40,11 @@ void ConfigureServices(IServiceCollection services)
 
     //Repository injections
     services.AddScoped<IPersonalInformationRepository, PersonalInformationRepository>();
+    services.AddScoped<IFamilyProfileRepository, FamilyProfileRepository>();
 
     //Service injections
     services.AddScoped<IPersonalInformationService, PersonalInformationService>();
+    services.AddScoped<IFamilyProfileService, FamilyProfileService>();
 }
 
 var app = builder.Build();

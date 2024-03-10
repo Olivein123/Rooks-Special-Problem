@@ -39,7 +39,7 @@ namespace StudentDataAPI.Controllers
         ///     6.Salary Range
         ///     
         /// </remarks>
-        [HttpGet("{choice}",Name = "GetAllPersonalInformation")]
+        [HttpGet(Name = "GetAllPersonalInformation")]
         [Consumes("application/json")]
         [Produces("application/json")]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
