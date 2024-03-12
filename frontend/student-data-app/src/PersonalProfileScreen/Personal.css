@@ -1,7 +1,13 @@
-.chart{
-    height: 250px;
-    width: 250px;
+.pchart{
+    height: 180px;
+    width: 300px;
+    display: block;
+    margin-right: 20px;
+    cursor:pointer;
 }
-.content{
+.pchart:last-child {
+    margin-right: 0;
+}
+.pcontent{
     display: flex;
 }
