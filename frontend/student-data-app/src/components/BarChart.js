@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { Pie } from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2';
 import axios from 'axios';
 import 'chart.js/auto';
 
-const PieChartDistinctData = ({ apiUrl }) => {
+const BarChartDistinctData = ({ apiUrl }) => {
   const [chartData, setChartData] = useState({});
   const [loading, setLoading] = useState(true);
 
@@ -33,6 +33,7 @@ const PieChartDistinctData = ({ apiUrl }) => {
         setChartData({
           labels: Object.keys(counts),
           datasets: [{
+            label: 'Occurrences',
             data: Object.values(counts),
             backgroundColor: [
               '#ef476f',
@@ -55,14 +56,14 @@ const PieChartDistinctData = ({ apiUrl }) => {
   }, [apiUrl]);
 
   return (
-    <div>
+    <div style={{ height: '250px', width: '250px' }}>
       {loading ? (
         <p>Loading...</p>
       ) : (
-        <Pie data={chartData} />
+        <Bar data={chartData} />
       )}
     </div>
   );
 };
 
-export default PieChartDistinctData;
+export default BarChartDistinctData;

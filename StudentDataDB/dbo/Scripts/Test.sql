@@ -1,2 +1,2 @@
-﻿SELECT * FROM Family_Profile
-
+﻿SELECT DISTINCT MotherOccupation
+FROM Family_Profile;
