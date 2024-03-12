@@ -3,7 +3,7 @@ import { Pie } from 'react-chartjs-2';
 import axios from 'axios';
 import 'chart.js/auto';
 
-const PieChartDistinctData = ({ apiUrl }) => {
+const PieChart = ({ apiUrl }) => {
   const [chartData, setChartData] = useState({});
   const [loading, setLoading] = useState(true);
 
@@ -55,14 +55,14 @@ const PieChartDistinctData = ({ apiUrl }) => {
   }, [apiUrl]);
 
   return (
-    <div>
+    <div style={{ height: '250px', width: '250px' }}>
       {loading ? (
         <p>Loading...</p>
       ) : (
-        <Pie data={chartData} />
+        <Pie data={chartData} options={{ maintainAspectRatio: true, responsive: false }}/>
       )}
     </div>
   );
 };
 
-export default PieChartDistinctData;
+export default PieChart;
