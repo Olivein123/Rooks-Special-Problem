@@ -113,7 +113,7 @@ namespace StudentDataAPI.Repositories.Students
 
         public async Task<IEnumerable<string>> GetHasProgrammingExperience()
         {
-            var sql = "Select ProgrammingLanguages From College_Information";
+            var sql = "Select HasExperience From College_Information";
 
             using (var con = _context.CreateConnection())
             {
@@ -173,7 +173,7 @@ namespace StudentDataAPI.Repositories.Students
 
         public async Task<IEnumerable<string>> GetModeofTransportToSchool()
         {
-            var sql = "Select ModeOfTransportationSchool From College_Information";
+            var sql = "Select ModeOfTransportationToSchool From College_Information";
 
             using (var con = _context.CreateConnection())
             {

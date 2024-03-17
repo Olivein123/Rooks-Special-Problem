@@ -108,4 +108,47 @@ namespace StudentDataAPI.Services.StudentServices
             return getWithHonors;
         }
     }
+
+    /*
+      1.Course  
+        ///     
+        ///     2.Year Level
+        ///     
+        ///     3. Programming 1 Professor
+        ///     
+        ///     4.Mode of delivery
+        ///     
+        ///     5. Has scholarship
+        ///     
+        ///     6. Scholarship type
+        ///     
+        ///     7. Has experience in programming
+        ///      
+        ///     8. Programming languages experienced
+        ///     
+        ///     9. Has Device
+        ///     
+        ///     10. Is located within cebu
+        ///     
+        ///     11. Current place staying
+        ///
+        ///     12. Has Enough Space
+        ///     
+        ///     13. Mode of transport going to school
+        ///     
+        ///     14. Number of commutes going to school
+        ///     
+        ///     15. Commute duration going to school
+        ///     
+        ///     16. Feeling when arriving to school
+        ///     
+        ///     17. Mode of transport going home
+        ///     
+        ///     18. Number of commutes going home
+        ///     
+        ///     19. Commute duration going thome
+        ///     
+        ///     20. Feeling when arriving home
+        ///     
+        ///     21. Reason you pursue course*/
 }
