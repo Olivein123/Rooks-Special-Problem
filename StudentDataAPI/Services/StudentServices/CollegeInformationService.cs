@@ -156,5 +156,12 @@ namespace StudentDataAPI.Services.StudentServices
 
             return scholarshipType;
         }
+
+        public async Task<IEnumerable<string>> GetYearLevel()
+        {
+            var yearLevel = await _repository.GetYearLevel();
+
+            return yearLevel;
+        }
     }
 }

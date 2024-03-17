@@ -220,5 +220,15 @@ namespace StudentDataAPI.Repositories.Students
                 return await con.QueryAsync<string>(sql);
             }
         }
+
+        public async Task<IEnumerable<string>> GetYearLevel()
+        {
+            var sql = "Select YearLevel From College_Information";
+
+            using (var con = _context.CreateConnection())
+            {
+                return await con.QueryAsync<string>(sql);
+            }
+        }
     }
 }

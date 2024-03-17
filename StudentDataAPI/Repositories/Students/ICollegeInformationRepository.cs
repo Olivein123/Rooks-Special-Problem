@@ -3,6 +3,7 @@
     public interface ICollegeInformationRepository
     {
         Task<IEnumerable<string>> GetCourse();
+        Task<IEnumerable<string>> GetYearLevel();
         Task<IEnumerable<string>> GetProg1Professor();
         Task<IEnumerable<string>> GetModeOfDelivery();
         Task<IEnumerable<string>> GetHasScholarship();

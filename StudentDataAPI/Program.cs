@@ -42,12 +42,14 @@ void ConfigureServices(IServiceCollection services)
     services.AddScoped<IPersonalInformationRepository, PersonalInformationRepository>();
     services.AddScoped<IFamilyProfileRepository, FamilyProfileRepository>();
     services.AddScoped<ISHSInformationRepository, SHSInformationRepository>();
+    services.AddScoped<ICollegeInformationRepository, CollegeInformationRepository>();
 
 
     //Service injections
     services.AddScoped<IPersonalInformationService, PersonalInformationService>();
     services.AddScoped<IFamilyProfileService, FamilyProfileService>();
     services.AddScoped<ISHSInformationService, SHSInformationService>();
+    services.AddScoped<ICollegeInformationService, CollegeInformationService>();
 }
 
 var app = builder.Build();
