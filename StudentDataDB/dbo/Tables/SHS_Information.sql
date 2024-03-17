@@ -14,5 +14,6 @@
     [GradeRangeMath] VARCHAR(MAX) NOT NULL,
     [GradeRangeScience] VARCHAR(MAX) NOT NULL,
     [GPA] VARCHAR(MAX) NOT NULL,
+    [Programming1Grade] VARCHAR(MAX) NULL, 
     CONSTRAINT [FK_StudentIdNumber] FOREIGN KEY ([StudentId]) REFERENCES [dbo].[Personal_Info] ([StudentId])
 )
