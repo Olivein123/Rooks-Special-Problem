@@ -20,7 +20,7 @@ namespace StudentDataAPI.Controllers
         }
 
         /// <summary>
-        /// Gets a list of family shs information field based on given output.
+        /// Gets a list of shs information field based on given output.
         /// </summary>
         /// <returns>A list of shs information column based in given input.</returns>
         /// <remarks>
@@ -54,7 +54,7 @@ namespace StudentDataAPI.Controllers
         ///     
         ///     14. Programming 1 Grade
         /// </remarks>
-        [HttpGet(Name = "GetAllFamilyProfile")]
+        [HttpGet(Name = "GetAllSeniorHighSchoolInformation")]
         [Consumes("application/json")]
         [Produces("application/json")]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
