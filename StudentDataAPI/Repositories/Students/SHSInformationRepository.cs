@@ -152,4 +152,34 @@ namespace StudentDataAPI.Repositories.Students
             }
         }
     }
+
+    /*
+      1.Type of School  
+        ///     
+        ///     2.Joined Science High (yes or no)
+        ///     
+        ///     3.Science High School (name of science high school, if joined)
+        ///     
+        ///     4.Senior High School
+        ///     
+        ///     5. Strand
+        ///     
+        ///     6. With Honors
+        ///     
+        ///     7. In Top Ten 
+        ///      
+        ///     8. Academic Rank
+        ///     
+        ///     9. Academic Excellence Award
+        ///     
+        ///     10. Grade Range English
+        ///     
+        ///     11. Grade Range Math
+        ///
+        ///     12. Grade Range Science
+        ///     
+        ///     13. GPA
+        ///     
+        ///     14. Programming 1 Grade
+     */
 }
