@@ -8,32 +8,33 @@ function Family(){
         <div>
             <MuiNavBar/>
             Family Background Page
-            <div className='content'>
-                <div className='chart'>
-                    Mother's Occupation
-                    <BarChartDistinctData apiUrl="https://localhost:7025/api/GetStudentFamilyProfileInformation?choice=1" />
-                </div>
-                <div className='chart'>
-                    Father's Occupation
-                    <BarChartDistinctData apiUrl="https://localhost:7025/api/GetStudentFamilyProfileInformation?choice=2" />
-                </div>
-                <div className='chart'>
-                    Total Income
-                    <BarChartDistinctData apiUrl="https://localhost:7025/api/GetStudentFamilyProfileInformation?choice=3" />
-                </div>
-                <div className='chart'>
-                    Total Number of Siblings
-                    <PieChart apiUrl="https://localhost:7025/api/GetStudentFamilyProfileInformation?choice=4" />
-                </div>
-                <div className='chart'>
-                    Dependent Siblings
-                    <PieChart apiUrl="https://localhost:7025/api/GetStudentFamilyProfileInformation?choice=5" />
-                </div>
-                <div className='chart'>
-                    Graduated Siblings
-                    <PieChart apiUrl="https://localhost:7025/api/GetStudentFamilyProfileInformation?choice=6" />
-                </div>
+            <div className='fcontent'>
+            <div className='fchart-container'>
+                <BarChartWrapper title="Mother's Occupation" choice="1" />
+                <BarChartWrapper title="Father's Occupation" choice="2" />
+                <PieChartWrapper title="Total Income" choice="3" />
+                <PieChartWrapper title="Total Number of Siblings" choice="4" />
+                <PieChartWrapper title="Parent/Guardian-Dependent Siblings" choice="5" />
+                <PieChartWrapper title="Graduated Siblings" choice="6" />    
             </div>
+            </div>
+        </div>
+    );
+}
+
+function PieChartWrapper({ title, choice }) {
+    return (
+        <div className='fchart'>
+            {title}
+            <PieChart apiUrl={`https://localhost:7025/api/GetStudentFamilyProfileInformation?choice=${choice}`} />
+        </div>
+    );
+}
+function BarChartWrapper({ title, choice }) {
+    return (
+        <div className='fchart'>
+            {title}
+            <BarChartDistinctData apiUrl={`https://localhost:7025/api/GetStudentFamilyProfileInformation?choice=${choice}`} />
         </div>
     );
 }
