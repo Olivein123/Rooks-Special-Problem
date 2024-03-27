@@ -56,6 +56,24 @@ namespace StudentDataAPI.Controllers
             */
             switch (choice)
             {
+                case 1:
+                    try
+                    {
+                        var AddressInfo = await _personalInfoService.GetAddress();
+                        if (!AddressInfo.Any())
+                        {
+                            _logger.LogInformation("No address information found.");
+                            return NoContent(); // Status Code 204
+                        }
+
+                        return Ok(AddressInfo);
+                    }
+                    catch (Exception e)
+                    {
+                        _logger.LogError(e.Message);
+                        return StatusCode(500, e.Message);
+                    }
+
                 case 2:
                     try
                     {
