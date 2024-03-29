@@ -11,6 +11,12 @@ namespace StudentDataAPI.Services.StudentServices
             _repository = repository;
         }
 
+        public async Task<IEnumerable<string>> GetAddress()
+        {
+            var address = await _repository.GetAddress();
+
+            return address;
+        }
         public async Task<IEnumerable<string>> GetFundSource()
         {
             var fundSource = await _repository.GetFundSource();
@@ -20,31 +26,31 @@ namespace StudentDataAPI.Services.StudentServices
 
         public async Task<IEnumerable<string>> GetFundType()
         {
-            var fundSource = await _repository.GetFundType();
+            var fundType = await _repository.GetFundType();
 
-            return fundSource;
+            return fundType;
         }
 
         public async Task<IEnumerable<string>> GetJob()
         {
-            var fundSource = await _repository.GetJob();
+            var job = await _repository.GetJob();
 
-            return fundSource;
+            return job;
         }
 
 
         public async Task<IEnumerable<string>> GetSalaryEnough()
         {
-            var fundSource = await _repository.GetSalaryEnough();
+            var salaryenough = await _repository.GetSalaryEnough();
 
-            return fundSource;
+            return salaryenough;
         }
 
         public async Task<IEnumerable<string>> GetSalaryRange()
         {
-            var fundSource = await _repository.GetSalaryRange();
+            var salaryrange = await _repository.GetSalaryRange();
 
-            return fundSource;
+            return salaryrange;
         }
     }        
         

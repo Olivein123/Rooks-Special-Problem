@@ -1,0 +1,22 @@
+.schart{
+    height: 180px;
+    width: 300px;
+    display: block;
+    margin-right: 20px;
+    cursor:pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+}
+.schart:last-child {
+    margin-right: 0;
+}
+.scontent{
+    text-align: center;
+    padding-left: 1.5%;
+}
+.schart-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+}

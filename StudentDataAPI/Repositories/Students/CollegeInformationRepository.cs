@@ -213,7 +213,7 @@ namespace StudentDataAPI.Repositories.Students
 
         public async Task<IEnumerable<string>> GetPursueCourseReason()
         {
-            var sql = "Select ScholarshipType From College_Information";
+            var sql = "SELECT PursueCourseReason FROM College_Information";
 
             using (var con = _context.CreateConnection())
             {

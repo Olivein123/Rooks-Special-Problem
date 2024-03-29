@@ -4,10 +4,14 @@
     display: block;
     margin-right: 20px;
     cursor:pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
 }
 .pchart:last-child {
     margin-right: 0;
 }
 .pcontent{
     display: flex;
+    padding-left: 1.5%;
 }

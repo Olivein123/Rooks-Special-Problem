@@ -13,6 +13,15 @@ namespace StudentDataAPI.Repositories.Students
             _context = context;
         }
 
+        public async Task<IEnumerable<string>> GetAddress()
+        {
+            var sql = "SELECT Address FROM Personal_Info";
+
+            using (var con = _context.CreateConnection())
+            {
+                return await con.QueryAsync<string>(sql);
+            }
+        }
         public async Task<IEnumerable<string>> GetFundSource()
         {
             var sql = "SELECT FundSource FROM Personal_Info";
