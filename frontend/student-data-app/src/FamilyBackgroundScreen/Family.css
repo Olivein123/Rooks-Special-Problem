@@ -7,12 +7,15 @@
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5%;
+    text-align: center;
 }
 .fchart:last-child {
     margin-right: 0;
 }
 .fcontent{
+    padding-top: 1%;
     padding-left: 1.5%;
+    text-align: center;
 }
 .fchart-container {
     display: grid;
