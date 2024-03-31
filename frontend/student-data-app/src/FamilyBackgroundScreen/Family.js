@@ -29,9 +29,6 @@ function Family() {
             console.error('Error fetching data:', error);
         }
     };
-    
-    
-    
 
     return (
         <div>
@@ -54,7 +51,7 @@ function Family() {
 
 function PieChartWrapper({ title, choice, handleChartClick }) {
     // Construct the apiUrl
-    const apiUrl = `https://localhost:7025/api/GetStudentFamilyProfileInformation?choice=${choice}`;
+    const apiUrl = `https://localhost:7025/api/FamilyProfileInformation?choice=${choice}`;
 
     return (
         <div className='fchart' onClick={() => handleChartClick(apiUrl)}>
@@ -66,7 +63,7 @@ function PieChartWrapper({ title, choice, handleChartClick }) {
 
 function BarChartWrapper({ title, choice, handleChartClick }) {
     // Construct the apiUrl
-    const apiUrl = `https://localhost:7025/api/GetStudentFamilyProfileInformation?choice=${choice}`;
+    const apiUrl = `https://localhost:7025/api/FamilyProfileInformation?choice=${choice}`;
 
     return (
         <div className='fchart' onClick={() => handleChartClick(apiUrl)}>
