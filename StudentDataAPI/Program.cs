@@ -43,6 +43,7 @@ void ConfigureServices(IServiceCollection services)
     services.AddScoped<IFamilyProfileRepository, FamilyProfileRepository>();
     services.AddScoped<ISHSInformationRepository, SHSInformationRepository>();
     services.AddScoped<ICollegeInformationRepository, CollegeInformationRepository>();
+    services.AddScoped<IStudentRepository, StudentRepository>();
 
 
     //Service injections
@@ -50,6 +51,9 @@ void ConfigureServices(IServiceCollection services)
     services.AddScoped<IFamilyProfileService, FamilyProfileService>();
     services.AddScoped<ISHSInformationService, SHSInformationService>();
     services.AddScoped<ICollegeInformationService, CollegeInformationService>();
+    services.AddScoped<IStudentService, StudentService>();
+
+    services.AddAutoMapper(typeof(Program));
 }
 
 var app = builder.Build();
