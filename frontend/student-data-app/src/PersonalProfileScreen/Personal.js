@@ -1,33 +1,71 @@
 import './Personal.css';
 import React, { useState } from 'react';
 import MuiNavBar from '../components/MuiNavBar';
+import BottomDrawer from '../components/BottomDrawer';
 import BarChartDistinctData from '../components/BarChart';
 import PieChart from '../components/PieChart';
 function Personal(){
-    const [showLabels, setShowLabels] = useState(true); // State to track whether to show labels
+    const [isBottomDrawerOpen, setIsBottomDrawerOpen] = useState(false);
+    const [chartData, setChartData] = useState([]);
 
-    const handleToggleLabels = () => {
-        setShowLabels(!showLabels); // Toggle the state when clicked
+    const handleChartClick = async (apiUrl) => {
+        try {
+            // Fetch data from the specific API URL
+            const response = await fetch(apiUrl);
+            if (!response.ok) {
+                throw new Error('Failed to fetch data');
+            }
+            const responseData = await response.json(); // Read the response as JSON
+            console.log(responseData); // Log the response data
+            const dataMap = new Map();
+            responseData.forEach(item => {
+                dataMap.set(item, dataMap.has(item) ? dataMap.get(item) + 1 : 1);
+            });
+            const distinctDataWithCount = Array.from(dataMap.entries()); // Get distinct data with counts
+            setChartData(distinctDataWithCount); // Set the fetched distinct data with counts to state
+            setIsBottomDrawerOpen(true); // Open the bottom drawer
+        } catch (error) {
+            console.error('Error fetching data:', error);
+        }
     };
     return (
         <div>
             <MuiNavBar/>
             Personal Profile Page
             <div className='pcontent'>
-            
-                <div className='pchart' onClick={handleToggleLabels}>
-                    Address
-                    <BarChartDistinctData apiUrl="https://localhost:7025/api/GetStudentPersonalInformation?choice=1" />
-                </div>
-                <div className='pchart' onClick={handleToggleLabels}>
-                    Source of Funds Support
-                    <BarChartDistinctData apiUrl="https://localhost:7025/api/GetStudentPersonalInformation?choice=2" />
-                </div>
-                <div className='pchart'onClick={handleToggleLabels}>
-                    Self-funded Students' Fund Source Type
-                    <PieChart apiUrl="https://localhost:7025/api/GetStudentPersonalInformation?choice=3" />
+                <div className='pchart-container'>
+                    <BarChartWrapper title="Address" choice="1" handleChartClick={handleChartClick} />
+                    <BarChartWrapper title="Fund Source" choice="2" handleChartClick={handleChartClick} />
+                    <PieChartWrapper title="Fund Type" choice="3" handleChartClick={handleChartClick} />
+                    <PieChartWrapper title="Job" choice="4" handleChartClick={handleChartClick} />
+                    <PieChartWrapper title="Salary Enough" choice="5" handleChartClick={handleChartClick} />
+                    <PieChartWrapper title="Salary Range" choice="6" handleChartClick={handleChartClick} />
                 </div>
             </div>
+            <BottomDrawer open={isBottomDrawerOpen} onClose={setIsBottomDrawerOpen} data={chartData} />
+        </div>
+    );
+}
+function PieChartWrapper({ title, choice, handleChartClick }) {
+    // Construct the apiUrl
+    const apiUrl = `https://localhost:7025/api/PersonalInformation?choice=${choice}`;
+
+    return (
+        <div className='pchart' onClick={() => handleChartClick(apiUrl)}>
+            {title}
+            <PieChart apiUrl={apiUrl} />
+        </div>
+    );
+}
+
+function BarChartWrapper({ title, choice, handleChartClick }) {
+    // Construct the apiUrl
+    const apiUrl = `https://localhost:7025/api/PersonalInformation?choice=${choice}`;
+
+    return (
+        <div className='pchart' onClick={() => handleChartClick(apiUrl)}>
+            {title}
+            <BarChartDistinctData apiUrl={apiUrl} />
         </div>
     );
 }
