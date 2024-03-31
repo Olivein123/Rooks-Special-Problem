@@ -1,4 +1,4 @@
-﻿Use[StudentDataDB]
+﻿
 GO
 
 INSERT INTO Personal_Info(StudentId, LastName, FirstName, MiddleName, Address, FundSource, FundSourceType, Job, SalaryEnough, SalaryRange)
