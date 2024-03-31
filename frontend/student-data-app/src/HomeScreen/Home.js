@@ -1,48 +1,49 @@
 import './Home.css';
-import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import MuiNavBar from '../components/MuiNavBar';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 function Home(){
-    const [studentData, setStudentData] = useState(null);
+  const [studentData, setStudentData] = useState([]);
 
-    useEffect(() => {
-      const fetchData = async () => {
-        try {
-          const response = await axios.get('https://localhost:7025/api/GetStudentInformation/170545444');
-          setStudentData(response.data);
-        } catch (error) {
-          console.error('Error fetching student data:', error);
+  useEffect(() => {
+    // Fetch student data from the API
+    const fetchStudentData = async () => {
+      try {
+        const response = await fetch('https://localhost:7025/api/Student');
+        if (!response.ok) {
+          throw new Error('Failed to fetch student data');
         }
-      };
-  
-      fetchData();
-    }, []);
+        const data = await response.json();
+        setStudentData(data);
+      } catch (error) {
+        console.error('Error fetching student data:', error);
+      }
+    };
 
+    fetchStudentData();
+  }, []);
+  
     return (
         <div>
             <MuiNavBar/>
-            Home Page
-            <div>
-            <div>
-      {studentData ? (
-        <div>
-                    <p>Student ID: {studentData.studentId}</p>
-                    <p>Lastname: {studentData.lastname}</p>
-                    <p>Firstname: {studentData.firstname}</p>
-                    <p>Middlename: {studentData.middlename}</p>
-                    <p>Address: {studentData.address}</p>
-                    <p>Fund Source: {studentData.fundSource}</p>
-                    <p>Fund Source Type: {studentData.fundSourceType}</p>
-                    <p>Job: {studentData.job}</p>
-                    <p>Salary Enough: {studentData.salaryEnough}</p>
-                    <p>Salary Range: {studentData.salaryRange}</p>
-                    </div>
-                ) : (
-                    <p>Loading...</p>
-                )}
-                </div>
+            <div className='hcontent'>
+              <Typography variant="h4" component="h1" gutterBottom>
+                Student Data
+              </Typography>
+              {studentData.map((student, index) => (
+                <Box key={index} sx={{ border: '1px solid #ccc', borderRadius: '4px', padding: '16px', marginBottom: '16px' }}>
+                  <Typography variant="h6" component="h2" gutterBottom>
+                    Student ID: {student.personalInformation.studentId}
+                  </Typography>
+                  <Typography variant="body1" component="p" gutterBottom>
+                    Course: {student.collegeInformation.course}
+                  </Typography>
+                  {/* Render other student information here */}
+                </Box>
+              ))}
             </div>
         </div>
     );
-}
+};
 export default Home;
