@@ -5,7 +5,7 @@ using StudentDataAPI.Services.StudentServices;
 namespace StudentDataAPI.Controllers
 {
 
-    [Route("api/GetStudent")]
+    [Route("api/Student")]
     [ApiController]
     public class StudentController : ControllerBase
     {
@@ -40,6 +40,30 @@ namespace StudentDataAPI.Controllers
             }
 
             return Ok(student);
+        }
+
+
+        /// <summary>
+        /// Gets all student information.
+        /// </summary>
+        /// <returns>A student.</returns>
+
+        [HttpGet(Name = "GetAll")]
+        [Consumes("application/json")]
+        [Produces("application/json")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> GetAllStudents()
+        {
+            var students = await _studentService.GetAllStudents();
+            if (!students.Any())
+            {
+                _logger.LogInformation("No students found.");
+                return NotFound(); // Status Code 404
+            }
+
+            return Ok(students);
         }
     }
 

@@ -1,6 +1,6 @@
 ﻿namespace StudentDataAPI.DTOS
 {
-    public class PersonalInformationDTO
+    public class PersonalInformationDto
     {
         public int StudentId { get; set; }
         public string Address { get; set; }

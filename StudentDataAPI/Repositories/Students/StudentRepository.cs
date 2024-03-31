@@ -19,34 +19,69 @@ namespace StudentDataAPI.Repositories.Students
             _context = context;
             _mapper = mapper;
         }
-        public Task<IEnumerable<Student>> GetAllStudent()
-        {
-            throw new NotImplementedException();
-        }
-
-        public async Task<Student> GetStudentById(int studentId)
+        public async Task<IEnumerable<Student>> GetAllStudents()
         {
             var sql = @"
-        SELECT 
-            PI.*, 
-            FP.*, 
-            SI.*, 
-            CI.*
-        FROM 
-            Personal_Info AS PI
-        JOIN 
-            Family_Profile AS FP ON PI.StudentId = FP.StudentId
-        JOIN 
-            SHS_Information AS SI ON PI.StudentId = SI.StudentId
-        JOIN 
-            College_Information AS CI ON PI.StudentId = CI.StudentId
-        WHERE 
-            PI.StudentId = @studentId";
+                SELECT 
+                    PI.*, 
+                    FP.*, 
+                    SI.*, 
+                    CI.*
+                FROM 
+                    Personal_Info AS PI
+                JOIN 
+                    Family_Profile AS FP ON PI.StudentId = FP.StudentId
+                JOIN 
+                    SHS_Information AS SI ON PI.StudentId = SI.StudentId
+                JOIN 
+                    College_Information AS CI ON PI.StudentId = CI.StudentId";
 
             using (var con = _context.CreateConnection())
             {
                 // Execute the SQL query and obtain the results
-                var results = await con.QueryAsync<PersonalInformationDTO, FamilyProfile, SHSInformation, CollegeInformation, Student>(
+                var results = await con.QueryAsync<PersonalInformation, FamilyProfile, SHSInformation, CollegeInformation, Student>(
+                    sql,
+                    (pi, fp, si, ci) =>
+                    {
+                        // Construct Student object using AutoMapper
+                        var student = new Student
+                        {
+                            PersonalInformation = pi,
+                            FamilyProfile = fp,
+                            SHSInformation = si,
+                            CollegeInformation = ci
+                        };
+                        return student;
+                    },
+                    splitOn: "StudentId");
+
+                return results;
+            }
+
+        }
+        public async Task<Student> GetStudentById(int studentId)
+        {
+            var sql = @"
+                SELECT 
+                    PI.*, 
+                    FP.*, 
+                    SI.*, 
+                    CI.*
+                FROM 
+                    Personal_Info AS PI
+                JOIN 
+                    Family_Profile AS FP ON PI.StudentId = FP.StudentId
+                JOIN 
+                    SHS_Information AS SI ON PI.StudentId = SI.StudentId
+                JOIN 
+                    College_Information AS CI ON PI.StudentId = CI.StudentId
+                WHERE 
+                    PI.StudentId = @studentId";
+
+            using (var con = _context.CreateConnection())
+            {
+                // Execute the SQL query and obtain the results
+                var results = await con.QueryAsync<PersonalInformation, FamilyProfile, SHSInformation, CollegeInformation, Student>(
                     sql,
                     (pi, fp, si, ci) =>
                     {
@@ -69,3 +104,7 @@ namespace StudentDataAPI.Repositories.Students
         }
     }
 }
+
+            
+           
+

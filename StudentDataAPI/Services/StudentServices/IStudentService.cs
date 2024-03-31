@@ -1,10 +1,11 @@
-﻿using StudentDataAPI.Models;
+﻿using StudentDataAPI.DTOS;
+using StudentDataAPI.Models;
 
 namespace StudentDataAPI.Services.StudentServices
 {
     public interface IStudentService
     {
-        Task<IEnumerable<Student>> GetAllStudent();
-        Task<Student> GetStudentById(int studentId);
+        Task<IEnumerable<StudentDto>> GetAllStudents();
+        Task<StudentDto> GetStudentById(int studentId);
     }
 }

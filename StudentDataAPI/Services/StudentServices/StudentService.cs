@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using StudentDataAPI.DTOS;
 using StudentDataAPI.Models;
 using StudentDataAPI.Repositories.Students;
 
@@ -14,16 +15,18 @@ namespace StudentDataAPI.Services.StudentServices
             _repository = repository;
             _mapper = mapper;
         }
-        public Task<IEnumerable<Student>> GetAllStudent()
+        public async Task<IEnumerable<StudentDto>> GetAllStudents()
         {
-            throw new NotImplementedException();
+            var students = await _repository.GetAllStudents();
+
+            return _mapper.Map<IEnumerable<StudentDto>>(students);
         }
 
-        public async Task<Student> GetStudentById(int studentId)
+        public async Task<StudentDto> GetStudentById(int studentId)
         {
             var student = await _repository.GetStudentById(studentId);
 
-            return _mapper.Map<Student>(student);
+            return _mapper.Map<StudentDto>(student);
         }
     }
 }

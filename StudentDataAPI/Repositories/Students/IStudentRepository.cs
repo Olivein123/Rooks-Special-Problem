@@ -4,7 +4,7 @@ namespace StudentDataAPI.Repositories.Students
 {
     public interface IStudentRepository
     {
-        Task<IEnumerable<Student>> GetAllStudent();
+        Task<IEnumerable<Student>> GetAllStudents();
         Task<Student> GetStudentById(int studentId);   
     }
 }
