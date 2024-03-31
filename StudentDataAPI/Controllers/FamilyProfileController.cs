@@ -5,7 +5,7 @@ using StudentDataAPI.Services.StudentServices;
 namespace StudentDataAPI.Controllers
 {
 
-    [Route("api/GetStudentFamilyProfileInformation")]
+    [Route("api/FamilyProfileInformation")]
     [ApiController]
     public class FamilyProfileController : ControllerBase
     {

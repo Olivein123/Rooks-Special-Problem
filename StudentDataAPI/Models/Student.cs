@@ -1,4 +1,6 @@
-﻿namespace StudentDataAPI.Models
+﻿using StudentDataAPI.DTOS;
+
+namespace StudentDataAPI.Models
 {
     public class Student
     {
