@@ -1,9 +1,11 @@
 import './Personal.css';
+import '../App.css';
 import React, { useState } from 'react';
 import MuiNavBar from '../components/MuiNavBar';
 import BottomDrawer from '../components/BottomDrawer';
 import BarChartDistinctData from '../components/BarChart';
 import PieChart from '../components/PieChart';
+import Typography from '@mui/material/Typography';
 function Personal(){
     const [isBottomDrawerOpen, setIsBottomDrawerOpen] = useState(false);
     const [chartData, setChartData] = useState([]);
@@ -31,8 +33,13 @@ function Personal(){
     return (
         <div>
             <MuiNavBar/>
-            Personal Profile Page
             <div className='pcontent'>
+                <Typography variant="h3" gutterBottom>
+                    Personal Profile
+                </Typography>
+                <Typography variant="h6" gutterBottom>
+                    This page contains the relevant personal information of CCS students
+                </Typography>
                 <div className='pchart-container'>
                     <BarChartWrapper title="Address" choice="1" handleChartClick={handleChartClick} />
                     <BarChartWrapper title="Fund Source" choice="2" handleChartClick={handleChartClick} />

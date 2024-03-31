@@ -4,6 +4,7 @@ import MuiNavBar from '../components/MuiNavBar';
 import PieChart from '../components/PieChart';
 import BarChartDistinctData from '../components/BarChart';
 import BottomDrawer from '../components/BottomDrawer';
+import Typography from '@mui/material/Typography';
 
 function College(){
     const [isBottomDrawerOpen, setIsBottomDrawerOpen] = useState(false);
@@ -33,30 +34,35 @@ function College(){
     return (
         <div>
             <MuiNavBar/>
-            College Information Page
             <div className='ccontent'>
-            <div className='cchart-container'>
-                <PieChartWrapper title="Course" choice="1" handleChartClick={handleChartClick}/>
-                <PieChartWrapper title="Year Level" choice="2" handleChartClick={handleChartClick}/>
-                <BarChartWrapper title="Programming 1 Professor" choice="3" handleChartClick={handleChartClick}/>
-                <PieChartWrapper title="Mode of Delivery" choice="4" handleChartClick={handleChartClick}/>
-                <BarChartWrapper title="Has Scholarship" choice="5" handleChartClick={handleChartClick}/>
-                <PieChartWrapper title="Scholarship type" choice="6" handleChartClick={handleChartClick}/>
-                <PieChartWrapper title="Has programming experience" choice="7" handleChartClick={handleChartClick}/>
-                <BarChartWrapper title="Programming languages known" choice="8" handleChartClick={handleChartClick}/>
-                <PieChartWrapper title="Has device" choice="9" handleChartClick={handleChartClick}/>
-                <PieChartWrapper title="Currently within cebu" choice="10" handleChartClick={handleChartClick}/>
-                <BarChartWrapper title="Current staying place" choice="11" handleChartClick={handleChartClick}/>
-                <PieChartWrapper title="Has enough studying place" choice="12" handleChartClick={handleChartClick}/>
-                <BarChartWrapper title="Mode of transportation to school" choice="13" handleChartClick={handleChartClick}/>
-                <BarChartWrapper title="Number of Commutes to school" choice="14" handleChartClick={handleChartClick}/>
-                <BarChartWrapper title="Commute duration to school" choice="15" handleChartClick={handleChartClick}/>
-                <BarChartWrapper title="Feeling arriving to school" choice="16" handleChartClick={handleChartClick}/>
-                <BarChartWrapper title="Mode of transportation going home" choice="17" handleChartClick={handleChartClick}/>
-                <BarChartWrapper title="Number of Commutes going home" choice="18" handleChartClick={handleChartClick}/>
-                <BarChartWrapper title="Commute duration going home" choice="19" handleChartClick={handleChartClick}/>
-                <BarChartWrapper title="Feeling arriving to school" choice="20" handleChartClick={handleChartClick}/>
-            </div>
+                <Typography variant="h3" gutterBottom>
+                    College Information Page
+                </Typography>
+                <Typography variant="h6" gutterBottom>
+                    This page contains the relevant college information of CCS students
+                </Typography>
+                <div className='cchart-container'>
+                    <PieChartWrapper title="Course" choice="1" handleChartClick={handleChartClick}/>
+                    <PieChartWrapper title="Year Level" choice="2" handleChartClick={handleChartClick}/>
+                    <BarChartWrapper title="Programming 1 Professor" choice="3" handleChartClick={handleChartClick}/>
+                    <PieChartWrapper title="Mode of Delivery" choice="4" handleChartClick={handleChartClick}/>
+                    <BarChartWrapper title="Has Scholarship" choice="5" handleChartClick={handleChartClick}/>
+                    <PieChartWrapper title="Scholarship type" choice="6" handleChartClick={handleChartClick}/>
+                    <PieChartWrapper title="Has programming experience" choice="7" handleChartClick={handleChartClick}/>
+                    <BarChartWrapper title="Programming languages known" choice="8" handleChartClick={handleChartClick}/>
+                    <PieChartWrapper title="Has device" choice="9" handleChartClick={handleChartClick}/>
+                    <PieChartWrapper title="Currently within cebu" choice="10" handleChartClick={handleChartClick}/>
+                    <BarChartWrapper title="Current staying place" choice="11" handleChartClick={handleChartClick}/>
+                    <PieChartWrapper title="Has enough studying place" choice="12" handleChartClick={handleChartClick}/>
+                    <BarChartWrapper title="Mode of transportation to school" choice="13" handleChartClick={handleChartClick}/>
+                    <BarChartWrapper title="Number of Commutes to school" choice="14" handleChartClick={handleChartClick}/>
+                    <BarChartWrapper title="Commute duration to school" choice="15" handleChartClick={handleChartClick}/>
+                    <BarChartWrapper title="Feeling arriving to school" choice="16" handleChartClick={handleChartClick}/>
+                    <BarChartWrapper title="Mode of transportation going home" choice="17" handleChartClick={handleChartClick}/>
+                    <BarChartWrapper title="Number of Commutes going home" choice="18" handleChartClick={handleChartClick}/>
+                    <BarChartWrapper title="Commute duration going home" choice="19" handleChartClick={handleChartClick}/>
+                    <BarChartWrapper title="Feeling arriving to school" choice="20" handleChartClick={handleChartClick}/>
+                </div>
             </div>
             <BottomDrawer open={isBottomDrawerOpen} onClose={setIsBottomDrawerOpen} data={chartData} />
         </div>

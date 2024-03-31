@@ -7,7 +7,6 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
-import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
@@ -31,29 +30,26 @@ const MuiNavBar = () => {
         ].map((item, index) => (
           <ListItem key={item.text} disablePadding>
             <ListItemButton component={Link} to={item.route}>
-              {/* <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon> */}
-              <ListItemText primary={item.text} />
+              <ListItemText primary={item.text} sx={{ color: '#800000', fontWeight: 'bold'}}/>
             </ListItemButton>
           </ListItem>
         ))}
       </List>
-      <Divider />
     </Box>
   );
+
   return (
     <Box sx={{ flexGrow: 1 }}>
-    <AppBar position="static">
+    <AppBar position="static"sx={{ backgroundColor: '#ffcf40' }}>
       <Toolbar>
         <IconButton size="large" edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }} onClick={toggleDrawer(true)}>
-          <MenuIcon />
+          <MenuIcon sx={{ color: '#800000' }}/>
         </IconButton>
         <Drawer open={open} onClose={toggleDrawer(false)}>
         {DrawerList}
       </Drawer>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Student Data 
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: 'bold', color: '#800000'}}>
+          CCS Students Data 
         </Typography>
       </Toolbar>
     </AppBar>

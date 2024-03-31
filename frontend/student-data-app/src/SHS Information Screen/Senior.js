@@ -4,6 +4,7 @@ import MuiNavBar from '../components/MuiNavBar';
 import PieChart from '../components/PieChart';
 import BarChartDistinctData from '../components/BarChart';
 import BottomDrawer from '../components/BottomDrawer';
+import Typography from '@mui/material/Typography';
 
 function Senior(){
     const [isBottomDrawerOpen, setIsBottomDrawerOpen] = useState(false);
@@ -32,23 +33,28 @@ function Senior(){
     return (
         <div>
             <MuiNavBar/>
-            SHS Information Page
             <div className='scontent'>
-            <div className='schart-container'>
-                    <PieChartWrapper title="Type of School" choice="1" handleChartClick={handleChartClick}/>
-                    <PieChartWrapper title="Joined Science High" choice="2" handleChartClick={handleChartClick}/>
-                    <PieChartWrapper title="Science High School" choice="3" handleChartClick={handleChartClick}/>
-                    <PieChartWrapper title="Senior High School" choice="4" handleChartClick={handleChartClick}/>
-                    <PieChartWrapper title="Strand" choice="5" handleChartClick={handleChartClick}/>
-                    <PieChartWrapper title="With Honors" choice="6" handleChartClick={handleChartClick}/>
-                    <PieChartWrapper title="In Top 10" choice="7" handleChartClick={handleChartClick}/>
-                    <PieChartWrapper title="Academic Rank" choice="8" />
-                    <PieChartWrapper title="Academic Excellence Award" choice="9" handleChartClick={handleChartClick}/>
-                    <PieChartWrapper title="English Grade Range" choice="10" handleChartClick={handleChartClick}/>
-                    <PieChartWrapper title="Math Grade Range" choice="11" handleChartClick={handleChartClick}/>
-                    <PieChartWrapper title="Science Grade Range" choice="12" handleChartClick={handleChartClick}/>
-                    <PieChartWrapper title="GPA" choice="13" handleChartClick={handleChartClick}/>
-                    <PieChartWrapper title="Programming 1 Grade" choice="14" handleChartClick={handleChartClick}/>
+                <Typography variant="h3" gutterBottom>
+                    Senior High School Information
+                </Typography>
+                <Typography variant="h6" gutterBottom>
+                    This page contains the relevant SHS information of CCS students
+                </Typography>
+                <div className='schart-container'>
+                        <PieChartWrapper title="Type of School" choice="1" handleChartClick={handleChartClick}/>
+                        <PieChartWrapper title="Joined Science High" choice="2" handleChartClick={handleChartClick}/>
+                        <PieChartWrapper title="Science High School" choice="3" handleChartClick={handleChartClick}/>
+                        <PieChartWrapper title="Senior High School" choice="4" handleChartClick={handleChartClick}/>
+                        <PieChartWrapper title="Strand" choice="5" handleChartClick={handleChartClick}/>
+                        <PieChartWrapper title="With Honors" choice="6" handleChartClick={handleChartClick}/>
+                        <PieChartWrapper title="In Top 10" choice="7" handleChartClick={handleChartClick}/>
+                        <PieChartWrapper title="Academic Rank" choice="8" />
+                        <PieChartWrapper title="Academic Excellence Award" choice="9" handleChartClick={handleChartClick}/>
+                        <PieChartWrapper title="English Grade Range" choice="10" handleChartClick={handleChartClick}/>
+                        <PieChartWrapper title="Math Grade Range" choice="11" handleChartClick={handleChartClick}/>
+                        <PieChartWrapper title="Science Grade Range" choice="12" handleChartClick={handleChartClick}/>
+                        <PieChartWrapper title="GPA" choice="13" handleChartClick={handleChartClick}/>
+                        <PieChartWrapper title="Programming 1 Grade" choice="14" handleChartClick={handleChartClick}/>
                 </div>
             </div>
             <BottomDrawer open={isBottomDrawerOpen} onClose={setIsBottomDrawerOpen} data={chartData} />

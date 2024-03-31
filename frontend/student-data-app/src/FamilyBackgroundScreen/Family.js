@@ -4,6 +4,7 @@ import MuiNavBar from '../components/MuiNavBar';
 import BottomDrawer from '../components/BottomDrawer';
 import PieChart from '../components/PieChart';
 import BarChartDistinctData from '../components/BarChart';
+import Typography from '@mui/material/Typography';
 
 function Family() {
     const [isBottomDrawerOpen, setIsBottomDrawerOpen] = useState(false);
@@ -33,8 +34,13 @@ function Family() {
     return (
         <div>
             <MuiNavBar />
-            Family Background Page
             <div className='fcontent'>
+                <Typography variant="h3" gutterBottom>
+                    Family Background
+                </Typography>
+                <Typography variant="h6" gutterBottom>
+                    This page contains the relevant family background information of CCS students
+                </Typography>
                 <div className='fchart-container'>
                     <BarChartWrapper title="Mother's Occupation" choice="1" handleChartClick={handleChartClick} />
                     <BarChartWrapper title="Father's Occupation" choice="2" handleChartClick={handleChartClick} />
