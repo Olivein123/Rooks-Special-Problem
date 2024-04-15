@@ -84,7 +84,7 @@ VALUES
 	('231795734', 'Villas', 'Ervin Louis', 'Bansag', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('233757111', 'Monteclaro', 'Kurt David', 'Mag-isa', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('235442132', 'Dakay', 'Shanly', 'Lariosa', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
-	('235852966', 'Gorre', 'Christian James', 'NA', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
+	('235852966', 'Gorre', 'Christian James', 'N/A', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
 	('2017011848', 'Sia', 'David Ryan ', 'Danag', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('235952883', 'Ranido', 'Mitch', 'Apurado', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('231925986', 'Abel', 'Zydric', 'Quimbo', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
@@ -184,9 +184,6 @@ VALUES
 	('231302875', 'Dela Cruz', 'Rohana Jane', 'Emit', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('235403973', 'Dialimas ', 'Nirhven Kyle', 'Cababat ', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
 	('231018639', 'Cortado', 'Reynan', 'Sapilan', 'Cebu Province', 'Parents/Guardians', '', '', '', '');
-
-
-
 
 INSERT INTO Family_Profile(StudentId, MotherOccupation ,FatherOccupation, TotalIncome, TotalSiblings, ParentDependentSiblings, GraduatedSiblings)
 VALUES
@@ -376,187 +373,187 @@ INSERT INTO SHS_Information(StudentId,TypeOfSchool, JoinedScienceHigh,
 ScienceHighSchool, SeniorHighSchool, Strand, WithHonors, InTopTen, AcademicRank, 
 AcademicExcellenceAward,GradeRangeEnglish, GradeRangeMath, GradeRangeScience, GPA)
 VALUES
-	('215048994', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '95-96', '94-95', '95', '94.5'),
-	('231987729', 'Private', '', '', 'Colegio de la Inmaculada Concepcion Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '93', '91', '93', '93'),
-	('231165150', 'Private', '', '', 'Cebu Roosevelt Memorial Colleges', 'Accountancy Business and Management (ABM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '96', '99', '96', '96'),
-	('236945985', 'Private', '', '', 'University of Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '92', '86', '90', '92'),
-	('233109286', 'Private', '', '', 'PEGAFI', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '92', '90', '91', '94'),
-	('170545444', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '93', '89', '90', '90-93'),
-	('236892742', 'Private', '', '', 'La Consolacion College - Liloan', 'Accountancy Business and Management (ABM)', 'No', '', '', '', '85', '85', '85', '83'),
-	('232648343', 'Private', '', '', 'University of Cebu', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '96', '93', '95', '96-97'),
-	('233018809', 'Private', '', '', 'Saint Joseph College of Maasin ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '95-97', '95-97', '95-97', '95-97'),
-	('231603575', 'Private', '', '', 'University of San Carlos', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '95', '96', '95', '96'),
-	('194004588', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '90-92', '89-91', '90-92', '90-92'),
-	('232079543', 'Private', '', '', 'Southwestern University Phinma', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '8789', '8890', '8991', '8587'),
-	('231998921', 'Public', 'No', '', 'Babag National High School/Senior High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '93', '92', '93', '93'),
-	('232217877', 'Private', '', '', 'Patronage of Mary Development School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 1 (Valedictorian)', 'With High Honors', '97', '97', '96', '97'),
-	('231754768', 'Public', 'No', '', 'Don Emilio Canonigo National High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '95', '94', '95', '96'),
-	('232772181', 'Private', '', '', 'University of San Carlos - North Campus', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '92', '93', '95', '92'),
-	('232753290', 'Private', '', '', 'St. Scholasticas Academy, Tabunok', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '89', '91', '90', '90'),
-	('231479398', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '95-97', '9395', '9496', '95-97'),
-	('233280395', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '96-98', '9496', '9597', '96-98'),
-	('232076731', 'Private', '', '', 'Southwestern University ', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '92-94', '9496', '9496', '92-94'),
-	('232159735', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '96', '95', '96', '96'),
-	('201843115', 'Private', '', '', 'CIT-U', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '89', '87', '88', '85'),
-	('233217874', 'Private', '', '', 'San Roque College De Cebu Inc.', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '89-91', '8790', '8790', '8992'),
-	('232851520', 'Private', '', '', 'Don Vicente Rama Memorial National High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '96', '95', '96', '96'),
-	('232297300', 'Private', '', '', 'Claret School of Lamitan', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '96-98', '91-93', '93-95', '92-95'),
-	('233047534', 'Private', '', '', 'Don Bosco Technical College - Cebu Inc.', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '93', '90', '91', '92'),
-	('183084285', 'Private', '', '', 'Cebu Institute of Technology- University ', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '95-96', '96-98', '89-91', '88-90'),
-	('232691735', 'Private', '', '', 'Southwestern Phinma University ', 'Accountancy Business and Management (ABM)', 'No', '', '', '', '92', '90', '91', '93 '),
-	('236451315', 'Public', 'No', '', 'Gutalac National High School', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '89', '81', 'N/A', '85'),
-	('235199828', 'Public', 'No', '', 'Vicente Canahug National High school', 'General Academic Strand (GAS)', 'No', '', '', '', 'N/A', 'N/A', 'N/A', '86'),
-	('235762459', 'Public', 'No', '', 'Bitoon National Vocational High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '95-97', '95-97', '95-97'),
-	('235669609', 'Public', 'No', '', 'Tukuran techinical. vocational high school', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '83,84,85', '82,86,84', '81,82,83', '81,84,85'),
-	('195529442', 'Private', '', '', 'Cebu institute of technology University ', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '92-95', '89-92', '87-93', '87-90'),
-	('233917543', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '96-98', '95', '96-98', '96'),
-	('234383545', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '90-95', '94-95', '96-97', '95-96'),
-	('215714872', 'Private', '', '', 'University of Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '95', '96', '90-99', '92'),
-	('234601608', 'Private', '', '', 'University of Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '93-95', '93-95', '90-93', '93-95'),
-	('233952209', 'Private', '', '', 'Saint Theresa''s College of Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '90-93', '80-83', '80-83', '88-90'),
-	('232416830', 'Private', '', '', 'Saint Joseph College', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '90-91', '87-90', '93-95', '91-93'),
-	('201140024', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '93-95', '90-92', '90-92', '93-95'),
-	('234184587', 'Private', '', '', 'St. Scholastica''s Academy', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '90-95', '85-90', '85-95', '90-95'),
-	('130498411', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '85-88', '87- 90', '83-86', '85-88'),
-	('233570713', 'Private', '', '', 'La Consolacion College-Liloan', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '92-96', '90-95', '90-95', '94-95'),
-	('233389370', 'Private', '', '', 'ACLC College of Ormoc', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '96-98', '96-98', '96-98', '96-98'),
-	('233693138', 'Private', '', '', 'Dalaguete National High School ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '93-95', '92-94', '93-95', '93-95'),
-	('201140029', 'Private', '', '', 'Cebu Institute Technology - University ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '94 - 97', '96 - 98', '94 - 97', '94'),
-	('225330924', 'Private', '', '', 'Don Bosco Technical College - Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '84-88', '84-87', '85-88', '85-86'),
-	('234739174', 'Private', '', '', 'PAU Excellencia Global Academy Foundation Inc.', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '95-97', '92-94', '93-95', '95-97'),
-	('234205826', 'Private', '', '', 'De La Salle ASMC', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '90-95', '90 -92', '90-95', '93-94'),
-	('234515683', 'Private', '', '', 'De La Salle ASMC', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '89-91', '93-95', '90-92'),
-	('233429486', 'Private', '', '', 'Don Bosco Technical College Cebhlu Inc.', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '95-99', '75-85', '80-87', '85-87'),
-	('234496954', 'Private', '', '', 'Colegio de Sto. Tomas - Recoletos', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '95-97', '95-97', '95-97', '95-97'),
-	('233855504', 'Private', '', '', 'University Of Visayas Pardo Campus', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '90-89', '92-91', '88-88', '90-93'),
-	('234078311', 'Private', '', '', 'University of San Jose - Recoletos', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '84-86', '83-85', '82-84', '87-89'),
-	('222097673', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '95', '96', '94-96', '93-94'),
-	('212600934', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-97', '95-96', '92-96', '95-96'),
-	('213082308', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '80-90', '75-90', '80-90', '78-87'),
-	('211224254', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '94-96', '93-95', '94-96'),
-	('230527402', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'San Remigio National High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '97-99', '90-93', '95-97', '95-97'),
-	('231160434', 'Private', '', '', 'Talisay City National High School', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With High Honors', '93-95', '93-95', '93-95', '94-95'),
-	('234188468', 'Public', 'Yes', 'Philippine Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '1.00', '1.25', '1.75', '1.67'),
-	('231957693', 'Private', '', '', 'University of San Jose Recoletos ', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', '90-91', '88-89', '90-92', '90-91'),
-	('231597784', 'Private', '', '', 'Don Bosco Technical College - Cebu Inc. ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '90-92', 'N/A', 'N/A', '91-93'),
-	('231648595', 'Private', '', '', 'Nissi Academy International', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '90-93', '90-93', '91-94', '91'),
-	('235711257', 'Public', 'No', '', 'Bitoon National Vocational High School ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '96-98', '96-98', '95-97', '94-96'),
-	('232290733', 'Private', '', '', 'University of Cebu - Pri', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Highest Honors', '99', '99', '99', '99'),
-	('231982527', 'Public', 'No', '', 'Cabonga-an Natinal High School', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', '91', '92', '92', '92'),
-	('232442334', 'Private', '', '', 'San Juan High School', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'Yes', 'Top 2 to 10', 'With Highest Honors', '94', '93', '97', '95'),
-	('234358139', 'Private', '', '', 'University of Cebu - Main Senior High School Department', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Highest Honors', '95', '96', '97', '96-98'),
-	('200140043', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '92-94', '95-97', '93-95', '93-95'),
-	('235102415', 'Private', '', '', 'Vicente Cabahug National High School', 'General Academic Strand (GAS)', 'No', '', '', '', 'N/A', 'N/A', 'N/A', 'N/A'),
-	('170338635', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '87-91', '86-85', '86-86', '89-90'),
-	('120470443', 'Private', '', '', 'Cebu Institute of Technology University', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '91-93', '90-93', '89-91', '91-94'),
-	('232302526', 'Private', '', '', 'Asian College of Technology Bulacao Campus', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '98', 'NA', 'NA', '93'),
-	('231924354', 'Private', '', '', 'University of Cebu', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With High Honors', '94-96', '92-94', '92-94', '95-97'),
-	('207429858', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '90-92', '85-87', '92-94', '88-90'),
-	('232047462', 'Private', '', '', 'Professional Academy of the Philippines﻿', 'General Academic Strand (GAS)', 'No', '', '', '', 'N/A', 'N/A', 'N/A', 'N/A'),
-	('231805297', 'Private', '', '', 'Colegio de la Inmaculada Concepcion-Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '83-86', '80-83', '87-90', '86-89'),
-	('231795734', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '96-98', '94-96', '94-96', '96-98'),
-	('233757111', 'Private', '', '', 'University of Cebu - Private Campus', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '96-98', '96-98', '97-99', '95-97'),
-	('235442132', 'Private', '', '', 'Immaculate Heart of Mary Academy - A.R. of Minglanilla Cebu ', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '88-90', '88-90', '88-90', '88-90'),
-	('235852966', 'Public', 'No', '', 'City of Bogo Senior High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '89-91', '89-91', '92-94'),
-	('2017011848', 'Private', '', '', 'University of San Jose - Recoletos', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '91-93', '90-92', '86-82', '91-93'),
-	('235952883', 'Private', '', '', 'Asian Institute of computer studies', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '86', '75', '88', '85'),
-	('231925986', 'Private', '', '', 'University of Cebu SHS - PRI', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '96', 'N/A', 'N/A', '95-96'),
-	('232250144', 'Private', '', '', 'Saint Joseph College', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '90-93', '88-90', '89-92', '92-94'),
-	('231934189', 'Private', '', '', 'Immaculate Heart of Mary Academy', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '92-94', '97-99', '91-93', '90-92'),
-	('232256994', 'Private', '', '', 'Southwestern University PHINMA', 'Accountancy Business and Management (ABM)', 'No', '', '', '', '88-90', '90-92', '90-92', '90-92'),
-	('232081111', 'Private', '', '', 'PAU Excellencia Global Academy Foundation, Inc.', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With High Honors', '97-99', '96-98', '96-98', '96.22'),
-	('232426543', 'Private', '', '', 'Benedicto College', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '92-94', '93-96', '92-94', '91-93'),
-	('232082220', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'Toledo City Science High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '94', '90', '91', '93'),
-	('232357568', 'Private', '', '', 'Bohol Wisdom School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '94 - 96', '92 - 94', '93 - 95', '94 - 96'),
-	('230514783', 'Private', '', '', 'University of Cebu Pri', 'Accountancy Business and Management (ABM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '95-97', '90-93', '95-97', '93-95'),
-	('232517769', 'Public', 'No', '', 'Ramon Duterte Memorial National High School', 'General Academic Strand (GAS)', 'Yes', 'No', '', 'With Honors', '90-93', '90-93', '83-90', '88-91'),
-	('232013950', 'Private', '', '', 'Asian Institute of Computer Studies ', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', 'N/A', 'N/A', 'N/A', '93'),
-	('231962676', 'Public', 'No', '', 'Talisay City National High School', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '89', '89', '89', '90'),
-	('232635609', 'Private', '', '', 'MASCI ', 'Accountancy Business and Management (ABM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '91', '95', '97', '96'),
-	('218410880', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85-87', '75-78', '87-90', '84-87'),
-	('230761533', 'Private', '', '', 'San Juan national highschool ', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', '92-94', '90-92', '89-91', '90-93'),
-	('230246135', 'Private', '', '', 'Asian College of Technology Bulacao Campus ', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '92', '94', '98', '93'),
-	('232684947', 'Private', '', '', 'University of San Jose Recoletos Balamban Campus', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '94-96', '93-95', '93-95', '95-97'),
-	('230330749', 'Private', '', '', 'University of San Carlos', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '94-96', '90-92', '90-92', '90-92'),
-	('230112653', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'Bato School of Fisheries', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '94-96', '92-94', '95-97', '92-94'),
-	('230851107', 'Private', '', '', 'Saint Joseph College Maasin', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '90', '91', '90', '91'),
-	('231486900', 'Public', 'No', '', 'Talisay City National High School', 'General Academic Strand (GAS)', 'Yes', 'No', '', 'With Honors', '86-89', '86-89', '86-89', '90-93'),
-	('230267319', 'Public', 'No', '', 'Visayas State University Integrated High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '96-98', '96-98', '91-93', '95-99'),
-	('230837809', 'Private', '', '', 'Saint Joseph College. Maasin City, Southern Leyte', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '90', '90', '90', '90'),
-	('230057927', 'Private', '', '', 'St. Catherine''s College', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '92-94', '89-91', '88-90', '91-93'),
-	('230641447', 'Public', 'No', '', 'Dalaguete National Highschool ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-94', '90-93', '90-93', '88-91'),
-	('234686868', 'Private', '', '', 'Saint Joseph College', 'Accountancy Business and Management (ABM)', 'No', '', '', '', '90-93', '88-91', '91-93', '90-92'),
-	('230711470', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'Science and Technology Education Center ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '92-95', '90-93', '90-93', '92-94'),
-	('231151936', 'Public', 'No', '', 'Talisay City National High School ', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '90', '0', '0', '93'),
-	('230866858', 'Public', 'No', '', 'Santa Filomena National High School', 'General Academic Strand (GAS)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '92-95', '90-93', '90-93', '92-95'),
-	('230716981', 'Private', '', '', 'Sacred Heart Academy', 'General Academic Strand (GAS)', 'Yes', 'No', '', 'With Honors', '90-92', '90-92', '90-92', '92-94'),
-	('230706415', 'Private', '', '', 'Concord Technical Institute', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '94', '95', '93', '91'),
-	('237074895', 'Private', '', '', 'Cebu Eastern College', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85-88', '85-88', '85-88', '85-88'),
-	('230100845', 'Public', 'No', '', 'Bato School of Fisheries', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '95', '93', '93', '93-95'),
-	('231009711', 'Private', '', '', 'UCB', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '97', '93', '95', '94-97'),
-	('230695527', 'Private', '', '', 'University of Cebu - Banilad Campus', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '99', '93', '93', '93-99'),
-	('231213960', 'Public', 'No', '', 'Agusan National High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '98', '90', '97', '97'),
-	('231010477', 'Private', '', '', 'University of Cebu - Banilad Campus', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '96', '93', '91', '93'),
-	('230076146', 'Private', '', '', 'Cebu Eastern College', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '89-91', '87-89', '89-91', '89-91'),
-	('230529787', 'Private', '', '', 'Patronage of Mary Development School ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '90-93', '93-92', '95-96', '91-92'),
-	('230185503', 'Private', '', '', 'STI college', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '95-98', '92-95', '96-98', '95-96'),
-	('231315571', 'Private', '', '', 'University of Cebu - Banilad', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With High Honors', '96.5', '92.5', '91', '93'),
-	('230225681', 'Public', 'No', '', 'Leyte National High School ', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', '94-96', '90-92', '93-95', '93-95'),
-	('230345916', 'Private', '', '', 'Andres Bonifacio College', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '93', '90', '92', '92'),
-	('230952972', 'Private', '', '', 'University of San Carlos', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '96-98', '86-88', '87-89', '92-94'),
-	('230197396', 'Public', 'No', '', 'Biliran Province State University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '93-96', '90-93', '91-94'),
-	('231121678', 'Private', '', '', 'University of Cebu Lapu-Lapu Mandaue', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '94-97', '93-96', '95-98', '94-97'),
-	('201040027', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '90-92', '91-93', '91-93', '91-93'),
-	('231156855', 'Public', 'No', '', 'Zamboanga del sur National High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '90-92', '90-92', '90-92'),
-	('233773764', 'Private', '', '', 'PAU Excellencia Global Academy Inc.', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '93-95', '91-94', '92-94', '90-95'),
-	('230209694', 'Private', '', '', 'Sta. Monica Academy, Pinamungajan Cebu Inc.', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '90', '91', '92', '93'),
-	('207631433', 'Private', '', '', 'Cebu Institute of Technology University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '78-81', '78-81', '79-82', '80-83'),
-	('231889639', 'Private', '', '', 'Mary Help of Christians School, Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '94-96', '87-90', '89-91', '90'),
-	('230801572', 'Private', '', '', 'Asian College of Technology - Bulacao Campus', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85-87', '90-92', '85-87', '91-93'),
-	('236163279', 'Private', '', '', 'De La Salle Andres Soriano Memorial College ', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85', '85', '85', '85'),
-	('236693453', 'Private', '', '', 'Saint Anthony''s High School ', 'General Academic Strand (GAS)', 'No', '', '', '', '85', '85', '89', '92'),
-	('233529427', 'Public', 'No', '', 'Lawaan 1 National Highschool', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '85-88', '84-86', '85-87', '88-90'),
-	('236345966', 'Public', 'No', '', 'Don Vecente Rama Memorial Senior High School', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '83-85', '84-86', '83-85', '90-92'),
-	('236684160', 'Private', '', '', 'Saint Michael''s School of Padada Inc.', 'General Academic Strand (GAS)', 'No', '', '', '', '86-89', '88-91', '86-89', '87-90'),
-	('236492687', 'Private', '', '', 'Asian College of Technology', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '91', '90', '89', '93'),
-	('230148359', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'Siargao National Science High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '92-94', '92-94'),
-	('236786523', 'Public', 'No', '', 'Jose B. Caredenas Memorial High School', 'Humanities and Social Sciences (HUMSS)', 'No', '', '', '', '90-92', '85-87', '84-86', '88-90'),
-	('232220418', 'Private', '', '', 'University of Cebu', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '96', '90', '95', '93'),
-	('236379922', 'Private', '', '', 'Malimono National High School', 'General Academic Strand (GAS)', 'No', '', '', '', '83-82', '87-82', '83-85', '86-87'),
-	('213398579', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'MInglanillia Science High School', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '94-96', '97-99', '95-97', 'N/A'),
-	('236061203', 'Private', '', '', 'Villaflores College', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '89-91', '91-93', '89-91', '90-91'),
-	('234200947', 'Public', 'No', '', 'Vicente B. Cosido Memorial National High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '94-98', '95-97', '95-97', '94-96'),
-	('236700709', 'Private', '', '', 'University of San Carlos', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-94', '85-88', '85-88', '85-88'),
-	('236586877', 'Public', 'No', '', 'Bulacao national Highschool ', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '86-90', '86-90', '86-90', '86-90'),
-	('236808546', 'Private', '', '', 'Adventist Academy Cebu', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '87-89', '85-87', '85-87', '85-87'),
-	('201477175', 'Public', 'No', '', 'Naga National High School', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '88-90', '85-88', '88-90', '88-91'),
-	('236845234', 'Private', '', '', 'STI College Ortigas-Cainta', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '91-96', '93-96', '92-97', '93-94'),
-	('236835448', 'Private', '', '', 'University of San Jose - Recoletos', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '92-94', '81-83', '82-84', '84-86'),
-	('170726103', 'Private', '', '', 'Cebu Institute of Technology', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '93-94', '94,90', '93,95', '92-97'),
-	('233308981', 'Private', '', '', 'Kairos Christian Academy, INC', 'General Academic Strand (GAS)', 'No', '', '', '', '91-95', '81-85', '"""N/A"""', '85-87'),
-	('201140035', 'Private', '', '', 'Cebu Institute Technology - University ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93, 92-94', '89-91, 91-93, 94-96', '92-94, 94-96', '94-96'),
-	('214285868', 'Private', '', '', 'Cebu Institute of Technology - University (CITU)', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '90-92', '86-88', '90-92', '91-93'),
-	('233163213', 'Private', '', '', 'Adventist Academy Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '88-90', '89-91', '88-90'),
-	('232958771', 'Public', 'No', '', 'Cangawa National High School', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', '90-95', '90-95', '90-95', '92-94'),
-	('212663704', 'Private', '', '', 'Southwestern University-Phinma', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85-88', '85-88', '79-82', '82-85'),
-	('236562740', 'Public', 'No', '', 'Don Sergio OsmeÑa Sr. Memorial National High school', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '82-85', '82-85', '82-85', '89'),
-	('230170798', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'Toledo City Science High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '92', '93', '95', '94'),
-	('211874319', 'Private', '', '', 'Cebu Institute of Technology - University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '90', '84', '85', '87'),
-	('234803498', 'Private', '', '', 'Mapúa Malayan Colleges Mindanao', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '95-97', '94-97', '91-92', '96'),
-	('233174814', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '96-98', '93-95', '93-95', '94-96'),
-	('237098245', 'Private', '', '', 'Colegio de la Inmaculada Concepcion - Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '89-91', '89-90', '87-89', '87-90'),
-	('232708807', 'Private', '', '', 'Patronage of Mary Development School', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '86-84', '86-84', '86-84', '85-83'),
-	('213920383', 'Private', '', '', 'CIT-U', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '89-91', '90-92', '86-89', '86-90'),
-	('233045817', 'Private', '', '', 'St.Scholasticas Academy Tabunok', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '92-95', '93-96', '91-94', '93-96'),
-	('233030981', 'Private', '', '', 'Adventist Academy Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '90-95', '85-90', '87-90', '95-97'),
-	('233422570', 'Private', '', '', 'University of Cebu - METC', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '84', '88', '89', '88'),
-	('170440799', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '91-93', '92-94', '93-95'),
-	('170945255', 'Private', '', '', 'Cebu Institute of Technology - University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '93 - 96', '90 - 93', '90 - 93 ', '93 - 95'),
-	('201140187', 'Private', '', '', 'Cebu Institute of Technology - University ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '93-95', '92-94', '91-93', '94-96'),
-	('232073528', 'Private', '', '', 'University of San Jose Recoletos ', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '97-99', '95-97', '94-96', '91-93'),
-	('231302875', 'Public', 'No', '', 'Abellana National School', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '85-87', '83-85', '85-86', 'N/A'),
-	('235403973', 'Private', '', '', 'UV-DALAGUETE ', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '96', '90', 'N/A', 'N/A'),
-	('231018639', 'Private', '', '', 'Pau Excellencia Global Academy Foundation Inc.', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '89-95', '89-92', '93-94', '93-94');
+	('215048994', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('231987729', 'Private', '', '', 'Colegio de la Inmaculada Concepcion - Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '91-93', '91-93'),--
+	('231165150', 'Private', '', '', 'Cebu Roosevelt Memorial Colleges', 'Accountancy Business and Management (ABM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '94-96', '97-99', '94-96', '94-96'),--
+	('236945985', 'Private', '', '', 'University of Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '85-87', '88-90', '91-93'),--
+	('233109286', 'Private', '', '', 'PAU Excellencia Global Academy Foundation, Inc.', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '91-93', '88-90', '91-93', '94-96'),--
+	('170545444', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '88-90', '88-90', '91-93'),--
+	('236892742', 'Private', '', '', 'La Consolacion College - Liloan', 'Accountancy Business and Management (ABM)', 'No', '', '', '', '85-87', '85-87', '85-87', '<85'),--
+	('232648343', 'Private', '', '', 'University of Cebu', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '94-96', '91-93', '94-96', '94-96'),--
+	('233018809', 'Private', '', '', 'Saint Joseph College of Maasin', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('231603575', 'Private', '', '', 'University of San Carlos', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('194004588', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '88-90', '91-93', '91-93'),--
+	('232079543', 'Private', '', '', 'Southwestern University PHINMA', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '88-90', '88-90', '88-90', '85-87'),--
+	('231998921', 'Public', 'No', '', 'Babag National High School/Senior High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '91-93', '91-93'),--
+	('232217877', 'Private', '', '', 'Patronage of Mary Development School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 1 (Valedictorian)', 'With High Honors', '97-99', '97-99', '94-96', '97-99'),--
+	('231754768', 'Public', 'No', '', 'Don Emilio Canonigo National High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('232772181', 'Private', '', '', 'University of San Carlos - North Campus', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '91-93', '94-96', '91-93'),--
+	('232753290', 'Private', '', '', 'St. Scholastica''s Academy - Tabunok', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '91-93', '88-90', '88-90'),--
+	('231479398', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('233280395', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '97-99', '94-96', '94-96', '97-99'),--
+	('232076731', 'Private', '', '', 'Southwestern University PHINMA', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '94-96', '94-96', '91-93'),--
+	('232159735', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('201843115', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '88-90', '85-87', '88-90', '85-87'),--
+	('233217874', 'Private', '', '', 'San Roque College De Cebu Inc.', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '88-90', '88-90', '88-90'),--
+	('232851520', 'Private', '', '', 'Don Vicente Rama Memorial National High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('232297300', 'Private', '', '', 'Claret School of Lamitan', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '97-99', '91-93', '94-96', '91-93'),--
+	('233047534', 'Private', '', '', 'Don Bosco Technical College - Cebu Inc.', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '88-90', '91-93', '91-93'),--
+	('183084285', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '94-96', '97-99', '88-90', '88-90'),--
+	('232691735', 'Private', '', '', 'Southwestern University PHINMA', 'Accountancy Business and Management (ABM)', 'No', '', '', '', '91-93', '88-90', '91-93', '91-93'),--
+	('236451315', 'Public', 'No', '', 'Gutalac National High School', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '88-90', '<85', 'N/A', '85-87'),--
+	('235199828', 'Public', 'No', '', 'Vicente Cabahug National High School', 'General Academic Strand (GAS)', 'No', '', '', '', 'N/A', 'N/A', 'N/A', '85-87'),--
+	('235762459', 'Public', 'No', '', 'Bitoon National Vocational High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('235669609', 'Public', 'No', '', 'Tukuran Technical-Vocational High School', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '<85', '<85', '<85', '<85'),--
+	('195529442', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '88-90', '88-90', '88-90'),--
+	('233917543', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '97-99', '94-96', '97-99', '94-96'),--
+	('234383545', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '91-93', '94-96', '94-96', '94-96'),--
+	('215714872', 'Private', '', '', 'University of Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '94-96', '94-96', '94-96', '91-93'),--
+	('234601608', 'Private', '', '', 'University of Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '94-96', '91-93', '94-96'),--
+	('233952209', 'Private', '', '', 'Saint Theresa''s College of Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '<85', '<85', '88-90'),--
+	('232416830', 'Private', '', '', 'Saint Joseph College', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '88-90', '88-90', '94-96', '91-93'),--
+	('201140024', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '94-96', '91-93', '91-93', '94-96'),--
+	('234184587', 'Private', '', '', 'St. Scholastica''s Academy - Tabunok', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '85-87', '88-90', '91-93'),--
+	('130498411', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '85-87', '88-90', '<85', '85-87'),--
+	('233570713', 'Private', '', '', 'La Consolacion College-Liloan', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '94-96', '91-93', '91-93', '94-96'),--
+	('233389370', 'Private', '', '', 'ACLC College of Ormoc', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '97-99', '97-99', '97-99', '97-99'),--
+	('233693138', 'Private', '', '', 'Dalaguete National High School ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '94-96', '91-93', '94-96', '94-96'),--
+	('201140029', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '94-96', '97-99', '94-96', '94-96'),--
+	('225330924', 'Private', '', '', 'Don Bosco Technical College - Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85-87', '85-87', '85-87', '85-87'),--
+	('234739174', 'Private', '', '', 'PAU Excellencia Global Academy Foundation, Inc.', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '91-93', '94-96', '94-96'),--
+	('234205826', 'Private', '', '', 'De La Salle ASMC', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '91-93', '91-93'),--
+	('234515683', 'Private', '', '', 'De La Salle ASMC', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '88-90', '94-96', '91-93'),--
+	('233429486', 'Private', '', '', 'Don Bosco Technical College Cebhlu Inc.', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '97-99', '<85', '<85', '85-87'),--
+	('234496954', 'Private', '', '', 'Colegio de Sto. Tomas - Recoletos', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('233855504', 'Private', '', '', 'University Of Visayas – Pardo Campus', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '88-90', '91-93', '88-90', '91-93'),--
+	('234078311', 'Private', '', '', 'University of San Jose-Recoletos', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85-87', '<85', '<85', '88-90'),--
+	('222097673', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '94-96', '94-96', '94-96', '91-93'),--
+	('212600934', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('213082308', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85-87', '88-90', '85-87', '<85'),--
+	('211224254', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('230527402', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'San Remigio National High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '97-99', '91-93', '94-96', '94-96'),--
+	('231160434', 'Private', '', '', 'Talisay City National High School', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('234188468', 'Public', 'Yes', 'Philippine Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '97-99', '94-96', '88-90', '91-93'),--
+	('231957693', 'Private', '', '', 'University of San Jose-Recoletos', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', '88-90', '88-90', '91-93', '88-90'),--
+	('231597784', 'Private', '', '', 'Don Bosco Technical College - Cebu Inc. ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', 'N/A', 'N/A', '91-93'),--
+	('231648595', 'Private', '', '', 'Nissi Academy International', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '91-93', '91-93', '91-93', '91-93'),--
+	('235711257', 'Public', 'No', '', 'Bitoon National Vocational High School ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '97-99', '97-99', '94-96', '94-96'),--
+	('232290733', 'Private', '', '', 'University of Cebu Senior High School - PRI', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Highest Honors', '97-99', '97-99', '97-99', '97-99'),--
+	('231982527', 'Public', 'No', '', 'Cabonga-an Natinal High School', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '91-93', '91-93'),--
+	('232442334', 'Private', '', '', 'San Juan High School', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'Yes', 'Top 2 to 10', 'With Highest Honors', '94-96', '91-93', '97-99', '94-96'),--
+	('234358139', 'Private', '', '', 'University of Cebu Senior High School - PRI', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Highest Honors', '94-96', '94-96', '97-99', '97-99'),--
+	('200140043', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '94-96', '94-96', '94-96'),--
+	('235102415', 'Private', '', '', 'Vicente Cabahug National High School', 'General Academic Strand (GAS)', 'No', '', '', '', 'N/A', 'N/A', 'N/A', 'N/A'),--
+	('170338635', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '88-90', '85-87', '85-87', '88-90'),--
+	('120470443', 'Private', '', '', 'Cebu Institute of Technology-University', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '88-90', '91-93'),--
+	('232302526', 'Private', '', '', 'Asian College of Technology - Bulacao Campus', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '97-99', 'N/A', 'N/A', '91-93'),--
+	('231924354', 'Private', '', '', 'University of Cebu', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With High Honors', '94-96', '91-93', '91-93', '94-96'),--
+	('207429858', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '85-87', '91-93', '88-90'),--
+	('232047462', 'Private', '', '', 'Professional Academy of the Philippines﻿', 'General Academic Strand (GAS)', 'No', '', '', '', 'N/A', 'N/A', 'N/A', 'N/A'),--
+	('231805297', 'Private', '', '', 'Colegio de la Inmaculada Concepcion - Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '<85', '<85', '88-90', '85-87'),--
+	('231795734', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '97-99', '94-96', '94-96', '97-99'),--
+	('233757111', 'Private', '', '', 'University of Cebu - Private Campus', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '97-99', '97-99', '97-99', '94-96'),--
+	('235442132', 'Private', '', '', 'Immaculate Heart of Mary Academy - A.R. of Minglanilla Cebu ', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '88-90', '88-90', '88-90', '88-90'),--
+	('235852966', 'Public', 'No', '', 'City of Bogo Senior High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '88-90', '88-90', '91-93'),--
+	('2017011848', 'Private', '', '', 'University of San Jose-Recoletos', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '<85', '91-93'),--
+	('235952883', 'Private', '', '', 'Asian Institute of Computer Studies', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '85-87', '<85', '88-90', '85-87'),--
+	('231925986', 'Private', '', '', 'University of Cebu Senior High School - PRI', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '94-96', 'N/A', 'N/A', '94-96'),--
+	('232250144', 'Private', '', '', 'Saint Joseph College', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '88-90', '88-90', '91-93'),--
+	('231934189', 'Private', '', '', 'Immaculate Heart of Mary Academy', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '97-99', '91-93', '91-93'),--
+	('232256994', 'Private', '', '', 'Southwestern University PHINMA', 'Accountancy Business and Management (ABM)', 'No', '', '', '', '88-90', '91-93', '91-93', '91-93'),--
+	('232081111', 'Private', '', '', 'PAU Excellencia Global Academy Foundation, Inc.', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With High Honors', '97-99', '97-99', '97-99', '94-96'),--
+	('232426543', 'Private', '', '', 'Benedicto College', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '91-93', '94-96', '91-93', '91-93'),--
+	('232082220', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'Toledo City Science High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '94-96', '88-90', '91-93', '91-93'),
+	('232357568', 'Private', '', '', 'Bohol Wisdom School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '94-96', '91-93', '94-96', '94-96'),--
+	('230514783', 'Private', '', '', 'University of Cebu Senior High School - PRI', 'Accountancy Business and Management (ABM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '94-96', '91-93', '94-96', '94-96'),--
+	('232517769', 'Public', 'No', '', 'Ramon Duterte Memorial National High School', 'General Academic Strand (GAS)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '85-87', '88-90'),--
+	('232013950', 'Private', '', '', 'Asian Institute of Computer Studies ', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', 'N/A', 'N/A', 'N/A', '91-93'),--
+	('231962676', 'Public', 'No', '', 'Talisay City National High School', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '88-90', '88-90', '88-90', '88-90'),--
+	('232635609', 'Private', '', '', 'Manila Science High School', 'Accountancy Business and Management (ABM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '91-93', '94-96', '97-99', '94-96'),--
+	('218410880', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85-87', '<85', '88-90', '85-87'),--
+	('230761533', 'Private', '', '', 'San Juan National High School', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '88-90', '91-93'),--
+	('230246135', 'Private', '', '', 'Asian College of Technology Bulacao Campus ', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '94-96', '97-99', '91-93'),--
+	('232684947', 'Private', '', '', 'University of San Jose-Recoletos - Balamban Campus', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('230330749', 'Private', '', '', 'University of San Carlos', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '94-96', '91-93', '91-93', '91-93'),--
+	('230112653', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'Bato School of Fisheries', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '94-96', '91-93', '94-96', '91-93'),--
+	('230851107', 'Private', '', '', 'Saint Joseph College of Maasin', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '91-93', '88-90', '91-93'),--
+	('231486900', 'Public', 'No', '', 'Talisay City National High School', 'General Academic Strand (GAS)', 'Yes', 'No', '', 'With Honors', '85-87', '85-87', '85-87', '91-93'),--
+	('230267319', 'Public', 'No', '', 'Visayas State University Integrated High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '97-99', '97-99', '91-93', '97-99'),--
+	('230837809', 'Private', '', '', 'Saint Joseph College of Maasin', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '88-90', '88-90', '88-90', '88-90'),--
+	('230057927', 'Private', '', '', 'St. Catherine''s College', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '91-93', '88-90', '88-90', '91-93'),--
+	('230641447', 'Public', 'No', '', 'Dalaguete National Highschool ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '91-93', '88-90'),--
+	('234686868', 'Private', '', '', 'Saint Joseph College', 'Accountancy Business and Management (ABM)', 'No', '', '', '', '91-93', '88-90', '91-93', '91-93'),--
+	('230711470', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'Science and Technology Education Center ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '91-93', '91-93'),--
+	('231151936', 'Public', 'No', '', 'Talisay City National High School ', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '88-90', 'N/A', 'N/A', '91-93'),--
+	('230866858', 'Public', 'No', '', 'Santa Filomena National High School', 'General Academic Strand (GAS)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '91-93', '91-93', '91-93', '91-93'),--
+	('230716981', 'Private', '', '', 'Sacred Heart Academy', 'General Academic Strand (GAS)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '91-93', '91-93'),--
+	('230706415', 'Private', '', '', 'Concord Technical Institute', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '94-96', '94-96', '91-93', '91-93'),--
+	('237074895', 'Private', '', '', 'Cebu Eastern College', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85-87', '85-87', '85-87', '85-87'),--
+	('230100845', 'Public', 'No', '', 'Bato School of Fisheries', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '94-96', '91-93', '91-93', '94-96'),--
+	('231009711', 'Private', '', '', 'University of Cebu - Banilad Campus', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '97-99', '91-93', '94-96', '94-96'),--
+	('230695527', 'Private', '', '', 'University of Cebu - Banilad Campus', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '97-99', '91-93', '91-93', '94-96'),--
+	('231213960', 'Public', 'No', '', 'Agusan National High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '97-99', '88-90', '97-99', '97-99'),--
+	('231010477', 'Private', '', '', 'University of Cebu - Banilad Campus', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '94-96', '91-93', '91-93', '91-93'),--
+	('230076146', 'Private', '', '', 'Cebu Eastern College', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '88-90', '88-90', '88-90'),--
+	('230529787', 'Private', '', '', 'Patronage of Mary Development School ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '94-96', '91-93'),--
+	('230185503', 'Private', '', '', 'STI College', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '94-96', '91-93', '97-99', '94-96'),--
+	('231315571', 'Private', '', '', 'University of Cebu - Banilad Campus', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With High Honors', '94-96', '91-93', '91-93', '91-93'),--
+	('230225681', 'Public', 'No', '', 'Leyte National High School ', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', '94-96', '91-93', '94-96', '94-96'),--
+	('230345916', 'Private', '', '', 'Andres Bonifacio College', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '88-90', '91-93', '91-93'),--
+	('230952972', 'Private', '', '', 'University of San Carlos', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '97-99', '85-87', '88-90', '91-93'),--
+	('230197396', 'Public', 'No', '', 'Biliran Province State University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '94-96', '91-93', '91-93'),--
+	('231121678', 'Private', '', '', 'University of Cebu Lapu-Lapu Mandaue', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('201040027', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '91-93', '91-93'),--
+	('231156855', 'Public', 'No', '', 'Zamboanga del sur National High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '91-93', '91-93'),--
+	('233773764', 'Private', '', '', 'PAU Excellencia Global Academy Foundation, Inc.', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '94-96', '91-93', '91-93', '91-93'),--
+	('230209694', 'Private', '', '', 'Sta. Monica Academy, Pinamungajan Cebu Inc.', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '91-93', '91-93', '91-93'),--
+	('207631433', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '<85', '<85', '<85', '<85'),--
+	('231889639', 'Private', '', '', 'Mary Help of Christians School, Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '94-96', '88-90', '88-90', '88-90'),--
+	('230801572', 'Private', '', '', 'Asian College of Technology - Bulacao Campus', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85-87', '91-93', '85-87', '91-93'),--
+	('236163279', 'Private', '', '', 'De La Salle Andres Soriano Memorial College ', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85-87', '85-87', '85-87', '85-87'),--
+	('236693453', 'Private', '', '', 'Saint Anthony''s High School ', 'General Academic Strand (GAS)', 'No', '', '', '', '85-87', '85-87', '88-90', '91-93'),--
+	('233529427', 'Public', 'No', '', 'Lawaan 1 National Highschool', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '85-87', '85-87', '85-87', '88-90'),--
+	('236345966', 'Public', 'No', '', 'Don Vecente Rama Memorial Senior High School', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '<85', '85-87', '<85', '91-93'),--
+	('236684160', 'Private', '', '', 'Saint Michael''s School of Padada Inc.', 'General Academic Strand (GAS)', 'No', '', '', '', '85-87', '88-90', '85-87', '88-90'),--
+	('236492687', 'Private', '', '', 'Asian College of Technology', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '91-93', '88-90', '88-90', '91-93'),--
+	('230148359', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'Siargao National Science High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '91-93', '91-93'),--
+	('236786523', 'Public', 'No', '', 'Jose B. Caredenas Memorial High School', 'Humanities and Social Sciences (HUMSS)', 'No', '', '', '', '91-93', '85-87', '85-87', '88-90'),--
+	('232220418', 'Private', '', '', 'University of Cebu', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '94-96', '88-90', '94-96', '91-93'),--
+	('236379922', 'Private', '', '', 'Malimono National High School', 'General Academic Strand (GAS)', 'No', '', '', '', '<85', '<85', '<85', '85-87'),
+	('213398579', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'Minglanilla Science High School', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '94-96', '97-99', '94-96', 'N/A'),--
+	('236061203', 'Private', '', '', 'Villaflores College', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '91-93', '88-90', '88-90'),--
+	('234200947', 'Public', 'No', '', 'Vicente B. Cosido Memorial National High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
+	('236700709', 'Private', '', '', 'University of San Carlos', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '85-87', '85-87', '85-87'),--
+	('236586877', 'Public', 'No', '', 'Bulacao National High School', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '85-87', '85-87', '85-87', '85-87'),--
+	('236808546', 'Private', '', '', 'Adventist Academy Cebu', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '88-90', '85-87', '85-87', '85-87'),--
+	('201477175', 'Public', 'No', '', 'Naga National High School', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '88-90', '85-87', '88-90', '88-90'),--
+	('236845234', 'Private', '', '', 'STI College Ortigas - Cainta', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '91-93', '94-96', '94-96', '91-93'),--
+	('236835448', 'Private', '', '', 'University of San Jose-Recoletos', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '<85', '<85', '85-87'),--
+	('170726103', 'Private', '', '', 'Cebu Institute of Technology-University', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '94-96', '94-96'),--
+	('233308981', 'Private', '', '', 'Kairos Christian Academy, INC', 'General Academic Strand (GAS)', 'No', '', '', '', '91-93', '<85', 'N/A', '85-87'),--
+	('201140035', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '94-96', '94-96'),--
+	('214285868', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '85-87', '91-93', '91-93'),--
+	('233163213', 'Private', '', '', 'Adventist Academy Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '88-90', '88-90', '88-90'),--
+	('232958771', 'Public', 'No', '', 'Cangawa National High School', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '91-93', '91-93'),--
+	('212663704', 'Private', '', '', 'Southwestern University PHINMA', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85-87', '85-87', '<85', '<85'),--
+	('236562740', 'Public', 'No', '', 'Don Sergio OsmeÑa Sr. Memorial National High school', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '<85', '<85', '<85', '88-90'),--
+	('230170798', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'Toledo City Science High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '91-93', '91-93', '94-96', '94-96'),--
+	('211874319', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '88-90', '<85', '85-87', '85-87'),--
+	('234803498', 'Private', '', '', 'Mapúa Malayan Colleges Mindanao', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '94-96', '94-96', '91-93', '94-96'),--
+	('233174814', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '97-99', '94-96', '94-96', '94-96'),--
+	('237098245', 'Private', '', '', 'Colegio de la Inmaculada Concepcion - Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '88-90', '88-90', '88-90', '88-90'),--
+	('232708807', 'Private', '', '', 'Patronage of Mary Development School', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85-87', '85-87', '85-87', '<85'),--
+	('213920383', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '88-90', '91-93', '85-87', '85-87'),--
+	('233045817', 'Private', '', '', 'St. Scholastica''s Academy - Tabunok', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '94-96', '91-93', '94-96'),--
+	('233030981', 'Private', '', '', 'Adventist Academy Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '85-87', '88-90', '94-96'),--
+	('233422570', 'Private', '', '', 'University of Cebu - METC', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '<85', '88-90', '88-90', '88-90'),--
+	('170440799', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '91-93', '91-93', '94-96'),--
+	('170945255', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '91-93', '91-93', '94-96'),--
+	('201140187', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '91-93', '91-93', '94-96'),--
+	('232073528', 'Private', '', '', 'University of San Jose-Recoletos', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '97-99', '94-96', '94-96', '91-93'),--
+	('231302875', 'Public', 'No', '', 'Abellana National School', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '85-87', '<85', '85-87', 'N/A'),--
+	('235403973', 'Private', '', '', 'University Of Visayas – Dalaguete Campus', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '94-96', '88-90', 'N/A', 'N/A'),--
+	('231018639', 'Private', '', '', 'PAU Excellencia Global Academy Foundation, Inc.', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '91-93', '88-90', '91-93', '91-93');--
 
 INSERT INTO College_Information(StudentId, Course, YearLevel, ProgMidtermGrade, ExpectedProg1Grade, Prog1Professor, ModeOfDelivery, 
 HasScholarship, ScholarshipType, HasExperience,ProgrammingLanguages, HasDevice, IsInCebu, CurrentPlace, HasRoom, HasEnoughSpace, 
