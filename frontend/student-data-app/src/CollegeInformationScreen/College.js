@@ -10,7 +10,40 @@ function College(){
     const [isBottomDrawerOpen, setIsBottomDrawerOpen] = useState(false);
     const [chartData, setChartData] = useState([]);
 
-    const handleChartClick = async (apiUrl) => {
+    // const handleChartClick = async (apiUrl) => {
+    //     try {
+    //         // Fetch data from the specific API URL
+    //         const response = await fetch(apiUrl);
+    //         if (!response.ok) {
+    //             throw new Error('Failed to fetch data');
+    //         }
+    //         const responseData = await response.json(); // Read the response as JSON
+    //         console.log(responseData); // Log the response data
+    //         const dataMap = new Map();
+    //         responseData.forEach(item => {
+    //             dataMap.set(item, dataMap.has(item) ? dataMap.get(item) + 1 : 1);
+    //         });
+    //         const distinctDataWithCount = Array.from(dataMap.entries()); // Get distinct data with counts
+    //         setChartData(distinctDataWithCount); // Set the fetched distinct data with counts to state
+    //         setIsBottomDrawerOpen(true); // Open the bottom drawer
+    //     } catch (error) {
+    //         console.error('Error fetching data:', error);
+    //     }
+    // };
+
+    const processData = (responseData, delimiter) => {
+        const counts = {};
+        responseData.forEach(item => {
+            const types = item.split(delimiter);
+            types.map(type => type.trim()).forEach(type => {
+                counts[type] = (counts[type] || 0) + 1;
+            });
+        });
+        return Object.entries(counts);
+    };
+    
+    // Inside College.js or any other component
+    const handleChartClick = async (apiUrl, delimiter) => {
         try {
             // Fetch data from the specific API URL
             const response = await fetch(apiUrl);
@@ -19,18 +52,18 @@ function College(){
             }
             const responseData = await response.json(); // Read the response as JSON
             console.log(responseData); // Log the response data
-            const dataMap = new Map();
-            responseData.forEach(item => {
-                dataMap.set(item, dataMap.has(item) ? dataMap.get(item) + 1 : 1);
-            });
-            const distinctDataWithCount = Array.from(dataMap.entries()); // Get distinct data with counts
-            setChartData(distinctDataWithCount); // Set the fetched distinct data with counts to state
-            setIsBottomDrawerOpen(true); // Open the bottom drawer
+            
+            // Process the data using the reusable function
+            const distinctDataWithCount = processData(responseData, delimiter);
+            // Set the fetched distinct data with counts to state
+            setChartData(distinctDataWithCount);
+            // Open the bottom drawer
+            setIsBottomDrawerOpen(true);
         } catch (error) {
             console.error('Error fetching data:', error);
         }
     };
-
+    
     return (
         <div>
             <MuiNavBar/>
@@ -74,7 +107,7 @@ function PieChartWrapper({ title, choice, handleChartClick }) {
     const apiUrl = `https://localhost:7025/api/CollegeInformation?choice=${choice}`;
 
     return (
-        <div className='fchart' onClick={() => handleChartClick(apiUrl)}>
+        <div className='fchart' onClick={() => handleChartClick(apiUrl,';')}>
             {title}
             <PieChart apiUrl={apiUrl} />
         </div>
@@ -86,7 +119,7 @@ function BarChartWrapper({ title, choice, handleChartClick }) {
     const apiUrl = `https://localhost:7025/api/CollegeInformation?choice=${choice}`;
 
     return (
-        <div className='fchart' onClick={() => handleChartClick(apiUrl)}>
+        <div className='fchart' onClick={() => handleChartClick(apiUrl,';')}>
             {title}
             <BarChartDistinctData apiUrl={apiUrl} />
         </div>
