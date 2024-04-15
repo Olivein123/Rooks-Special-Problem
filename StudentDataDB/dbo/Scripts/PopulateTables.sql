@@ -76,7 +76,7 @@ VALUES
 	('235102415', 'Diez', 'Mechaela Sofia', 'A.', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('170338635', 'Archival', 'Shane Nathan', 'Buot', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('120470443', 'Migallos', 'Florence Azriel', 'Roperos', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
-	('232302526', 'Aloria', 'Sophia Bianca', 'N/A', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
+	('232302526', 'Aloria', 'Sophia Bianca', 'N/A;', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
 	('231924354', 'Sabornido', 'Xavier John', 'Alcontin', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('207429858', 'Ramos', 'Jeremiah', 'Tiston', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('232047462', 'Agad', 'Mark laurence', 'Libor', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
@@ -84,7 +84,7 @@ VALUES
 	('231795734', 'Villas', 'Ervin Louis', 'Bansag', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('233757111', 'Monteclaro', 'Kurt David', 'Mag-isa', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('235442132', 'Dakay', 'Shanly', 'Lariosa', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
-	('235852966', 'Gorre', 'Christian James', 'N/A', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
+	('235852966', 'Gorre', 'Christian James', 'N/A;', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
 	('2017011848', 'Sia', 'David Ryan ', 'Danag', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('235952883', 'Ranido', 'Mitch', 'Apurado', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('231925986', 'Abel', 'Zydric', 'Quimbo', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
@@ -99,7 +99,7 @@ VALUES
 	('232517769', 'Macopia', 'Gerad Emeka', 'Tamarra', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('232013950', 'Lapiz', 'Ailyn', 'Canoy ', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('231962676', 'Capuras', 'John Miklos', 'Mendez', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
-	('232635609', 'cabahug', 'clarence', 'N/A', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
+	('232635609', 'cabahug', 'clarence', 'N/A;', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
 	('218410880', 'Taray', 'Julius Andre', 'Mabala', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
 	('230761533', 'Capanpan ', 'Nicolyn ', 'Tampus', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('230246135', 'Labaya ', 'Godwin ', 'Monteverde ', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
@@ -107,7 +107,7 @@ VALUES
 	('230330749', 'Nuevas', 'Josh Anton', 'Kanen', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('230112653', 'Saligue', 'Kean Maverick', 'Wabina', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('230851107', 'Masendo', 'Lyndon', 'V.', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
-	('231486900', 'Mayuela', 'Judd Kristoffer', 'N/A', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
+	('231486900', 'Mayuela', 'Judd Kristoffer', 'N/A;', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
 	('230267319', 'Pangilinan', 'Vein Carmell', 'Golo', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('230837809', 'Maldo', 'Nicco Victor', 'Pesa', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('230057927', 'Rellon', 'Elijah Thomas', 'N.', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
@@ -117,7 +117,7 @@ VALUES
 	('231151936', 'Larida', 'Mary Maebelle ', 'Alisoso', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
 	('230866858', 'Jaducana', 'Richelle', 'Bañaga', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
 	('230716981', 'Coritico', 'Samantha Zhyre', 'Corciega', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
-	('230706415', 'Yray', 'Philbert', 'n/a', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
+	('230706415', 'Yray', 'Philbert', 'N/A;', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('237074895', 'Anova', 'Ruben Carlo Alessandri', 'Modina', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('230100845', 'Cauban', 'John Andrew', 'Juanico', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('231009711', 'Macansantos', 'Axcelson', 'Odchigue', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
@@ -176,7 +176,7 @@ VALUES
 	('213920383', 'Sevilla', 'John Emmanuel', 'S.', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('233045817', 'Ogang', 'Jorge Martin ', 'Matiga', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
 	('233030981', 'Cortes', 'Isaac Raphael ', 'P.', 'Cebu Province', 'Parents/Guardians', '', '', '', ''),
-	('233422570', 'Pacaña', 'Clint', 'n/a', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
+	('233422570', 'Pacaña', 'Clint', 'N/A;', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('170440799', 'Catamco', 'Danise Bianca', 'Bulado', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('170945255', 'Daclan', 'Rusty Summer', '-', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
 	('201140187', 'Galo', 'Margel Destine Krizia ', 'Flaviano', 'Cebu City', 'Parents/Guardians', '', '', '', ''),
@@ -205,39 +205,39 @@ VALUES
 	('232772181', 'Finance Officer', 'Solutions Architect', '109,200 to 182,000', '5', '5', '0'),
 	('232753290', 'Finance Officer', 'IT Manager', '63,700 to 109,200', '3', '3', '0'),
 	('231479398', 'Businesswoman', 'Businessman', 'Above 182,000', '4', '1', '3'),
-	('233280395', 'HR Officer', 'N/A', '9,100 to 18,200', '1', '1', '0'),
-	('232076731', 'Small Business Owner', 'N/A', '18,200 to 36,400', '5', '0', '5'),
+	('233280395', 'HR Officer', 'N/A;', '9,100 to 18,200', '1', '1', '0'),
+	('232076731', 'Small Business Owner', 'N/A;', '18,200 to 36,400', '5', '0', '5'),
 	('232159735', 'Housewife', 'Office Supervisor/Manager', '36,400 to 63,700', '3', '3', '0'),
-	('201843115', 'N/A', 'N/A', '63,700 to 109,200', '9', '1', '5'),
+	('201843115', 'N/A;', 'N/A;', '63,700 to 109,200', '9', '1', '5'),
 	('233217874', 'Housewife', 'Tricycle Driver', 'Less than 9,100', '1', '1', '0'),
 	('232851520', 'Food Vendor', 'Carpenter', 'Less than 9,100', '1', '0', '0'),
-	('232297300', 'Housewife', 'N/A', '9,100 to 18,200', '2', '1', '1'),
+	('232297300', 'Housewife', 'N/A;', '9,100 to 18,200', '2', '1', '1'),
 	('233047534', 'Housewife', 'Government Employee', '63,700 to 109,200', '3', '3', '0'),
 	('183084285', 'Housewife', 'Software Engineer', '63,700 to 109,200', '1', '1', '0'),
 	('232691735', 'Housewife', 'Supervisor', '18,200 to 36,400', '2', '1', '1'),
 	('236451315', 'Business Woman', 'Accountant', '63,700 to 109,200', '3', '2', '0'),
 	('235199828', 'BHW', 'Carpenter', 'Less than 9,100', '1', '1', '1'),
 	('235762459', 'Teacher', 'Unemployed', '18,200 to 36,400', '4', '4', '0'),
-	('235669609', 'N/A', 'N/A', '36,400 to 63,700', '1', '1', '1'),
+	('235669609', 'N/A;', 'N/A;', '36,400 to 63,700', '1', '1', '1'),
 	('195529442', 'Housewife', 'Architect', 'Above 182,000', '3', '2', '1'),
-	('233917543', 'Teacher', 'N/A', '109,200 to 182,000', '6', '2', '3'),
-	('234383545', 'Admnistrative Assistant V', 'N/A', '9,100 to 18,200', '2', '2', '0'),
-	('215714872', 'N/A', 'Engineer', '63,700 to 109,200', '4', '0', '3'),
-	('234601608', 'HR Manager', 'N/A', '36,400 to 63,700', '3', '2', '1'),
+	('233917543', 'Teacher', 'N/A;', '109,200 to 182,000', '6', '2', '3'),
+	('234383545', 'Admnistrative Assistant V', 'N/A;', '9,100 to 18,200', '2', '2', '0'),
+	('215714872', 'N/A;', 'Engineer', '63,700 to 109,200', '4', '0', '3'),
+	('234601608', 'HR Manager', 'N/A;', '36,400 to 63,700', '3', '2', '1'),
 	('233952209', 'Online seller', 'Engineer', '63,700 to 109,200', '2', '2', '0'),
 	('232416830', 'Housewife ', 'Deceased', '18,200 to 36,400', '2', '1', '1'),
 	('201140024', 'OFW', 'QA Asst. Manager', '63,700 to 109,200', '1', '1', '0'),
 	('234184587', 'Teacher', 'Self-employed', '36,400 to 63,700', '2', '1', '1'),
-	('130498411', 'N/A', 'N/A', 'Above 182,000', '3', '3', '0'),
+	('130498411', 'N/A;', 'N/A;', 'Above 182,000', '3', '3', '0'),
 	('233570713', 'CSR', 'Welder', '36,400 to 63,700', '5', '5', '0'),
 	('233389370', 'Teacher', 'OFW', '63,700 to 109,200', '2', '2', '0'),
 	('233693138', 'Housewife ', 'Farmer', '18,200 to 36,400', '6', '4', '2'),
-	('201140029', 'Hotel receptionist ', 'N/A', '9,100 to 18,200', '1', '1', '0'),
+	('201140029', 'Hotel receptionist ', 'N/A;', '9,100 to 18,200', '1', '1', '0'),
 	('225330924', 'Housewife', 'Watch Fixing', '9,100 to 18,200', '2', '2', '0'),
 	('234739174', 'Employee', 'Business Owner', '63,700 to 109,200', '1', '1', '0'),
 	('234205826', 'Housewife ', 'Electrical Engineer', '18,200 to 36,400', '2', '2', '0'),
-	('234515683', 'Client manager', 'N/A', '109,200 to 182,000', '3', '2', '1'),
-	('233429486', 'Call center agent', 'N/A', '36,400 to 63,700', '4', '3', '1'),
+	('234515683', 'Client manager', 'N/A;', '109,200 to 182,000', '3', '2', '1'),
+	('233429486', 'Call center agent', 'N/A;', '36,400 to 63,700', '4', '3', '1'),
 	('234496954', 'Housewife', 'Farmer', 'Above 182,000', '3', '3', '0'),
 	('233855504', 'Housewife', 'Finance Officer', '9,100 to 18,200', '2', '1', '1'),
 	('234078311', 'MLhuillier Branch Manager', 'Architect', '63,700 to 109,200', '3', '1', '2'),
@@ -245,14 +245,14 @@ VALUES
 	('212600934', 'Teacher', 'Seaman', '63,700 to 109,200', '2', '2', '0'),
 	('213082308', 'Caretaker', 'OFW', '9,100 to 18,200', '2', '2', '0'),
 	('211224254', 'Teacher', 'Seaman', '63,700 to 109,200', '3', '1', '1'),
-	('230527402', 'N/A', 'Driver', 'Less than 9,100', '3', '2', '0'),
+	('230527402', 'N/A;', 'Driver', 'Less than 9,100', '3', '2', '0'),
 	('231160434', 'Meat Vendor', 'Meat Vendor', '9,100 to 18,200', '3', '2', '1'),
 	('234188468', 'Housewife', 'Deceased', '36,400 to 63,700', '4', '1', '3'),
 	('231957693', 'Business Woman', 'Seaman', '63,700 to 109,200', '3', '2', '1'),
-	('231597784', 'Optometry', 'N/A', '36,400 to 63,700', '2', '2', '0'),
+	('231597784', 'Optometry', 'N/A;', '36,400 to 63,700', '2', '2', '0'),
 	('231648595', 'Real estate agent', 'Seaman', 'Above 182,000', '3', '3', '0'),
-	('235711257', 'N/A', 'Heavy equipment operator ', '9,100 to 18,200', '5', '4', '1'),
-	('232290733', 'N/A', 'N/A', 'Less than 9,100', '3', '1', '2'),
+	('235711257', 'N/A;', 'Heavy equipment operator ', '9,100 to 18,200', '5', '4', '1'),
+	('232290733', 'N/A;', 'N/A;', 'Less than 9,100', '3', '1', '2'),
 	('231982527', 'BHW', 'Deceased ', '9,100 to 18,200', '7', '1', '6'),
 	('232442334', 'Housewife ', 'Labor', 'Less than 9,100', '5', '4', '1'),
 	('234358139', 'Housewife', 'Driver', '36,400 to 63,700', '3', '2', '1'),
@@ -262,36 +262,36 @@ VALUES
 	('120470443', 'Secretary', 'N/A.', '18,200 to 36,400', '1', '1', '0'),
 	('232302526', 'Casino Agent', 'Gym instructor', '18,200 to 36,400', '2', '2', '0'),
 	('231924354', 'Housewife', 'Workforce Manager', '109,200 to 182,000', '4', '4', '0'),
-	('207429858', 'Teacher', 'N/A', '18,200 to 36,400', '4', '2', '1'),
+	('207429858', 'Teacher', 'N/A;', '18,200 to 36,400', '4', '2', '1'),
 	('232047462', 'Barangay treasurer', 'Industrial painter', '36,400 to 63,700', '2', '2', '0'),
 	('231805297', 'Unemployed', 'Seaman', 'Above 182,000', '2', '2', '0'),
 	('231795734', 'Store Owner', 'Industrial Technician', '36,400 to 63,700', '2', '2', '0'),
 	('233757111', 'Accounting Clerk', 'Deceased', '9,100 to 18,200', '4', '3', '1'),
 	('235442132', 'Housewife ', 'Seaman', '9,100 to 18,200', '3', '1', '2'),
-	('235852966', 'N/A', 'N/A', 'Less than 9,100', '4', '4', '0'),
-	('2017011848', 'N/A', 'Businessman', '36,400 to 63,700', '2', '1', '1'),
-	('235952883', 'N/A', 'Seaman', '36,400 to 63,700', '3', '3', '0'),
+	('235852966', 'N/A;', 'N/A;', 'Less than 9,100', '4', '4', '0'),
+	('2017011848', 'N/A;', 'Businessman', '36,400 to 63,700', '2', '1', '1'),
+	('235952883', 'N/A;', 'Seaman', '36,400 to 63,700', '3', '3', '0'),
 	('231925986', 'OFW', 'House Husband', '36,400 to 63,700', '2', '2', '0'),
 	('232250144', 'Employee', 'Teacher', '63,700 to 109,200', '1', '1', '0'),
 	('231934189', 'Vendor', 'Unemployed', 'Less than 9,100', '3', '1', '2'),
 	('232256994', 'Secretary', 'Fireman', '18,200 to 36,400', '2', '1', '0'),
 	('232081111', 'Housewife', 'Salesman', '9,100 to 18,200', '4', '2', '2'),
-	('232426543', 'N/A', 'Military', '18,200 to 36,400', '4', '1', '3'),
+	('232426543', 'N/A;', 'Military', '18,200 to 36,400', '4', '1', '3'),
 	('232082220', 'Teacher', 'Business Man', '36,400 to 63,700', '2', '1', '0'),
 	('232357568', 'Housewife', 'OFW', 'Above 182,000', '2', '2', '0'),
-	('230514783', 'Baby Sitter', 'N/A', '9,100 to 18,200', '3', '1', '0'),
+	('230514783', 'Baby Sitter', 'N/A;', '9,100 to 18,200', '3', '1', '0'),
 	('232517769', 'Teacher', 'Seaman', '63,700 to 109,200', '2', '2', '2'),
 	('232013950', 'Hairdresser ', 'Driver', '9,100 to 18,200', '4', '3', '0'),
 	('231962676', 'Housewife', 'Mechanic', 'Less than 9,100', '2', '2', '0'),
-	('232635609', 'Hotel Receptionist', 'N/A', '36,400 to 63,700', '4', '4', '0'),
+	('232635609', 'Hotel Receptionist', 'N/A;', '36,400 to 63,700', '4', '4', '0'),
 	('218410880', 'OFW', 'Unemployed', 'Above 182,000', '1', '1', '0'),
-	('230761533', 'Own''s a store', 'N/A', 'Less than 9,100', '1', '1', '0'),
+	('230761533', 'Own''s a store', 'N/A;', 'Less than 9,100', '1', '1', '0'),
 	('230246135', 'Housewife', 'Real estate agent ', 'Less than 9,100', '2', '1', '1'),
 	('232684947', 'Government Employee', 'Unemployed', '18,200 to 36,400', '3', '2', '1'),
 	('230330749', 'IT Professor', 'I.T. Officer', '109,200 to 182,000', '2', '2', '0'),
 	('230112653', 'Housewife', 'Seaman', '109,200 to 182,000', '3', '2', '1'),
 	('230851107', 'Housewife', 'Driver', '18,200 to 36,400', '1', '1', '0'),
-	('231486900', 'Sari Sari Store Owner', 'N/A', '9,100 to 18,200', '1', '1', '0'),
+	('231486900', 'Sari Sari Store Owner', 'N/A;', '9,100 to 18,200', '1', '1', '0'),
 	('230267319', 'Government Employee', 'Government Employee', '18,200 to 36,400', '3', '1', '2'),
 	('230837809', 'Teacher', 'Teacher', '18,200 to 36,400', '2', '2', '0'),
 	('230057927', 'Employee', 'Employee', '18,200 to 36,400', '1', '1', '0'),
@@ -299,68 +299,68 @@ VALUES
 	('234686868', 'Boardmember', 'OFW', '36,400 to 63,700', '2', '2', '0'),
 	('230711470', 'Housewife', 'OFW', '109,200 to 182,000', '2', '2', '0'),
 	('231151936', 'Food Vendor', 'Delivery Man', '63,700 to 109,200', '4', '4', '0'),
-	('230866858', 'Nail Technician', 'N/A', '9,100 to 18,200', '3', '0', '2'),
+	('230866858', 'Nail Technician', 'N/A;', '9,100 to 18,200', '3', '0', '2'),
 	('230716981', 'CNA', 'Company Driver', '63,700 to 109,200', '1', '1', '0'),
-	('230706415', 'Call Center Agent', 'N/A', 'Less than 9,100', '8', '7', '0'),
+	('230706415', 'Call Center Agent', 'N/A;', 'Less than 9,100', '8', '7', '0'),
 	('237074895', 'Housewife', 'Hotel Manager', '36,400 to 63,700', '2', '2', '0'),
 	('230100845', 'Housewife', 'Driver', '18,200 to 36,400', '2', '2', '0'),
 	('231009711', 'Sales Accountant', 'Sales Executive', '36,400 to 63,700', '2', '2', '0'),
 	('230695527', 'Factory worker', 'Factory worker ', '36,400 to 63,700', '4', '4', '0'),
-	('231213960', 'Corporate Secretary', 'N/A', '18,200 to 36,400', '3', '2', '1'),
+	('231213960', 'Corporate Secretary', 'N/A;', '18,200 to 36,400', '3', '2', '1'),
 	('231010477', 'Housewife', 'OFW', 'Above 182,000', '5', '5', '0'),
 	('230076146', 'Housewife', 'Office clerk', '18,200 to 36,400', '3', '3', '0'),
 	('230529787', 'Housewife ', 'Fisher ', 'Less than 9,100', '1', '1', '0'),
 	('230185503', 'School registrar ', 'Supervisor', '63,700 to 109,200', '4', '4', '0'),
-	('231315571', 'Self-employed', 'N/A', 'Above 182,000', '5', '2', '3'),
-	('230225681', 'N/A', 'Government Employee', '18,200 to 36,400', '3', '1', '2'),
+	('231315571', 'Self-employed', 'N/A;', 'Above 182,000', '5', '2', '3'),
+	('230225681', 'N/A;', 'Government Employee', '18,200 to 36,400', '3', '1', '2'),
 	('230345916', 'Teacher', 'Seaman', 'Above 182,000', '3', '2', '1'),
 	('230952972', 'Housewife', 'Seaman', '109,200 to 182,000', '2', '2', '0'),
-	('230197396', 'Weigher', 'N/A', '18,200 to 36,400', '3', '1', '2'),
+	('230197396', 'Weigher', 'N/A;', '18,200 to 36,400', '3', '1', '2'),
 	('231121678', 'HouseWife', 'Driver', 'Less than 9,100', '1', '1', '0'),
-	('201040027', 'Professor ', 'N/A', '36,400 to 63,700', '3', '2', '1'),
+	('201040027', 'Professor ', 'N/A;', '36,400 to 63,700', '3', '2', '1'),
 	('231156855', 'Government Employee', 'Army', '63,700 to 109,200', '3', '3', '0'),
-	('233773764', 'N/A', 'Security Guard', '36,400 to 63,700', '6', '2', '2'),
+	('233773764', 'N/A;', 'Security Guard', '36,400 to 63,700', '6', '2', '2'),
 	('230209694', 'Housewife', 'Foreman', '36,400 to 63,700', '2', '2', '0'),
 	('207631433', 'Engineer', 'Engineer', '18,200 to 36,400', '3', '2', '1'),
 	('231889639', 'Housewife ', 'QC Manager', '36,400 to 63,700', '2', '2', '0'),
-	('230801572', 'N/A', 'Deceased', '36,400 to 63,700', '4', '4', '0'),
-	('236163279', 'N/A', 'Operator', '9,100 to 18,200', '2', '1', '1'),
-	('236693453', 'N/A', 'N/A', 'Less than 9,100', '21', '1', '1'),
-	('233529427', 'N/A', 'N/A', 'Less than 9,100', '1', '0', '0'),
+	('230801572', 'N/A;', 'Deceased', '36,400 to 63,700', '4', '4', '0'),
+	('236163279', 'N/A;', 'Operator', '9,100 to 18,200', '2', '1', '1'),
+	('236693453', 'N/A;', 'N/A;', 'Less than 9,100', '21', '1', '1'),
+	('233529427', 'N/A;', 'N/A;', 'Less than 9,100', '1', '0', '0'),
 	('236345966', 'Housewife', 'Driver', 'Less than 9,100', '2', '2', '0'),
 	('236684160', 'Teacher', 'Teacher', 'Above 182,000', '4', '4', '0'),
 	('236492687', 'Supervisor', 'Businessman', 'Less than 9,100', '1', '0', '0'),
 	('230148359', 'Saleslady', 'Warehouse Manager', '9,100 to 18,200', '3', '3', '0'),
 	('236786523', 'Retire', 'Seaman', '36,400 to 63,700', '1', '1', '0'),
-	('232220418', 'Vendor', 'N/A', '9,100 to 18,200', '1', '1', '0'),
-	('236379922', 'N/A', 'N/A', 'Less than 9,100', '5', '4', '0'),
+	('232220418', 'Vendor', 'N/A;', '9,100 to 18,200', '1', '1', '0'),
+	('236379922', 'N/A;', 'N/A;', 'Less than 9,100', '5', '4', '0'),
 	('213398579', 'Radiologist', 'IT Manager', '63,700 to 109,200', '1', '0', '0'),
 	('236061203', 'Teacher', 'Civil Engineer', '18,200 to 36,400', '3', '1', '2'),
-	('234200947', 'Job Order ', 'N/A', '9,100 to 18,200', '4', '2', '2'),
+	('234200947', 'Job Order ', 'N/A;', '9,100 to 18,200', '4', '2', '2'),
 	('236700709', 'Housewife', 'government employee', '18,200 to 36,400', '2', '1', '1'),
 	('236586877', 'Housewife', 'Engineer', '18,200 to 36,400', '1', '0', '0'),
 	('236808546', 'Businesswoman', 'Businessman', '36,400 to 63,700', '3', '3', '1'),
 	('201477175', 'Housewife', 'Driver', 'Less than 9,100', '6', '2', '2'),
-	('236845234', 'Worker', 'N/A', '18,200 to 36,400', '3', '0', '1'),
+	('236845234', 'Worker', 'N/A;', '18,200 to 36,400', '3', '0', '1'),
 	('236835448', 'Housewife', 'Casino Gaming Staff', '63,700 to 109,200', '1', '0', '0'),
 	('170726103', 'Government employee', 'Government employee', '18,200 to 36,400', '2', '0', '0'),
-	('233308981', 'Head Chef', 'N/A', 'Less than 9,100', '3', '2', '1'),
+	('233308981', 'Head Chef', 'N/A;', 'Less than 9,100', '3', '2', '1'),
 	('201140035', 'Teacher ', 'Police Officer (Deceased)', '36,400 to 63,700', '2', '1', '1'),
 	('214285868', 'Midwife', 'None (Retired)', '36,400 to 63,700', '2', '1', '1'),
-	('233163213', 'N/A', 'N/A', '36,400 to 63,700', '2', '1', '1'),
+	('233163213', 'N/A;', 'N/A;', '36,400 to 63,700', '2', '1', '1'),
 	('232958771', 'Teacher', 'Caregiver', '63,700 to 109,200', '3', '3', '0'),
 	('212663704', 'Housewife ', 'Driver', '9,100 to 18,200', '5', '3', '1'),
-	('236562740', 'housewife', 'N/A', 'Less than 9,100', '6', '3', '2'),
-	('230170798', 'Teacher', 'N/A', '9,100 to 18,200', '3', '2', '0'),
+	('236562740', 'housewife', 'N/A;', 'Less than 9,100', '6', '3', '2'),
+	('230170798', 'Teacher', 'N/A;', '9,100 to 18,200', '3', '2', '0'),
 	('211874319', 'Housewife', 'Seaman', '109,200 to 182,000', '2', '2', '2'),
-	('234803498', 'Operation''s Manager', 'N/A', '36,400 to 63,700', '1', '1', '0'),
+	('234803498', 'Operation''s Manager', 'N/A;', '36,400 to 63,700', '1', '1', '0'),
 	('233174814', 'Office worker', 'small business owner', '18,200 to 36,400', '2', '2', '0'),
-	('237098245', 'Housewife', 'N/A', 'Less than 9,100', '2', '1', '1'),
+	('237098245', 'Housewife', 'N/A;', 'Less than 9,100', '2', '1', '1'),
 	('232708807', 'Housewife', 'Funding', 'Less than 9,100', '3', '3', '0'),
 	('213920383', 'Housewife', 'Engineer', '36,400 to 63,700', '2', '2', '0'),
 	('233045817', 'Housewife', 'Business', '36,400 to 63,700', '2', '1', '1'),
 	('233030981', 'Housewife', 'Seaman', 'Above 182,000', '3', '2', '1'),
-	('233422570', 'Business woman', 'N/A', '18,200 to 36,400', '3', '3', '0'),
+	('233422570', 'Business woman', 'N/A;', '18,200 to 36,400', '3', '3', '0'),
 	('170440799', 'Housewife', 'Automotive Painter', '36,400 to 63,700', '3', '1', '2'),
 	('170945255', 'Free-Lancer', 'Deceased', '36,400 to 63,700', '3', '2', '0'),
 	('201140187', 'Housewife', 'IT Support', '18,200 to 36,400', '2', '2', '0'),
@@ -401,8 +401,8 @@ VALUES
 	('233047534', 'Private', '', '', 'Don Bosco Technical College - Cebu Inc.', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '88-90', '91-93', '91-93'),--
 	('183084285', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '94-96', '97-99', '88-90', '88-90'),--
 	('232691735', 'Private', '', '', 'Southwestern University PHINMA', 'Accountancy Business and Management (ABM)', 'No', '', '', '', '91-93', '88-90', '91-93', '91-93'),--
-	('236451315', 'Public', 'No', '', 'Gutalac National High School', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '88-90', '<85', 'N/A', '85-87'),--
-	('235199828', 'Public', 'No', '', 'Vicente Cabahug National High School', 'General Academic Strand (GAS)', 'No', '', '', '', 'N/A', 'N/A', 'N/A', '85-87'),--
+	('236451315', 'Public', 'No', '', 'Gutalac National High School', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '88-90', '<85', 'N/A;', '85-87'),--
+	('235199828', 'Public', 'No', '', 'Vicente Cabahug National High School', 'General Academic Strand (GAS)', 'No', '', '', '', 'N/A;', 'N/A;', 'N/A;', '85-87'),--
 	('235762459', 'Public', 'No', '', 'Bitoon National Vocational High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
 	('235669609', 'Public', 'No', '', 'Tukuran Technical-Vocational High School', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '<85', '<85', '<85', '<85'),--
 	('195529442', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '88-90', '88-90', '88-90'),--
@@ -435,7 +435,7 @@ VALUES
 	('231160434', 'Private', '', '', 'Talisay City National High School', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
 	('234188468', 'Public', 'Yes', 'Philippine Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '97-99', '94-96', '88-90', '91-93'),--
 	('231957693', 'Private', '', '', 'University of San Jose-Recoletos', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', '88-90', '88-90', '91-93', '88-90'),--
-	('231597784', 'Private', '', '', 'Don Bosco Technical College - Cebu Inc. ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', 'N/A', 'N/A', '91-93'),--
+	('231597784', 'Private', '', '', 'Don Bosco Technical College - Cebu Inc. ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', 'N/A;', 'N/A;', '91-93'),--
 	('231648595', 'Private', '', '', 'Nissi Academy International', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '91-93', '91-93', '91-93', '91-93'),--
 	('235711257', 'Public', 'No', '', 'Bitoon National Vocational High School ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '97-99', '97-99', '94-96', '94-96'),--
 	('232290733', 'Private', '', '', 'University of Cebu Senior High School - PRI', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Highest Honors', '97-99', '97-99', '97-99', '97-99'),--
@@ -443,13 +443,13 @@ VALUES
 	('232442334', 'Private', '', '', 'San Juan High School', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'Yes', 'Top 2 to 10', 'With Highest Honors', '94-96', '91-93', '97-99', '94-96'),--
 	('234358139', 'Private', '', '', 'University of Cebu Senior High School - PRI', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Highest Honors', '94-96', '94-96', '97-99', '97-99'),--
 	('200140043', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '94-96', '94-96', '94-96'),--
-	('235102415', 'Private', '', '', 'Vicente Cabahug National High School', 'General Academic Strand (GAS)', 'No', '', '', '', 'N/A', 'N/A', 'N/A', 'N/A'),--
+	('235102415', 'Private', '', '', 'Vicente Cabahug National High School', 'General Academic Strand (GAS)', 'No', '', '', '', 'N/A;', 'N/A;', 'N/A;', 'N/A;'),--
 	('170338635', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '88-90', '85-87', '85-87', '88-90'),--
 	('120470443', 'Private', '', '', 'Cebu Institute of Technology-University', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '88-90', '91-93'),--
-	('232302526', 'Private', '', '', 'Asian College of Technology - Bulacao Campus', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '97-99', 'N/A', 'N/A', '91-93'),--
+	('232302526', 'Private', '', '', 'Asian College of Technology - Bulacao Campus', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '97-99', 'N/A;', 'N/A;', '91-93'),--
 	('231924354', 'Private', '', '', 'University of Cebu', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With High Honors', '94-96', '91-93', '91-93', '94-96'),--
 	('207429858', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '85-87', '91-93', '88-90'),--
-	('232047462', 'Private', '', '', 'Professional Academy of the Philippines﻿', 'General Academic Strand (GAS)', 'No', '', '', '', 'N/A', 'N/A', 'N/A', 'N/A'),--
+	('232047462', 'Private', '', '', 'Professional Academy of the Philippines﻿', 'General Academic Strand (GAS)', 'No', '', '', '', 'N/A;', 'N/A;', 'N/A;', 'N/A;'),--
 	('231805297', 'Private', '', '', 'Colegio de la Inmaculada Concepcion - Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '<85', '<85', '88-90', '85-87'),--
 	('231795734', 'Public', 'Yes', 'Cebu City National Science High School', '', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '97-99', '94-96', '94-96', '97-99'),--
 	('233757111', 'Private', '', '', 'University of Cebu - Private Campus', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '97-99', '97-99', '97-99', '94-96'),--
@@ -457,7 +457,7 @@ VALUES
 	('235852966', 'Public', 'No', '', 'City of Bogo Senior High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '88-90', '88-90', '91-93'),--
 	('2017011848', 'Private', '', '', 'University of San Jose-Recoletos', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '<85', '91-93'),--
 	('235952883', 'Private', '', '', 'Asian Institute of Computer Studies', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '85-87', '<85', '88-90', '85-87'),--
-	('231925986', 'Private', '', '', 'University of Cebu Senior High School - PRI', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '94-96', 'N/A', 'N/A', '94-96'),--
+	('231925986', 'Private', '', '', 'University of Cebu Senior High School - PRI', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '94-96', 'N/A;', 'N/A;', '94-96'),--
 	('232250144', 'Private', '', '', 'Saint Joseph College', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '88-90', '88-90', '91-93'),--
 	('231934189', 'Private', '', '', 'Immaculate Heart of Mary Academy', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '97-99', '91-93', '91-93'),--
 	('232256994', 'Private', '', '', 'Southwestern University PHINMA', 'Accountancy Business and Management (ABM)', 'No', '', '', '', '88-90', '91-93', '91-93', '91-93'),--
@@ -467,7 +467,7 @@ VALUES
 	('232357568', 'Private', '', '', 'Bohol Wisdom School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '94-96', '91-93', '94-96', '94-96'),--
 	('230514783', 'Private', '', '', 'University of Cebu Senior High School - PRI', 'Accountancy Business and Management (ABM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '94-96', '91-93', '94-96', '94-96'),--
 	('232517769', 'Public', 'No', '', 'Ramon Duterte Memorial National High School', 'General Academic Strand (GAS)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '85-87', '88-90'),--
-	('232013950', 'Private', '', '', 'Asian Institute of Computer Studies ', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', 'N/A', 'N/A', 'N/A', '91-93'),--
+	('232013950', 'Private', '', '', 'Asian Institute of Computer Studies ', 'Humanities and Social Sciences (HUMSS)', 'Yes', 'No', '', 'With Honors', 'N/A;', 'N/A;', 'N/A;', '91-93'),--
 	('231962676', 'Public', 'No', '', 'Talisay City National High School', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '88-90', '88-90', '88-90', '88-90'),--
 	('232635609', 'Private', '', '', 'Manila Science High School', 'Accountancy Business and Management (ABM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '91-93', '94-96', '97-99', '94-96'),--
 	('218410880', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '85-87', '<85', '88-90', '85-87'),--
@@ -484,7 +484,7 @@ VALUES
 	('230641447', 'Public', 'No', '', 'Dalaguete National Highschool ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '91-93', '88-90'),--
 	('234686868', 'Private', '', '', 'Saint Joseph College', 'Accountancy Business and Management (ABM)', 'No', '', '', '', '91-93', '88-90', '91-93', '91-93'),--
 	('230711470', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'Science and Technology Education Center ', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '91-93', '91-93'),--
-	('231151936', 'Public', 'No', '', 'Talisay City National High School ', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '88-90', 'N/A', 'N/A', '91-93'),--
+	('231151936', 'Public', 'No', '', 'Talisay City National High School ', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '88-90', 'N/A;', 'N/A;', '91-93'),--
 	('230866858', 'Public', 'No', '', 'Santa Filomena National High School', 'General Academic Strand (GAS)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '91-93', '91-93', '91-93', '91-93'),--
 	('230716981', 'Private', '', '', 'Sacred Heart Academy', 'General Academic Strand (GAS)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '91-93', '91-93'),--
 	('230706415', 'Private', '', '', 'Concord Technical Institute', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '94-96', '94-96', '91-93', '91-93'),--
@@ -520,7 +520,7 @@ VALUES
 	('236786523', 'Public', 'No', '', 'Jose B. Caredenas Memorial High School', 'Humanities and Social Sciences (HUMSS)', 'No', '', '', '', '91-93', '85-87', '85-87', '88-90'),--
 	('232220418', 'Private', '', '', 'University of Cebu', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '94-96', '88-90', '94-96', '91-93'),--
 	('236379922', 'Private', '', '', 'Malimono National High School', 'General Academic Strand (GAS)', 'No', '', '', '', '<85', '<85', '<85', '85-87'),
-	('213398579', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'Minglanilla Science High School', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '94-96', '97-99', '94-96', 'N/A'),--
+	('213398579', 'Public', 'Yes', 'Other National Science High School (example: Mandaue National Science High School, Minglanilla National Science High School, etc.)', 'Minglanilla Science High School', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '94-96', '97-99', '94-96', 'N/A;'),--
 	('236061203', 'Private', '', '', 'Villaflores College', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '91-93', '88-90', '88-90'),--
 	('234200947', 'Public', 'No', '', 'Vicente B. Cosido Memorial National High School', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'Yes', 'Top 2 to 10', 'With High Honors', '94-96', '94-96', '94-96', '94-96'),--
 	('236700709', 'Private', '', '', 'University of San Carlos', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '85-87', '85-87', '85-87'),--
@@ -530,7 +530,7 @@ VALUES
 	('236845234', 'Private', '', '', 'STI College Ortigas - Cainta', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'No', '', 'With Honors', '91-93', '94-96', '94-96', '91-93'),--
 	('236835448', 'Private', '', '', 'University of San Jose-Recoletos', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '<85', '<85', '85-87'),--
 	('170726103', 'Private', '', '', 'Cebu Institute of Technology-University', 'Accountancy Business and Management (ABM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '94-96', '94-96'),--
-	('233308981', 'Private', '', '', 'Kairos Christian Academy, INC', 'General Academic Strand (GAS)', 'No', '', '', '', '91-93', '<85', 'N/A', '85-87'),--
+	('233308981', 'Private', '', '', 'Kairos Christian Academy, INC', 'General Academic Strand (GAS)', 'No', '', '', '', '91-93', '<85', 'N/A;', '85-87'),--
 	('201140035', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '91-93', '91-93', '94-96', '94-96'),--
 	('214285868', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '91-93', '85-87', '91-93', '91-93'),--
 	('233163213', 'Private', '', '', 'Adventist Academy Cebu', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With Honors', '88-90', '88-90', '88-90', '88-90'),--
@@ -551,8 +551,8 @@ VALUES
 	('170945255', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '91-93', '91-93', '94-96'),--
 	('201140187', 'Private', '', '', 'Cebu Institute of Technology-University', 'Science Technology Engineering and Mathematics (STEM)', 'Yes', 'No', '', 'With High Honors', '94-96', '91-93', '91-93', '94-96'),--
 	('232073528', 'Private', '', '', 'University of San Jose-Recoletos', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '97-99', '94-96', '94-96', '91-93'),--
-	('231302875', 'Public', 'No', '', 'Abellana National School', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '85-87', '<85', '85-87', 'N/A'),--
-	('235403973', 'Private', '', '', 'University Of Visayas – Dalaguete Campus', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '94-96', '88-90', 'N/A', 'N/A'),--
+	('231302875', 'Public', 'No', '', 'Abellana National School', 'Technical-Vocational-Livelihood (TVL)', 'No', '', '', '', '85-87', '<85', '85-87', 'N/A;'),--
+	('235403973', 'Private', '', '', 'University Of Visayas – Dalaguete Campus', 'Science Technology Engineering and Mathematics (STEM)', 'No', '', '', '', '94-96', '88-90', 'N/A;', 'N/A;'),--
 	('231018639', 'Private', '', '', 'PAU Excellencia Global Academy Foundation, Inc.', 'Technical-Vocational-Livelihood (TVL)', 'Yes', 'Yes', 'Top 2 to 10', 'With Honors', '91-93', '88-90', '91-93', '91-93');--
 
 INSERT INTO College_Information(StudentId, Course, YearLevel, ProgMidtermGrade, ExpectedProg1Grade, Prog1Professor, ModeOfDelivery, 
@@ -562,28 +562,28 @@ CommuteDurationToHome, ArriveHomeFeeling, PursueCourseReason)
 
 VALUES
 	('215048994', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'Yes', 'CIT-U Academic Scholarship (Senior High School Honor Graduate);', 'No', '', 'Yes', 'Yes', 'Home', 'No', 'No', 'Walk', '', 'Less than 30 minutes', 'Excited and Happy', 'Walk', '', 'Less than 30 minutes', 'Tired and Lazy', 'Since a child, I already have an interest in computer games, websites, and apps and it made me wonder how it works and so my curiousity ended up in me enrolling in Computer Science.'),
-	('231987729', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', 'Less than 30 minutes', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', '30 minutes to 1 hour', 'Relieved and Happy', 'I am influenced because of my family, I''m surrounded by computers and this has helped me decide to pursue CS and I''m also into programming as well.'),
+	('231987729', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A;', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', 'Less than 30 minutes', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', '30 minutes to 1 hour', 'Relieved and Happy', 'I am influenced because of my family, I''m surrounded by computers and this has helped me decide to pursue CS and I''m also into programming as well.'),
 	('231165150', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Hybrid', 'No', 'N/A;', 'No', '', 'Yes', 'Yes', 'Boarding House', 'Yes', 'Yes', 'Walk', '', 'Less than 30 minutes', 'Tired and Sleepy', 'Walk', '', 'Less than 30 minutes', 'Dreading Assignments', 'I believed that the future world prefers technology, and I want to appeal to the rising demand. Additionally, I enjoy this activity.'),
-	('236945985', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Personal(Car, Bike, Motorcycle, etc.)', '', 'Less than 30 minutes', 'Tired and Sleepy', 'Personal(Car, Bike, Motorcycle, etc.)', '', '30 minutes to 1 hour', 'Relieved and Happy', 'BECAUSE I ALWAYS WANTED TO PURSUE CS SINCE I WAS A YOUNG BOY.'),
+	('236945985', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A;', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Personal(Car, Bike, Motorcycle, etc.)', '', 'Less than 30 minutes', 'Tired and Sleepy', 'Personal(Car, Bike, Motorcycle, etc.)', '', '30 minutes to 1 hour', 'Relieved and Happy', 'BECAUSE I ALWAYS WANTED TO PURSUE CS SINCE I WAS A YOUNG BOY.'),
 	('233109286', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A;', 'No', '', 'Yes', 'Yes', 'Boarding House', 'Yes', 'No', 'Walk', '', 'Less than 30 minutes', 'Tired and Sleepy', 'Walk', '', 'Less than 30 minutes', 'Dreading Assignments', 'To have a job and get financially stable'),
-	('170545444', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Walk', '', 'Less than 30 minutes', 'Tired and Sleepy', 'Walk', '', 'Less than 30 minutes', 'Tired and Lazy', 'I really like games and i want to make a game.'),
+	('170545444', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A;', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Walk', '', 'Less than 30 minutes', 'Tired and Sleepy', 'Walk', '', 'Less than 30 minutes', 'Tired and Lazy', 'I really like games and i want to make a game.'),
 	('236892742', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'Duke Frasco;', 'No', '', 'Yes', 'Yes', 'Home', 'No', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', '1 hour - 2 hours', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', '1 hour - 2 hours', 'Tired and Lazy', 'For good education, teaching, and learning my course.'),
 	('232648343', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'Yes', 'CHED Scholarship;', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', '30 minutes to 1 hour', 'Excited and Happy', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', '30 minutes to 1 hour', 'Tired and Lazy', 'Because it has a huge job opportunities'),
 	('233018809', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'Yes', 'CIT-U Academic Scholarship (Senior High School Honor Graduate);', 'No', '', 'Yes', 'Yes', 'Boarding House', 'No', 'Yes', 'Walk', '', 'Less than 30 minutes', 'Tired and Sleepy', 'Walk', '', 'Less than 30 minutes', 'Tired and Lazy', 'I heard that CIT-U is one of the top-performing schools when it comes to computer studies.'),
 	('231603575', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'Yes', 'DOST Scholarship;CIT-U Academic Scholarship (Senior High School Honor Graduate);', 'Yes', 'C#;', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', 'Less than 30 minutes', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', 'Less than 30 minutes', 'Dreading Assignments', 'Diverse job opportunities, can work from home'),
-	('194004588', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '3 rides', '1 hour - 2 hours', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '3 rides', '3 hours and above', 'Dreading Assignments', 'Aside from the course being flexible. It pays more and my sister and other family members in our family is also in this field of work/studies.'),
+	('194004588', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A;', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '3 rides', '1 hour - 2 hours', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '3 rides', '3 hours and above', 'Dreading Assignments', 'Aside from the course being flexible. It pays more and my sister and other family members in our family is also in this field of work/studies.'),
 	('232079543', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A;', 'No', '', 'Yes', 'Yes', 'Home', 'No', 'No', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', 'Less than 30 minutes', 'Tired and Sleepy', 'Walk', '', 'Less than 30 minutes', 'Tired and Lazy', 'I got intrigue in doing by past lessons on programming like html, scratch programming, Visual studio(?), and c++. Though mostly I have forgotten how to do it.'),
-	('231998921', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A', 'No', '', 'Yes', 'No', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '4 rides and above', '1 hour - 2 hours', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '3 rides', '1 hour - 2 hours', 'Tired and Lazy', 'because I am interested in programming, since I have no background knowledge about coding, I want to learn them for our prof our from my classmates who have background about coding. It may be hard but we all start at the beginning.'),
+	('231998921', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A;', 'No', '', 'Yes', 'No', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '4 rides and above', '1 hour - 2 hours', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '3 rides', '1 hour - 2 hours', 'Tired and Lazy', 'because I am interested in programming, since I have no background knowledge about coding, I want to learn them for our prof our from my classmates who have background about coding. It may be hard but we all start at the beginning.'),
 	('232217877', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'Yes', 'DOST Scholarship;', 'No', '', 'Yes', 'Yes', 'Boarding House', 'No', 'No', 'Walk', '', 'Less than 30 minutes', 'Tired and Sleepy', 'Walk', '', 'Less than 30 minutes', 'Dreading Assignments', 'I''ve always wanted to know how people make softwares and mobile applications. I''m interested in gaining a deep knowledge about computers and it is through this course.'),
 	('231754768', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A;', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', '1 hour - 2 hours', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', '1 hour - 2 hours', 'Dreading Assignments', 'Inspired by my brother '),
-	('232772181', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A', 'Yes', 'Python;Javascript;', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', 'Less than 30 minutes', 'Tired and Sleepy', 'Walk', '', 'Less than 30 minutes', 'Relieved and Happy', 'I have always been interested in the field as I grew up being exposed to this environment'),
-	('232753290', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Hybrid', 'No', 'N/A', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', '30 minutes to 1 hour', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', '30 minutes to 1 hour', 'Relieved and Happy', 'Because it is what I am most interested in.'), 
+	('232772181', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A;', 'Yes', 'Python;Javascript;', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', 'Less than 30 minutes', 'Tired and Sleepy', 'Walk', '', 'Less than 30 minutes', 'Relieved and Happy', 'I have always been interested in the field as I grew up being exposed to this environment'),
+	('232753290', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Hybrid', 'No', 'N/A;', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', '30 minutes to 1 hour', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', '30 minutes to 1 hour', 'Relieved and Happy', 'Because it is what I am most interested in.'), 
 	('231479398', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'Yes', 'DOST Scholarship;CIT-U Special Academic Scholarship (Cebu City National Science High School Graduates/ Philippine Science High School Graduates);', 'Yes', 'C Language;', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Personal(Car, Bike, Motorcycle, etc.)', '', 'Less than 30 minutes', 'Tired and Sleepy', 'Personal(Car, Bike, Motorcycle, etc.)', '', '1 hour - 2 hours', 'Tired and Lazy', 'Computers were a vital part of my life as i grew up and I grew to love everything about them. It became even more apparent as I played several games to the point that I wanted to create my own and now i''m in CS :)'),
 	('233280395', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'Yes', 'DOST Scholarship;', 'Yes', 'C Language;', 'Yes', 'Yes', 'Home', 'No', 'Yes', 'Walk', '', 'Less than 30 minutes', 'Tired and Sleepy', 'Walk', '', 'Less than 30 minutes', 'Tired and Lazy', 'Because I enjoy coding and dealing with computers.'),
-	('232076731', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A', 'Yes', 'Pascal and BASIC;', 'Yes', 'No', 'Home', 'No', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', '1 hour - 2 hours', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', '1 hour - 2 hours', 'Tired and Lazy', 'I decided to pursue CS because I really want to create a game someday either individually or with a group. I''m aware I can do this without pursuing CS but I have experienced a bit of coding before and it really became my passion. It has been around 4-5 years since CS became my passion and I believe it will stay that way in the future.'),
+	('232076731', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A;', 'Yes', 'Pascal and BASIC;', 'Yes', 'No', 'Home', 'No', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', '1 hour - 2 hours', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', '1 hour - 2 hours', 'Tired and Lazy', 'I decided to pursue CS because I really want to create a game someday either individually or with a group. I''m aware I can do this without pursuing CS but I have experienced a bit of coding before and it really became my passion. It has been around 4-5 years since CS became my passion and I believe it will stay that way in the future.'),
 	('232159735', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'Yes', 'DOST Scholarship;', 'Yes', 'C Language;Dart;', 'Yes', 'Yes', 'Home', 'No', 'No', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', 'Less than 30 minutes', 'Excited and Happy', 'Walk', '', '30 minutes to 1 hour', 'Relieved and Happy', 'Because I love working and computers and learning about the mechanisms and theories behind them.'),
 	('201843115', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Hybrid', 'Yes', 'Cebu City Scholarship;', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Personal(Car, Bike, Motorcycle, etc.)', '', 'Less than 30 minutes', 'Tired and Sleepy', 'Personal(Car, Bike, Motorcycle, etc.)', '', 'Less than 30 minutes', 'Tired and Lazy', 'The reason is that this course doesn''t need a license and don''t need to take board exam that''s why i took this course in order to get a job directly after I graduate (puhon)'),
-	('233217874', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Personal(Car, Bike, Motorcycle, etc.)', '', '1 hour - 2 hours', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '3 rides', '3 hours and above', 'Tired and Lazy', 'The reason I pursue a course in CS because of I want to become a full stack web developer someday.'),
+	('233217874', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A;', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Personal(Car, Bike, Motorcycle, etc.)', '', '1 hour - 2 hours', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '3 rides', '3 hours and above', 'Tired and Lazy', 'The reason I pursue a course in CS because of I want to become a full stack web developer someday.'),
 	('232851520', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'Yes', 'Cebu City Scholarship;', 'No', '', 'No', 'Yes', 'Home', 'No', 'No', 'Walk', '', 'Less than 30 minutes', 'Excited and Happy', 'Walk', '', 'Less than 30 minutes', 'Tired and Lazy', 'because I want to learn about technology and it has a lot of job opportunities.'),
 	('232297300', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'Yes', 'CIT-U Academic Scholarship (Senior High School Honor Graduate);', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', 'Less than 30 minutes', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', 'Less than 30 minutes', 'Relieved and Happy', 'I was given a chance to change my choices, and I decided to choose CS since I wanted to make my own game ever since I was young. '),
 	('233047534', 'BS Computer Science', '1st year', '', '', 'Frederick Revilleza', 'Face-to-face', 'No', 'N/A;', 'Yes', 'HTML, MySql;', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', '30 minutes to 1 hour', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', 'Less than 30 minutes', 'Relieved and Happy', 'Because of my hobbies/interest'),
@@ -740,5 +740,5 @@ VALUES
 	('201140187', 'BS Information Technology', '1st year', '', '', 'Erica Jean S. Abadinas', 'Face-to-face', 'Yes', 'DOST Scholarship;', 'No', '', 'Yes', 'Yes', 'Home', 'No', 'Yes', 'Walk', '', 'Less than 30 minutes', 'Excited and Happy', 'Walk', '', 'Less than 30 minutes', 'Dreading Assignments', 'I decided to pursue IT because I am interested in Technology and aside from that is because of the demand and the salary in the near future. '), 
 	('232073528', 'BS Information Technology', '1st year', '', '', 'Erica Jean S. Abadinas', 'Face-to-face', 'No', '', 'No', '', 'Yes', 'Yes', 'Home', 'Yes', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', '30 minutes to 1 hour', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', '30 minutes to 1 hour', 'Dreading Assignments', 'I remembered during JHS that we had a subject on programming and I was entranced about how each code execute and how technology is so fascinating to work on. The continuous evolution and impact of technology on various industries make it an exciting and dynamic field to explore and specialize in.'), 
 	('231302875', 'BS Information Technology', '1st year', '', '', 'Erica Jean S. Abadinas', 'Face-to-face', 'No', '', 'No', '', 'No', 'Yes', 'Home', 'Yes', 'No', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', '1 hour - 2 hours', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '2 rides', '1 hour - 2 hours', 'Tired and Lazy', 'high salary'), 
-	('235403973', 'BS Information Technology', '1st year', '', '', 'Kenn Migan Vincent C. Gumonan', 'Face-to-face', 'No', '', 'No', '', 'Yes', 'No', 'Home', 'No', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', '30 minutes to 1 hour', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', '30 minutes to 1 hour', 'Tired and Lazy', 'N/A'), 
+	('235403973', 'BS Information Technology', '1st year', '', '', 'Kenn Migan Vincent C. Gumonan', 'Face-to-face', 'No', '', 'No', '', 'Yes', 'No', 'Home', 'No', 'Yes', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', '30 minutes to 1 hour', 'Tired and Sleepy', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', '30 minutes to 1 hour', 'Tired and Lazy', 'N/A;'), 
 	('231018639', 'BS Information Technology', '1st year', '', '', 'Erica Jean S. Abadinas', 'Hybrid (Online + Face-to-face)', 'No', '', 'No', '', 'Yes', 'Yes', 'Boarding House', 'No', 'No', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', 'Less than 30 minutes', 'Excited and Happy', 'Commute(Jeep, Taxi, Angkas, etc.)', '1 ride', 'Less than 30 minutes', 'Relieved and Happy', 'I pursued IT for its abundant job opportunities and diverse career paths, drawn to the dynamic and evolving nature of programming.');
