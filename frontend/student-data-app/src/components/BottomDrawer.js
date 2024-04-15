@@ -12,8 +12,7 @@ export default function BottomDrawer({ open, onClose, data }) {
     <Box
       sx={{ height: 500 }} // Adjust width as needed
       role="presentation"
-      onClick={() => onClose(false)}
-      onKeyDown={() => onClose(false)}
+      onKeyDown={(event) => event.stopPropagation()} // Prevent closing on key press
     >
       <Table>
         <TableHead>
@@ -40,7 +39,7 @@ export default function BottomDrawer({ open, onClose, data }) {
       open={open}
       onClose={() => onClose(false)}
     >
-      {list}
+      <div onClick={(event) => event.stopPropagation()}>{list}</div>
     </Drawer>
   );
 }
