@@ -36,7 +36,7 @@ function College(){
             <MuiNavBar/>
             <div className='ccontent'>
                 <Typography variant="h3" gutterBottom>
-                    College Information Page
+                    College Information
                 </Typography>
                 <Typography variant="h6" gutterBottom>
                     This page contains the relevant college information of CCS students

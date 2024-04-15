@@ -39,7 +39,6 @@ function Home(){
                   <Typography variant="body1" component="p" gutterBottom>
                     Course: {student.collegeInformation.course}
                   </Typography>
-                  {/* Render other student information here */}
                 </Box>
               ))}
             </div>
