@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import MuiNavBar from '../components/MuiNavBar';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import PieChart from '../components/PieChart';
+
 function Home(){
   const [studentData, setStudentData] = useState([]);
 
@@ -29,9 +31,9 @@ function Home(){
             <MuiNavBar/>
             <div className='hcontent'>
               <Typography variant="h4" component="h1" gutterBottom>
-                Student Data
               </Typography>
-              {studentData.map((student, index) => (
+              <PieChart apiUrl="https://localhost:7025/api/CollegeInformation?choice=1"/>
+              {/* {studentData.map((student, index) => (
                 <Box key={index} sx={{ border: '1px solid #ccc', borderRadius: '4px', padding: '16px', marginBottom: '16px' }}>
                   <Typography variant="h6" component="h2" gutterBottom>
                     Student ID: {student.personalInformation.studentId}
@@ -40,7 +42,7 @@ function Home(){
                     Course: {student.collegeInformation.course}
                   </Typography>
                 </Box>
-              ))}
+              ))} */}
             </div>
         </div>
     );
