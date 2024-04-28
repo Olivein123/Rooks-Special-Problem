@@ -9,22 +9,23 @@ import Typography from '@mui/material/Typography';
 function Family() {
     const [isBottomDrawerOpen, setIsBottomDrawerOpen] = useState(false);
     const [chartData, setChartData] = useState([]);
+    const [selectedChartNullLabel, setSelectedChartNullLabel] = useState(""); // Store the null label for the selected chart
 
-    const handleChartClick = async (apiUrl) => {
+    const handleChartClick = async (apiUrl, nullLabel) => {
         try {
-            // Fetch data from the specific API URL
             const response = await fetch(apiUrl);
             if (!response.ok) {
                 throw new Error('Failed to fetch data');
             }
-            const responseData = await response.json(); // Read the response as JSON
-            console.log(responseData); // Log the response data
+            const responseData = await response.json(); 
+            console.log(responseData); 
             const dataMap = new Map();
             responseData.forEach(item => {
                 dataMap.set(item, dataMap.has(item) ? dataMap.get(item) + 1 : 1);
             });
-            const distinctDataWithCount = Array.from(dataMap.entries()); // Get distinct data with counts
-            setChartData(distinctDataWithCount); // Set the fetched distinct data with counts to state
+            const distinctDataWithCount = Array.from(dataMap.entries()); 
+            setChartData(distinctDataWithCount); 
+            setSelectedChartNullLabel(nullLabel); // Update the null label for the selected chart
             setIsBottomDrawerOpen(true); // Open the bottom drawer
         } catch (error) {
             console.error('Error fetching data:', error);
@@ -42,39 +43,35 @@ function Family() {
                     This page contains the relevant family background information of CCS students
                 </Typography>
                 <div className='fchart-container'>
-                    <BarChartWrapper title="Mother's Occupation" choice="1" handleChartClick={handleChartClick} />
-                    <BarChartWrapper title="Father's Occupation" choice="2" handleChartClick={handleChartClick} />
-                    <PieChartWrapper title="Total Income" choice="3" handleChartClick={handleChartClick} />
-                    <PieChartWrapper title="Total Number of Siblings" choice="4" handleChartClick={handleChartClick} />
-                    <PieChartWrapper title="Parent/Guardian-Dependent Siblings" choice="5" handleChartClick={handleChartClick} />
-                    <PieChartWrapper title="Graduated Siblings" choice="6" handleChartClick={handleChartClick} />
+                    <BarChartWrapper title="Mother's Occupation" choice="1" handleChartClick={handleChartClick} nullLabel="No Occupation"/>
+                    <BarChartWrapper title="Father's Occupation" choice="2" handleChartClick={handleChartClick} nullLabel="No Occupation"/>
+                    <PieChartWrapper title="Total Income" choice="3" handleChartClick={handleChartClick} nullLabel="No Income"/>
+                    <PieChartWrapper title="Total Number of Siblings" choice="4" handleChartClick={handleChartClick} nullLabel="None"/>
+                    <PieChartWrapper title="Parent/Guardian-Dependent Siblings" choice="5" handleChartClick={handleChartClick} nullLabel="None"/>
+                    <PieChartWrapper title="Graduated Siblings" choice="6" handleChartClick={handleChartClick} nullLabel="None"/>
                 </div>
             </div>
-            <BottomDrawer open={isBottomDrawerOpen} onClose={setIsBottomDrawerOpen} data={chartData} />
+            <BottomDrawer open={isBottomDrawerOpen} onClose={() => setIsBottomDrawerOpen(false)} data={chartData} nullLabel={selectedChartNullLabel} />
         </div>
     );
 }
 
-function PieChartWrapper({ title, choice, handleChartClick }) {
-    // Construct the apiUrl
+function PieChartWrapper({ title, choice, handleChartClick, nullLabel }) {
     const apiUrl = `https://localhost:7025/api/FamilyProfileInformation?choice=${choice}`;
-
     return (
-        <div className='fchart' onClick={() => handleChartClick(apiUrl)}>
+        <div className='pchart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
             {title}
-            <PieChart apiUrl={apiUrl} />
+            <PieChart apiUrl={apiUrl} nullLabel={nullLabel} />
         </div>
     );
 }
 
-function BarChartWrapper({ title, choice, handleChartClick }) {
-    // Construct the apiUrl
+function BarChartWrapper({ title, choice, handleChartClick, nullLabel }) {
     const apiUrl = `https://localhost:7025/api/FamilyProfileInformation?choice=${choice}`;
-
     return (
-        <div className='fchart' onClick={() => handleChartClick(apiUrl)}>
+        <div className='pchart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
             {title}
-            <BarChartDistinctData apiUrl={apiUrl} />
+            <BarChartDistinctData apiUrl={apiUrl} nullLabel={nullLabel}/>
         </div>
     );
 }

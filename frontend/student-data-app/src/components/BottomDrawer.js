@@ -7,7 +7,12 @@ import TableCell from '@mui/material/TableCell';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 
-export default function BottomDrawer({ open, onClose, data }) {
+export default function BottomDrawer({ open, onClose, data, nullLabel }) {
+  // Replace null values with the specified nullLabel in the data array
+  const modifiedData = data.map(([item, count]) => {
+    return [item !== '' ? item : nullLabel, count];
+  });
+
   const list = (
     <Box
       sx={{ height: 500 }} // Adjust width as needed
@@ -22,7 +27,7 @@ export default function BottomDrawer({ open, onClose, data }) {
           </TableRow>
         </TableHead>
         <TableBody>
-          {data.map(([item, count], index) => ( // Destructure item and count
+          {modifiedData.map(([item, count], index) => (
             <TableRow key={index}>
               <TableCell>{item}</TableCell>
               <TableCell>{count}</TableCell> {/* Render count in a separate column */}
