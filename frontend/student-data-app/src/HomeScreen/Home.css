@@ -1,20 +1,25 @@
-.hcontent{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-left: 1.5%;
-    padding-top: 1%;
-}
-.hchart {
-    display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
-    text-align: center;
-    height: 600px; /* Adjust the height as needed */
-    width: 600px; /* Adjust the width as needed */
+.hchart{
+    height: 600px;
+    width: 600px;
+    display: block;
     margin-right: 20px;
     cursor:pointer;
     border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5%;
+    text-align: center;
+}
+.hchart:last-child {
+    margin-right: 0;
+}
+.hcontent{
+    padding-top: 1%;
+    padding-left: 1.5%;
+    text-align: center;
+}
+.hchart-container {
+    align-items: center;
+    display: flexbox;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
 }
