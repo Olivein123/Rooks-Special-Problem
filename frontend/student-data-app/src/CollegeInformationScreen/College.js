@@ -19,7 +19,22 @@ function College(){
                 counts[type] = (counts[type] || 0) + 1;
             });
         });
-        return Object.entries(counts);
+        
+        // Merge labels that are similar but have different count
+        const mergedCounts = {};
+        Object.entries(counts).forEach(([label, count]) => {
+            // Check if the label exists with a different count
+            const similarLabel = Object.keys(mergedCounts).find(mergedLabel => {
+                return label.includes(mergedLabel) || mergedLabel.includes(label);
+            });
+            if (similarLabel) {
+                mergedCounts[similarLabel] += count;
+            } else {
+                mergedCounts[label] = count;
+            }
+        });
+    
+        return Object.entries(mergedCounts);
     };
     
     const handleChartClick = async (apiUrl, delimiter,nullLabel) => {
