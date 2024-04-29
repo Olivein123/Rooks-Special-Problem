@@ -3,7 +3,7 @@ import { Pie } from 'react-chartjs-2';
 import axios from 'axios';
 import 'chart.js/auto';
 
-const PieChart = ({ apiUrl }) => {
+const PieChart = ({ apiUrl, nullLabel }) => {
   const [chartData, setChartData] = useState({});
   const [loading, setLoading] = useState(true);
 
@@ -19,30 +19,33 @@ const PieChart = ({ apiUrl }) => {
         if (Array.isArray(data)) {
           // If the data is an array, count occurrences of each item
           counts = data.reduce((accumulator, item) => {
-            accumulator[item] = (accumulator[item] || 0) + 1;
+            const label = item !== ''? item : nullLabel;
+            accumulator[label] = (accumulator[label] || 0) + 1;
             return accumulator;
           }, {});
         } else if (typeof data === 'object') {
           // If the data is an object, use its keys as labels
           counts = Object.keys(data).reduce((accumulator, key) => {
-            accumulator[key] = data[key];
+            const value = data[key] !== '' ? data[key] : nullLabel;
+            accumulator[key] = value;
             return accumulator;
           }, {});
         }
 
-        setChartData({
-          labels: Object.keys(counts),
-          datasets: [{
-            data: Object.values(counts),
-            backgroundColor: [
-              '#ef476f',
-              '#ffd166',
-              '#06d6a0',
-              '#118ab2',
-              '#073b4c'
-            ]
-          }]
-        });
+        // Get labels and datasets
+        const labels = Object.keys(counts);
+        const datasets = [{
+          data: Object.values(counts),
+          backgroundColor: [
+            '#ef476f',
+            '#ffd166',
+            '#06d6a0',
+            '#118ab2',
+            '#073b4c'
+          ]
+        }];
+
+        setChartData({ labels, datasets });
 
         setLoading(false);
       } catch (error) {
@@ -54,12 +57,22 @@ const PieChart = ({ apiUrl }) => {
     fetchData();
   }, [apiUrl]);
 
+  const chartOptions = {
+    maintainAspectRatio: true,
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'right'
+      }
+    }
+  };
+
   return (
-    <div style={{ height: '250px', width: '250px' }}>
+    <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden'}}>
       {loading ? (
         <p>Loading...</p>
       ) : (
-        <Pie data={chartData} options={{ maintainAspectRatio: true, responsive: false }}/>
+        <Pie data={chartData} options={chartOptions}/>
       )}
     </div>
   );

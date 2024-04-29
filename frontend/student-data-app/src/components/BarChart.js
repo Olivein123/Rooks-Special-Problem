@@ -3,7 +3,7 @@ import { Bar } from 'react-chartjs-2';
 import axios from 'axios';
 import 'chart.js/auto';
 
-const BarChartDistinctData = ({ apiUrl }) => {
+const BarChartDistinctData = ({ apiUrl,nullLabel }) => {
   const [chartData, setChartData] = useState({});
   const [loading, setLoading] = useState(true);
 
@@ -19,13 +19,15 @@ const BarChartDistinctData = ({ apiUrl }) => {
         if (Array.isArray(data)) {
           // If the data is an array, count occurrences of each item
           counts = data.reduce((accumulator, item) => {
-            accumulator[item] = (accumulator[item] || 0) + 1;
+            const label = item !== '' ? item : nullLabel;
+            accumulator[label] = (accumulator[label] || 0) + 1;
             return accumulator;
           }, {});
         } else if (typeof data === 'object') {
           // If the data is an object, use its keys as labels
           counts = Object.keys(data).reduce((accumulator, key) => {
-            accumulator[key] = data[key];
+            const value = data[key] !== '' ? data[key] : nullLabel;
+            accumulator[key] = value;
             return accumulator;
           }, {});
         }
@@ -56,7 +58,7 @@ const BarChartDistinctData = ({ apiUrl }) => {
   }, [apiUrl]);
 
   return (
-    <div style={{ height: '250px', width: '250px' }}>
+    <div>
       {loading ? (
         <p>Loading...</p>
       ) : (
