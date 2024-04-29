@@ -26,7 +26,8 @@ const MuiNavBar = () => {
           {text: 'Personal Profile', route:'/personal-info'},
           {text: 'Family Background', route: '/family-bg'},
           {text: 'SHS Information', route: '/senior-info'},
-          {text: 'College Information', route: '/college-info'}
+          {text: 'College Information', route: '/college-info'},
+          {text: 'Retention Rate Page', route: '/retention-rate'}
         ].map((item, index) => (
           <ListItem key={item.text} disablePadding>
             <ListItemButton component={Link} to={item.route}>
