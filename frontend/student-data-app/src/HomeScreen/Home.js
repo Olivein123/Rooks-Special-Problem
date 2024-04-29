@@ -57,10 +57,10 @@ function Home(){
             <MuiNavBar/>
             <div className='hcontent'>
             <Typography variant="h3" gutterBottom>
-                    Family Background
+                    Home Page
                 </Typography>
                 <Typography variant="h6" gutterBottom>
-                    This page contains the relevant family background information of CCS students
+                    This page contains the relevant information of CCS students
                 </Typography>
                 <div className='hchart-container'>
                   <PieChartWrapper title="Graduated Siblings" api="https://localhost:7025/api/CollegeInformation?choice=1" handleChartClick={handleChartClick} nullLabel="None"/>
@@ -74,7 +74,7 @@ function Home(){
 function PieChartWrapper({ title, api, handleChartClick, nullLabel }) {
   const apiUrl = api;
   return (
-      <div className='pchart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
+      <div className='hchart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
           {title}
           <PieChart apiUrl={apiUrl} nullLabel={nullLabel} />
       </div>
@@ -84,7 +84,7 @@ function PieChartWrapper({ title, api, handleChartClick, nullLabel }) {
 function BarChartWrapper({ title, api, handleChartClick, nullLabel }) {
   const apiUrl = api;
   return (
-      <div className='pchart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
+      <div className='hchart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
           {title}
           <BarChartDistinctData apiUrl={apiUrl} nullLabel={nullLabel}/>
       </div>
