@@ -63,7 +63,7 @@ function Home(){
                     This page contains the relevant information of CCS students
                 </Typography>
                 <div className='hchart-container'>
-                  <PieChartWrapper title="Graduated Siblings" api="https://localhost:7025/api/CollegeInformation?choice=1" handleChartClick={handleChartClick} nullLabel="None"/>
+                  <PieChartWrapper title="Enrolled Students" api="https://localhost:7025/api/CollegeInformation?choice=1" handleChartClick={handleChartClick} nullLabel="None"/>
                 </div>
             </div>
             <BottomDrawer open={isBottomDrawerOpen} onClose={() => setIsBottomDrawerOpen(false)} data={chartData} nullLabel={selectedChartNullLabel} />

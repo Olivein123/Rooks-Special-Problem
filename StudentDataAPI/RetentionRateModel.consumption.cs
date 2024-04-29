@@ -96,8 +96,6 @@ namespace StudentDataAPI
             [ColumnName(@"CommuteDurationGoingSchool")]
             public float CommuteDurationGoingSchool { get; set; }
 
-            [ColumnName(@"IsShifted")]
-            public float IsShifted { get; set; }
 
             [ColumnName(@"HasDevice")]
             public float HasDevice { get; set; }
