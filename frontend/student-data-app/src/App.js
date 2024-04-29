@@ -5,6 +5,7 @@ import Personal from './PersonalProfileScreen/Personal';
 import FamilyBackground from './FamilyBackgroundScreen/Family';
 import Senior from './SHS Information Screen/Senior';
 import College from './CollegeInformationScreen/College';
+import RetentionRate from './RetentionRateScreen/RetentionRate';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Route path="/personal-info" element={<Personal />} />
         <Route path="/family-bg" element={<FamilyBackground />} />
         <Route path="/senior-info" element={<Senior />} />
-        <Route path="/college-info" element={<College />} /> 
+        <Route path="/college-info" element={<College />} />
+        <Route path="/retention-rate" element={<RetentionRate/>}/>
       </Routes>
     </Router>
   );
