@@ -12,9 +12,9 @@ const PieChart = ({ apiUrl, nullLabel }) => {
       try {
         const response = await axios.get(apiUrl);
         const data = response.data;
-
+  
         let counts = {};
-
+  
         // Check if the API returns an array or an object with distinct keys
         if (Array.isArray(data)) {
           // If the data is an array, count occurrences of each item
@@ -31,9 +31,9 @@ const PieChart = ({ apiUrl, nullLabel }) => {
             return accumulator;
           }, {});
         }
-
+  
         // Get labels and datasets
-        const labels = Object.keys(counts);
+        const labels = Object.keys(counts).sort(); // Sort labels alphabetically
         const datasets = [{
           data: Object.values(counts),
           backgroundColor: [
@@ -44,18 +44,19 @@ const PieChart = ({ apiUrl, nullLabel }) => {
             '#073b4c'
           ]
         }];
-
+  
         setChartData({ labels, datasets });
-
+  
         setLoading(false);
       } catch (error) {
         console.error('Error fetching data:', error);
         setLoading(false);
       }
     };
-
+  
     fetchData();
   }, [apiUrl]);
+  
 
   const chartOptions = {
     maintainAspectRatio: true,
