@@ -16,19 +16,19 @@ namespace StudentDataAPI
         public class ModelInput
         {
             [ColumnName(@"Address")]
-            public float Address { get; set; }
+            public string Address { get; set; }
 
             [ColumnName(@"Fund_Source")]
-            public float Fund_Source { get; set; }
+            public string Fund_Source { get; set; }
 
             [ColumnName(@"Fund_Type")]
-            public float Fund_Type { get; set; }
+            public string Fund_Type { get; set; }
 
             [ColumnName(@"HasJob")]
             public float HasJob { get; set; }
 
             [ColumnName(@"TotalParentsIncome")]
-            public float TotalParentsIncome { get; set; }
+            public string TotalParentsIncome { get; set; }
 
             [ColumnName(@"NumberOfSiblings")]
             public float NumberOfSiblings { get; set; }
@@ -37,7 +37,7 @@ namespace StudentDataAPI
             public float NumberOfDependentSiblings { get; set; }
 
             [ColumnName(@"Strand")]
-            public float Strand { get; set; }
+            public string Strand { get; set; }
 
             [ColumnName(@"JoinedScienceHighSchool")]
             public float JoinedScienceHighSchool { get; set; }
@@ -46,25 +46,25 @@ namespace StudentDataAPI
             public float WithHonors { get; set; }
 
             [ColumnName(@"English Grade Range")]
-            public float English_Grade_Range { get; set; }
+            public string English_Grade_Range { get; set; }
 
             [ColumnName(@"Math Grade Range")]
-            public float Math_Grade_Range { get; set; }
+            public string Math_Grade_Range { get; set; }
 
             [ColumnName(@"Science Grade Range")]
-            public float Science_Grade_Range { get; set; }
+            public string Science_Grade_Range { get; set; }
 
             [ColumnName(@"GPA")]
-            public float GPA { get; set; }
+            public string GPA { get; set; }
 
             [ColumnName(@"Course")]
-            public float Course { get; set; }
+            public string Course { get; set; }
 
             [ColumnName(@"Professor")]
-            public float Professor { get; set; }
+            public string Professor { get; set; }
 
             [ColumnName(@"ModeOfDelivery")]
-            public float ModeOfDelivery { get; set; }
+            public string ModeOfDelivery { get; set; }
 
             [ColumnName(@"HasScholarship")]
             public float HasScholarship { get; set; }
@@ -73,7 +73,7 @@ namespace StudentDataAPI
             public float IsInCebu { get; set; }
 
             [ColumnName(@"CurrentStayingPlace")]
-            public float CurrentStayingPlace { get; set; }
+            public string CurrentStayingPlace { get; set; }
 
             [ColumnName(@"HasEnoughStudySpace")]
             public float HasEnoughStudySpace { get; set; }
@@ -96,6 +96,8 @@ namespace StudentDataAPI
             [ColumnName(@"CommuteDurationGoingSchool")]
             public float CommuteDurationGoingSchool { get; set; }
 
+            [ColumnName(@"IsRetained")]
+            public float IsRetained { get; set; }
 
             [ColumnName(@"HasDevice")]
             public float HasDevice { get; set; }
@@ -111,19 +113,19 @@ namespace StudentDataAPI
         public class ModelOutput
         {
             [ColumnName(@"Address")]
-            public float Address { get; set; }
+            public float[] Address { get; set; }
 
             [ColumnName(@"Fund_Source")]
-            public float Fund_Source { get; set; }
+            public float[] Fund_Source { get; set; }
 
             [ColumnName(@"Fund_Type")]
-            public float Fund_Type { get; set; }
+            public float[] Fund_Type { get; set; }
 
             [ColumnName(@"HasJob")]
             public float HasJob { get; set; }
 
             [ColumnName(@"TotalParentsIncome")]
-            public float TotalParentsIncome { get; set; }
+            public float[] TotalParentsIncome { get; set; }
 
             [ColumnName(@"NumberOfSiblings")]
             public float NumberOfSiblings { get; set; }
@@ -132,7 +134,7 @@ namespace StudentDataAPI
             public float NumberOfDependentSiblings { get; set; }
 
             [ColumnName(@"Strand")]
-            public float Strand { get; set; }
+            public float[] Strand { get; set; }
 
             [ColumnName(@"JoinedScienceHighSchool")]
             public float JoinedScienceHighSchool { get; set; }
@@ -141,25 +143,25 @@ namespace StudentDataAPI
             public float WithHonors { get; set; }
 
             [ColumnName(@"English Grade Range")]
-            public float English_Grade_Range { get; set; }
+            public float[] English_Grade_Range { get; set; }
 
             [ColumnName(@"Math Grade Range")]
-            public float Math_Grade_Range { get; set; }
+            public float[] Math_Grade_Range { get; set; }
 
             [ColumnName(@"Science Grade Range")]
-            public float Science_Grade_Range { get; set; }
+            public float[] Science_Grade_Range { get; set; }
 
             [ColumnName(@"GPA")]
-            public float GPA { get; set; }
+            public float[] GPA { get; set; }
 
             [ColumnName(@"Course")]
-            public float Course { get; set; }
+            public float[] Course { get; set; }
 
             [ColumnName(@"Professor")]
-            public float Professor { get; set; }
+            public float[] Professor { get; set; }
 
             [ColumnName(@"ModeOfDelivery")]
-            public float ModeOfDelivery { get; set; }
+            public float[] ModeOfDelivery { get; set; }
 
             [ColumnName(@"HasScholarship")]
             public float HasScholarship { get; set; }
@@ -168,7 +170,7 @@ namespace StudentDataAPI
             public float IsInCebu { get; set; }
 
             [ColumnName(@"CurrentStayingPlace")]
-            public float CurrentStayingPlace { get; set; }
+            public float[] CurrentStayingPlace { get; set; }
 
             [ColumnName(@"HasEnoughStudySpace")]
             public float HasEnoughStudySpace { get; set; }
@@ -191,8 +193,8 @@ namespace StudentDataAPI
             [ColumnName(@"CommuteDurationGoingSchool")]
             public float CommuteDurationGoingSchool { get; set; }
 
-            [ColumnName(@"IsShifted")]
-            public uint IsShifted { get; set; }
+            [ColumnName(@"IsRetained")]
+            public uint IsRetained { get; set; }
 
             [ColumnName(@"HasDevice")]
             public float HasDevice { get; set; }
