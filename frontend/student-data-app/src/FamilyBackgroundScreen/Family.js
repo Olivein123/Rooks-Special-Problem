@@ -1,6 +1,6 @@
 import './Family.css';
 import React, { useState } from 'react';
-import MuiNavBar from '../components/MuiNavBar';
+import MuiNavBar from '../components/NavBar/MuiNavBar';
 import BottomDrawer from '../components/BottomDrawer';
 import PieChart from '../components/PieChart';
 import BarChartDistinctData from '../components/BarChart';
@@ -34,7 +34,6 @@ function Family() {
 
     return (
         <div>
-            <MuiNavBar />
             <div className='fcontent'>
                 <Typography variant="h3" gutterBottom>
                     Family Background
@@ -59,7 +58,7 @@ function Family() {
 function PieChartWrapper({ title, choice, handleChartClick, nullLabel }) {
     const apiUrl = `https://localhost:7025/api/FamilyProfileInformation?choice=${choice}`;
     return (
-        <div className='pchart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
+        <div className='fchart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
             {title}
             <PieChart apiUrl={apiUrl} nullLabel={nullLabel} />
         </div>

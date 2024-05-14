@@ -37,11 +37,13 @@ const PieChart = ({ apiUrl, nullLabel }) => {
         const datasets = [{
           data: Object.values(counts),
           backgroundColor: [
-            '#ef476f',
-            '#ffd166',
-            '#06d6a0',
-            '#118ab2',
-            '#073b4c'
+            '#8A252C',//maroon
+            '#F6C311',//gold
+            '#CC5500',//burnt orange
+            '#191970',//midnight blue
+            '#228B22',//forest green
+            '#FFDAB9',//peach
+            '#87CEEB'
           ]
         }];
   
@@ -63,13 +65,25 @@ const PieChart = ({ apiUrl, nullLabel }) => {
     responsive: true,
     plugins: {
       legend: {
-        position: 'right'
+        display: false,
+        position: 'top',
+      },
+      tooltips: {
+        enabled: false
       }
-    }
+    },
+    layout: {
+      padding: {
+        top: 0,
+        right: 0,
+        bottom: 0,
+        left: 0,
+      },
+    },
   };
 
   return (
-    <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden'}}>
+    <div style={{ position: 'center', width: '85%', height: '85%', overflow: 'hidden'}}>
       {loading ? (
         <p>Loading...</p>
       ) : (

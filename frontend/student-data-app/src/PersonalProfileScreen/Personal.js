@@ -1,7 +1,7 @@
 import './Personal.css';
 import '../App.css';
 import React, { useState } from 'react';
-import MuiNavBar from '../components/MuiNavBar';
+import MuiNavBar from '../components/NavBar/MuiNavBar';
 import BottomDrawer from '../components/BottomDrawer';
 import BarChartDistinctData from '../components/BarChart';
 import PieChart from '../components/PieChart';
@@ -35,7 +35,6 @@ function Personal() {
     
     return (
         <div>
-            <MuiNavBar />
             <div className='pcontent'>
                 <Typography variant="h3" gutterBottom>
                     Personal Profile

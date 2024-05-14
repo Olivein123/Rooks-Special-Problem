@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    height: inherit;
 }
 
 .rinputs {
@@ -11,7 +11,7 @@
     justify-content: space-between;
     margin-bottom: 20px;
     text-align: left;
-    width: 35%;
+    width: 90%;
     height: max-content;
     padding: 2px;
     margin: 0;
@@ -19,7 +19,7 @@
 .rtext{
     align-items: center;
     text-align: center;
-    width: 80%;
+    width: 90%;
 }
 .form{
     align-items: center;
@@ -29,4 +29,15 @@
 
 .formControl {
     width:100%;
+}
+.container{
+    display: flex;
+    height: 70vh;
+}
+
+.rinput-container{
+    overflow-y: auto;
+    flex: 1;
+    /* border: solid; */
+    box-sizing: border-box;
 }

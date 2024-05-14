@@ -1,6 +1,6 @@
 import './Senior.css';
 import React,{useState} from 'react';
-import MuiNavBar from '../components/MuiNavBar';
+import MuiNavBar from '../components/NavBar/MuiNavBar';
 import PieChart from '../components/PieChart';
 import BarChartDistinctData from '../components/BarChart';
 import BottomDrawer from '../components/BottomDrawer';
@@ -33,9 +33,7 @@ function Senior(){
     };
 
     return (
-        <div>
-            <MuiNavBar/>
-            <div className='scontent'>
+        <div className='scontent'>
                 <Typography variant="h3" gutterBottom>
                     Senior High School Information
                 </Typography>
@@ -58,7 +56,6 @@ function Senior(){
                         <PieChartWrapper title="GPA" choice="13" handleChartClick={handleChartClick} nullLabel="No Data"/>
                         <PieChartWrapper title="Programming 1 Grade" choice="14" handleChartClick={handleChartClick} nullLabel="No Data"/>
                 </div>
-            </div>
             <BottomDrawer open={isBottomDrawerOpen} onClose={() => setIsBottomDrawerOpen(false)} data={chartData} nullLabel={selectedChartNullLabel} />
         </div>
     );

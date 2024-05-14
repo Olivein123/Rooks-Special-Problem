@@ -1,4 +1,5 @@
 .hchart{
+    height: inherit;
     width: 50%;
     display: block;
     margin-right: 20px;
@@ -7,21 +8,22 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5%;
     text-align: center;
-    justify-content: center;
+    text-align: -webkit-center;
+    align-content: center;
 }
 .hchart:last-child {
     margin-right: 0;
 }
 .hcontent{
-    padding-top: 1%;
-    padding-left: 1.5%;
-    text-align: center;
-    justify-content: center;
+    height: inherit;
+    /* text-align: center;
+    justify-content: center; */
 }
 .hchart-container {
     justify-content: center;
     align-items: center;
     display: flex;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
     grid-gap: 10px;
+    height: 75%;
 }

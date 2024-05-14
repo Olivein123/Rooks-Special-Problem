@@ -1,6 +1,5 @@
 import './College.css';
 import React,{useState} from 'react';
-import MuiNavBar from '../components/MuiNavBar';
 import PieChart from '../components/PieChart';
 import BarChartDistinctData from '../components/BarChart';
 import BottomDrawer from '../components/BottomDrawer';
@@ -57,9 +56,7 @@ function College(){
     };
     
     return (
-        <div>
-            <MuiNavBar/>
-            <div className='ccontent'>
+        <div className='ccontent'>
                 <Typography variant="h3" gutterBottom>
                     College Information
                 </Typography>
@@ -89,7 +86,6 @@ function College(){
                     <BarChartWrapper title="Feeling arriving to school" choice="20" handleChartClick={handleChartClick} nullLabel="No Data"/>
                     <PieChartWrapper title="Reason for pursuing CS/IT" choice="21" handleChartClick={handleChartClick} nullLabel="No Data"/>
                 </div>
-            </div>
             <BottomDrawer open={isBottomDrawerOpen} onClose={() => setIsBottomDrawerOpen(false)} data={chartData} nullLabel={selectedChartNullLabel} />
         </div>
     );

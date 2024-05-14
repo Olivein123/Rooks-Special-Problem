@@ -1,6 +1,6 @@
 import './Home.css';
 import React, { useState, useEffect } from 'react';
-import MuiNavBar from '../components/MuiNavBar';
+import MuiNavBar from '../components/NavBar/MuiNavBar';
 import BottomDrawer from '../components/BottomDrawer';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
@@ -53,9 +53,7 @@ function Home(){
   }, []);
   
     return (
-        <div>
-            <MuiNavBar/>
-            <div className='hcontent'>
+        <div className='hcontent'>
             <Typography variant="h3" gutterBottom>
                     Home Page
                 </Typography>
@@ -65,7 +63,6 @@ function Home(){
                 <div className='hchart-container'>
                   <PieChartWrapper title="Enrolled Students" api="https://localhost:7025/api/CollegeInformation?choice=1" handleChartClick={handleChartClick} nullLabel="None"/>
                 </div>
-            </div>
             <BottomDrawer open={isBottomDrawerOpen} onClose={() => setIsBottomDrawerOpen(false)} data={chartData} nullLabel={selectedChartNullLabel} />
         </div>
     );

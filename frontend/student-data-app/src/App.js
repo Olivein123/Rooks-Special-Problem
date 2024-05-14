@@ -1,6 +1,7 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import BrowserRouter
-import Home from './HomeScreen/Home'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/LayoutPage/Layout';
+import Home from './HomeScreen/Home';
 import Personal from './PersonalProfileScreen/Personal';
 import FamilyBackground from './FamilyBackgroundScreen/Family';
 import Senior from './SHS Information Screen/Senior';
@@ -11,12 +12,30 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path="/personal-info" element={<Personal />} />
-        <Route path="/family-bg" element={<FamilyBackground />} />
-        <Route path="/senior-info" element={<Senior />} />
-        <Route path="/college-info" element={<College />} />
-        <Route path="/retention-rate" element={<RetentionRate/>}/>
+        <Route
+          path="/"
+          element={<Layout><Home /></Layout>}
+        />
+        <Route
+          path="/personal-info"
+          element={<Layout><Personal /></Layout>}
+        />
+        <Route
+          path="/family-bg"
+          element={<Layout><FamilyBackground /></Layout>}
+        />
+        <Route
+          path="/senior-info"
+          element={<Layout><Senior /></Layout>}
+        />
+        <Route
+          path="/college-info"
+          element={<Layout><College /></Layout>}
+        />
+        <Route
+          path="/retention-rate"
+          element={<Layout><RetentionRate /></Layout>}
+        />
       </Routes>
     </Router>
   );

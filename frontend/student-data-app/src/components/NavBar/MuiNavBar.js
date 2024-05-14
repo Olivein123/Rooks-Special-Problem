@@ -1,3 +1,4 @@
+import './MuiNavBar.css'
 import React from 'react'
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -41,7 +42,7 @@ const MuiNavBar = () => {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-    <AppBar position="static"sx={{ backgroundColor: '#ffcf40' }}>
+    <AppBar className="navbar" position="fixed"sx={{ background: 'linear-gradient(to right, #F6C311, #8A252C)' }}>
       <Toolbar>
         <IconButton size="large" edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }} onClick={toggleDrawer(true)}>
           <MenuIcon sx={{ color: '#800000' }}/>
@@ -54,6 +55,7 @@ const MuiNavBar = () => {
         </Typography>
       </Toolbar>
     </AppBar>
+    <Box></Box>
   </Box>
   );
 }

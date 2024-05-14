@@ -38,11 +38,14 @@ const BarChartDistinctData = ({ apiUrl,nullLabel }) => {
             label: 'Occurrences',
             data: Object.values(counts),
             backgroundColor: [
-              '#ef476f',
-              '#ffd166',
-              '#06d6a0',
-              '#118ab2',
-              '#073b4c'
+              '#800000',//maroon
+              '#FFD700',//gold
+              '#CC5500',//burnt orange
+              '#191970',//midnight blue
+              '#228B22',//forest green
+              '#FFDAB9',//peach
+              '#87CEEB',
+              
             ]
           }]
         });
@@ -56,13 +59,34 @@ const BarChartDistinctData = ({ apiUrl,nullLabel }) => {
 
     fetchData();
   }, [apiUrl]);
+  const chartOptions = {
+    maintainAspectRatio: true,
+    responsive: true,
+    plugins: {
+      legend: {
+        display: false,
+        position: 'top',
+      },
+      tooltips: {
+        enabled: false
+      }
+    },
+    layout: {
+      padding: {
+        top: 0,
+        right: 0,
+        bottom: 0,
+        left: 0,
+      },
+    },
+  };
 
   return (
     <div>
       {loading ? (
         <p>Loading...</p>
       ) : (
-        <Bar data={chartData} />
+        <Bar data={chartData} options={chartOptions}/>
       )}
     </div>
   );
