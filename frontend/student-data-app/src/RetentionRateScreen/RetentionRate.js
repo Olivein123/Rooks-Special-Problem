@@ -489,16 +489,16 @@ const RetentionRate = () => {
                                 <p>{predictedLabel === 1 ? "true" : "false"}</p>
                             </div>
                             )} */}
-                        {score && predictedLabel === 1 && (
+                        {score && predictedLabel !== 1 && (
                             <div>
                                 <h2>Adjusted Score</h2>
                                 <p>{(100 - (Math.max(...score) * 100)).toFixed(2)}% Retention Rate</p>
                             </div>
                         )}
-                        {score && predictedLabel !== 1 && (
+                        {score && predictedLabel === 1 && (
                             <div>
-                                <h2>Score</h2>
-                                <p>{(Math.max(...score) * 100).toFixed(2)}% Retention Rate</p>
+                                <h2>Retention Rate</h2>
+                                <p>{(Math.max(...score) * 100).toFixed(2)}%</p>
                             </div>
                         )}
                     </div>
