@@ -1,4 +1,5 @@
 import './College.css';
+import '../App.css';
 import React,{useState} from 'react';
 import PieChart from '../components/PieChart';
 import BarChartDistinctData from '../components/BarChart';
@@ -96,7 +97,7 @@ function PieChartWrapper({ title, choice, handleChartClick, nullLabel}) {
     const apiUrl = `https://localhost:7025/api/CollegeInformation?choice=${choice}`;
     const delimiter=';';
     return (
-        <div className='cchart' onClick={() => handleChartClick(apiUrl, delimiter, nullLabel)}>
+        <div className='chart' onClick={() => handleChartClick(apiUrl, delimiter, nullLabel)}>
             {title}
             <PieChart apiUrl={apiUrl} nullLabel={nullLabel} />
         </div>
@@ -107,7 +108,7 @@ function BarChartWrapper({ title, choice, handleChartClick, nullLabel }) {
     const apiUrl = `https://localhost:7025/api/CollegeInformation?choice=${choice}`;
     const delimiter=';';
     return (
-        <div className='cchart' onClick={() => handleChartClick(apiUrl, delimiter, nullLabel)}>
+        <div className='chart' onClick={() => handleChartClick(apiUrl, delimiter, nullLabel)}>
             {title}
             <BarChartDistinctData apiUrl={apiUrl} nullLabel={nullLabel}/>
         </div>

@@ -1,6 +1,6 @@
 import './Senior.css';
+import '../App.css';
 import React,{useState} from 'react';
-import MuiNavBar from '../components/NavBar/MuiNavBar';
 import PieChart from '../components/PieChart';
 import BarChartDistinctData from '../components/BarChart';
 import BottomDrawer from '../components/BottomDrawer';
@@ -65,7 +65,7 @@ function PieChartWrapper({ title, choice, handleChartClick, nullLabel }) {
     const apiUrl = `https://localhost:7025/api/SeniorHighSchoolInformation?choice=${choice}`;
 
     return (
-        <div className='pchart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
+        <div className='chart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
             {title}
             <PieChart apiUrl={apiUrl} nullLabel={nullLabel} />
         </div>
@@ -76,7 +76,7 @@ function BarChartWrapper({ title, choice, handleChartClick, nullLabel }) {
     const apiUrl = `https://localhost:7025/api/SeniorHighSchoolInformation?choice=${choice}`;
 
     return (
-        <div className='pchart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
+        <div className='chart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
             {title}
             <PieChart apiUrl={apiUrl} nullLabel={nullLabel} />
         </div>

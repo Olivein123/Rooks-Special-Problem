@@ -1,7 +1,6 @@
 import './Personal.css';
 import '../App.css';
 import React, { useState } from 'react';
-import MuiNavBar from '../components/NavBar/MuiNavBar';
 import BottomDrawer from '../components/BottomDrawer';
 import BarChartDistinctData from '../components/BarChart';
 import PieChart from '../components/PieChart';
@@ -34,22 +33,20 @@ function Personal() {
     };
     
     return (
-        <div>
-            <div className='pcontent'>
-                <Typography variant="h3" gutterBottom>
-                    Personal Profile
-                </Typography>
-                <Typography variant="h6" gutterBottom>
-                    This page contains the relevant personal information of CCS students
-                </Typography>
-                <div className='pchart-container'>
-                    <BarChartWrapper title="Address" choice="1" handleChartClick={handleChartClick} nullLabel="No Address" />
-                    <BarChartWrapper title="Fund Source" choice="2" handleChartClick={handleChartClick} nullLabel="No Fund Source" />
-                    <PieChartWrapper title="Fund Type" choice="3" handleChartClick={handleChartClick} nullLabel="None" />
-                    <PieChartWrapper title="Job" choice="4" handleChartClick={handleChartClick} nullLabel="No Job" />
-                    <PieChartWrapper title="Salary Enough" choice="5" handleChartClick={handleChartClick} nullLabel="No Job" />
-                    <PieChartWrapper title="Salary Range" choice="6" handleChartClick={handleChartClick} nullLabel="No Job" />
-                </div>
+        <div className='pcontent'>
+            <Typography variant="h3" gutterBottom>
+                Personal Profile
+            </Typography>
+            <Typography variant="h6" gutterBottom>
+                This page contains the relevant personal information of CCS students
+            </Typography>
+            <div className='pchart-container'>
+                <BarChartWrapper title="Address" choice="1" handleChartClick={handleChartClick} nullLabel="No Address" />
+                <BarChartWrapper title="Fund Source" choice="2" handleChartClick={handleChartClick} nullLabel="No Fund Source" />
+                <PieChartWrapper title="Fund Type" choice="3" handleChartClick={handleChartClick} nullLabel="None" />
+                <PieChartWrapper title="Job" choice="4" handleChartClick={handleChartClick} nullLabel="No Job" />
+                <PieChartWrapper title="Salary Enough" choice="5" handleChartClick={handleChartClick} nullLabel="No Job" />
+                <PieChartWrapper title="Salary Range" choice="6" handleChartClick={handleChartClick} nullLabel="No Job" />
             </div>
             <BottomDrawer open={isBottomDrawerOpen} onClose={() => setIsBottomDrawerOpen(false)} data={chartData} nullLabel={selectedChartNullLabel} />
         </div>
@@ -60,7 +57,7 @@ function PieChartWrapper({ title, choice, handleChartClick, nullLabel }) {
     const apiUrl = `https://localhost:7025/api/PersonalInformation?choice=${choice}`;
 
     return (
-        <div className='pchart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
+        <div className='chart' onClick={() => handleChartClick(apiUrl, nullLabel)}style={{ backgroundColor: 'white' }}>
             {title}
             <PieChart apiUrl={apiUrl} nullLabel={nullLabel} />
         </div>
@@ -70,7 +67,7 @@ function PieChartWrapper({ title, choice, handleChartClick, nullLabel }) {
 function BarChartWrapper({ title, choice, handleChartClick, nullLabel }) {
     const apiUrl = `https://localhost:7025/api/PersonalInformation?choice=${choice}`;
     return (
-        <div className='pchart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
+        <div className='chart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
             {title}
             <BarChartDistinctData apiUrl={apiUrl} nullLabel={nullLabel}/>
         </div>

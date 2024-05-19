@@ -1,9 +1,12 @@
+body{
+    overflow: hidden;
+}
 .page{
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.548);
     padding-top: 100px;
     /* border: red solid; */
-    height: 85vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -22,10 +25,9 @@
 }
 
 .lcontent{
-    height: 84vh;
+    height: 80%;
     text-align: center;
     justify-content: center;
     /* border: solid; */
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow: auto;
 }

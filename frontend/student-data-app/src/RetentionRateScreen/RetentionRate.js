@@ -1,6 +1,5 @@
 import './RetentionRate.css'
 import * as React from 'react';
-import MuiNavBar from '../components/NavBar/MuiNavBar';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import InputLabel from '@mui/material/InputLabel';
@@ -8,6 +7,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 import axios from 'axios';
+import CircularWithValueLabel from '../components/CircularProgressWithLabel';
 
 const RetentionRate = () => {
     const [address, setAdress] = React.useState('');
@@ -40,6 +40,7 @@ const RetentionRate = () => {
     const [HasDevice, setHasDevice] = React.useState('');
     const [predictedLabel, setPredictedLabel] = React.useState(null);
     const [score, setScore] = React.useState(null);
+    const [finalscore, setFinalScore] = React.useState(null);
 
     const handleChangeAddress = (event) => {setAdress(parseInt(event.target.value));};
     const handleChangeFundSource = (event) => {setFundSource(parseInt(event.target.value));};
@@ -71,7 +72,6 @@ const RetentionRate = () => {
     const handleChangeHasDevice= (event) => {setHasDevice(parseInt(event.target.value));};
 
     const handleSubmit =async(e)=>{
-        e.preventDefault();
         try{
             const response = await axios.post(`https://localhost:7025/RetentionRate`,{
                 "address": address,
@@ -101,12 +101,16 @@ const RetentionRate = () => {
                 "modeTransportGoingSchool": ModeTransportGoingSchool,
                 "commuteCountGoingSchool": CommuteCountGoingSchool,
                 "commuteDurationGoingSchool": CommuteDurationGoingSchool,
-                // "isShifted": 0,
                 "hasDevice": HasDevice,
             });
             const { predictedLabel, score} = response.data;
             setPredictedLabel(predictedLabel);
             setScore(score);
+            if (predictedLabel !== 1) {
+                setFinalScore((100 - (Math.max(...score) * 100)).toFixed(2));
+            } else {
+                setFinalScore((Math.max(...score) * 100).toFixed(2));
+            }
             console.log('Response:', response.data);
         }catch(error){
             console.log('Error posting data:', error);
@@ -124,7 +128,7 @@ const RetentionRate = () => {
 
                 <div className='container'>
                     <div className='rinput-container'>
-                    <Typography variant="h6" gutterBottom>
+                    <Typography className='category' variant="h6" gutterBottom>
                     Personal Information
                     </Typography>
                         <div className='rinputs'>
@@ -200,7 +204,7 @@ const RetentionRate = () => {
                     </div>
 
                     <div className='rinput-container'>
-                    <Typography variant="h6" gutterBottom>
+                    <Typography className='category' variant="h6" gutterBottom>
                     SHS Information
                     </Typography>
                         <div className='rinputs'>
@@ -482,25 +486,10 @@ const RetentionRate = () => {
                     </div>
                 
                     <div className='rinput-container'>
-                        <button onClick={handleSubmit}>Submit Data</button>
-                        {/* <h2>Predicted Label</h2>
-                        {predictedLabel && (
-                            <div>
-                                <p>{predictedLabel === 1 ? "true" : "false"}</p>
-                            </div>
-                            )} */}
-                        {score && predictedLabel !== 1 && (
-                            <div>
-                                <h2>Adjusted Score</h2>
-                                <p>{(100 - (Math.max(...score) * 100)).toFixed(2)}% Retention Rate</p>
-                            </div>
-                        )}
-                        {score && predictedLabel === 1 && (
-                            <div>
-                                <h2>Retention Rate</h2>
-                                <p>{(Math.max(...score) * 100).toFixed(2)}%</p>
-                            </div>
-                        )}
+                        <div className='output'>
+                            <CircularWithValueLabel value={finalscore}/>
+                            <button className='boton-elegante' onClick={handleSubmit}>Submit Data</button>
+                        </div>
                     </div>
                 </div>
         </div>

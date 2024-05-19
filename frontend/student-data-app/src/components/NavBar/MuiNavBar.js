@@ -20,19 +20,20 @@ const MuiNavBar = () => {
   };
 
   const DrawerList = (
-    <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
-      <List>
+    <Box sx={{ width: 250, height: 'inherit'}} role="presentation" onClick={toggleDrawer(false)}>
+      <List className='sidelist'>
         {[
           {text: 'Home', route:'/'},
           {text: 'Personal Profile', route:'/personal-info'},
           {text: 'Family Background', route: '/family-bg'},
           {text: 'SHS Information', route: '/senior-info'},
           {text: 'College Information', route: '/college-info'},
-          {text: 'Retention Rate Page', route: '/retention-rate'}
+          {text: 'Retention Rate Page', route: '/retention-rate'},
+          {text: 'Students Page', route: '/student-page'},
         ].map((item, index) => (
           <ListItem key={item.text} disablePadding>
             <ListItemButton component={Link} to={item.route}>
-              <ListItemText primary={item.text} sx={{ color: '#800000', fontWeight: 'bold'}}/>
+              <ListItemText primary={item.text} sx={{ color: '#800000', fontWeight: 'bold', fontSize:'1.2rem'}}/>
             </ListItemButton>
           </ListItem>
         ))}

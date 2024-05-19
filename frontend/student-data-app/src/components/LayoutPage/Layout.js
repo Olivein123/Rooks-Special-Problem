@@ -1,6 +1,7 @@
 import React from 'react';
 import MuiNavBar from '../NavBar/MuiNavBar';
 import './Layout.css'
+import Footer from '../FooterComponent/Footer';
 
 const Layout = ({ children }) => {
   return (
@@ -9,6 +10,7 @@ const Layout = ({ children }) => {
       <div className="lcontent">
         {children}
       </div>
+      <Footer/>
     </div>
   );
 };

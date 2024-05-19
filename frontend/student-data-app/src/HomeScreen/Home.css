@@ -15,7 +15,7 @@
     margin-right: 0;
 }
 .hcontent{
-    height: inherit;
+    height: 100%;
     /* text-align: center;
     justify-content: center; */
 }
@@ -25,5 +25,5 @@
     display: flex;
     /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
     grid-gap: 10px;
-    height: 75%;
+    height: 70%;
 }

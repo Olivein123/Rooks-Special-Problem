@@ -1,15 +1,12 @@
 import './Home.css';
-import React, { useState, useEffect } from 'react';
-import MuiNavBar from '../components/NavBar/MuiNavBar';
+import '../App.css';
+import React, { useState} from 'react';
 import BottomDrawer from '../components/BottomDrawer';
-import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import PieChart from '../components/PieChart';
-import BarChartDistinctData from '../components/BarChart';
 
 function Home(){
-  const [studentData, setStudentData] = useState([]);
-  const [isBottomDrawerOpen, setIsBottomDrawerOpen] = useState(false);
+    const [isBottomDrawerOpen, setIsBottomDrawerOpen] = useState(false);
     const [chartData, setChartData] = useState([]);
     const [selectedChartNullLabel, setSelectedChartNullLabel] = useState(""); // Store the null label for the selected chart
 
@@ -33,24 +30,6 @@ function Home(){
             console.error('Error fetching data:', error);
         }
     };
-
-  useEffect(() => {
-    
-    const fetchStudentData = async () => {
-      try {
-        const response = await fetch('https://localhost:7025/api/Student');
-        if (!response.ok) {
-          throw new Error('Failed to fetch student data');
-        }
-        const data = await response.json();
-        setStudentData(data);
-      } catch (error) {
-        console.error('Error fetching student data:', error);
-      }
-    };
-
-    fetchStudentData();
-  }, []);
   
     return (
         <div className='hcontent'>
@@ -71,19 +50,9 @@ function Home(){
 function PieChartWrapper({ title, api, handleChartClick, nullLabel }) {
   const apiUrl = api;
   return (
-      <div className='hchart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
+      <div className='hchart' onClick={() => handleChartClick(apiUrl, nullLabel)}style={{ backgroundColor: 'white' }}>
           {title}
           <PieChart apiUrl={apiUrl} nullLabel={nullLabel} />
-      </div>
-  );
-}
-
-function BarChartWrapper({ title, api, handleChartClick, nullLabel }) {
-  const apiUrl = api;
-  return (
-      <div className='hchart' onClick={() => handleChartClick(apiUrl, nullLabel)}>
-          {title}
-          <BarChartDistinctData apiUrl={apiUrl} nullLabel={nullLabel}/>
       </div>
   );
 }

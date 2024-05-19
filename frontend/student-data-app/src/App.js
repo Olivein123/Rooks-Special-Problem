@@ -7,6 +7,7 @@ import FamilyBackground from './FamilyBackgroundScreen/Family';
 import Senior from './SHS Information Screen/Senior';
 import College from './CollegeInformationScreen/College';
 import RetentionRate from './RetentionRateScreen/RetentionRate';
+import Students from './StudentScreen/Students';
 
 function App() {
   return (
@@ -35,6 +36,10 @@ function App() {
         <Route
           path="/retention-rate"
           element={<Layout><RetentionRate /></Layout>}
+        />
+        <Route
+          path="/student-page"
+          element={<Layout><Students /></Layout>}
         />
       </Routes>
     </Router>
