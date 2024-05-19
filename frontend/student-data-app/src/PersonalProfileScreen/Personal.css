@@ -1,23 +1,9 @@
-.pchart{
-    height: 180px;
-    width: 300px;
-    display: block;
-    margin-right: 20px;
-    cursor:pointer;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5%;
-    text-align: center;
-    text-align: -webkit-center;
-    align-content: center;
-}
 .pchart:last-child {
     margin-right: 0;
 }
 .pcontent{
     text-align: center;
     padding-left: 1.5%;
-    padding-top: 1%;
 }
 .pchart-container {
     display: grid;

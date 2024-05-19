@@ -5,4 +5,10 @@
     width: 100%;
     padding: 10px 20px;
     z-index: 1000; /* Ensure the navbar is on top of other elements */
-  }
+}
+
+.sidelist{
+  height: 90%;
+  place-content: center;
+  text-align-last: center;
+}
