@@ -1,0 +1,28 @@
+.ccontent{
+    text-align: center;
+    overflow: auto;
+    height: 100%;
+}
+.cchart{
+    height: 180px;
+    width: 300px;
+    display: block;
+    /* margin-right: 20px; */
+    cursor:pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    text-align: center;
+    text-align: -webkit-center;
+    align-content: center;
+}
+.cchart:last-child {
+    margin-right: 0;
+}
+
+.cchart-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+}

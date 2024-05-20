@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+body {
+  font-family: 'Outfit', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300'); 
+
+.chart{
+    height: 180px;
+    width: 300px;
+    display: block;
+    margin-right: 20px;
+    cursor:pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    text-align: center;
+    text-align: -webkit-center;
+    align-content: center;
+    background-color: whitesmoke;
+}
