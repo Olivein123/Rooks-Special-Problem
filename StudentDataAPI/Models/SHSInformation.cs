@@ -31,7 +31,8 @@ namespace StudentDataAPI.Models
         [StringLength(5)] // Adjust the maximum length as needed
         public string GradeRangeEnglish { get; set; }
 
-        [StringLength(5)] // Adjust the maximum length as needed
+        [StringLength(5)] // Adjust the ma
+                          // ximum length as needed
         public string GradeRangeMath { get; set; }
 
         [StringLength(5)] // Adjust the maximum length as needed
