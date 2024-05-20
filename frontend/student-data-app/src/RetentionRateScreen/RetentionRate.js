@@ -10,7 +10,7 @@ import axios from 'axios';
 import CircularWithValueLabel from '../components/CircularProgressWithLabel';
 
 const RetentionRate = () => {
-    const [address, setAdress] = React.useState('');
+    const [address, setAdress] = React.useState(1);
     const [fundSource, setFundSource] = React.useState('');
     const [fundType, setFundType] = React.useState('');
     const [hasJob, setHasJob] = React.useState('');
@@ -43,7 +43,9 @@ const RetentionRate = () => {
     const [finalscore, setFinalScore] = React.useState(null);
 
     const handleChangeAddress = (event) => {setAdress(parseInt(event.target.value));};
-    const handleChangeFundSource = (event) => {setFundSource(parseInt(event.target.value));};
+    const handleChangeFundSource = (event) => {setFundSource(parseInt(event.target.value));if ((event.target.value) === 1) {
+        setFundType(1); // Set fundType to 1 if fundSource is 1
+    }};
     const handleChangeFundType = (event) => {setFundType(parseInt(event.target.value));};
     const handleChangeHasJob = (event) => {setHasJob(parseInt(event.target.value));};
     const handleChangeParentsIncome= (event) => {setParentsIncome(parseInt(event.target.value));};
@@ -131,7 +133,7 @@ const RetentionRate = () => {
                     <Typography className='category' variant="h6" gutterBottom>
                     Personal Information
                     </Typography>
-                        <div className='rinputs'>
+                        {/* <div className='rinputs'>
                         <div className='rtext'>Address:</div>
                             <FormControl className="formControl">
                                 <InputLabel id="select-input">Choose</InputLabel>
@@ -142,13 +144,13 @@ const RetentionRate = () => {
                                 <MenuItem value={3}>Outside Cebu</MenuItem>
                                 </Select>
                             </FormControl>
-                        </div>
+                        </div> */}
                         <div className='rinputs'>
                         <div className='rtext'>Fund Source:</div>
                             <FormControl className="formControl">
                                 <InputLabel id="select-input">Choose</InputLabel>
                                 <Select labelId="select-input" id="select-input" value={fundSource} label="Choose"autoWidth
-                                onChange={handleChangeFundSource}>
+                                onChange={handleChangeFundSource} >
                                 <MenuItem value={1}>Parents/Guardian</MenuItem>
                                 <MenuItem value={2}>Me</MenuItem>
                                 </Select>
@@ -159,7 +161,7 @@ const RetentionRate = () => {
                             <FormControl className="formControl">
                                 <InputLabel id="select-input">Choose</InputLabel>
                                 <Select labelId="select-input" id="select-input" value={fundType} label="Choose"
-                                onChange={handleChangeFundType}>
+                                onChange={handleChangeFundType} disabled={fundSource === 1}>
                                 <MenuItem value={1}>None</MenuItem>
                                 <MenuItem value={2}>Private Work</MenuItem>
                                 <MenuItem value={3}>Non-Academic Scholar</MenuItem>
