@@ -486,6 +486,9 @@ const RetentionRate = () => {
                     </div>
                 
                     <div className='rinput-container'>
+                        <Typography className='category' variant="h6" gutterBottom>
+                        Retention Rate
+                        </Typography>
                         <div className='output'>
                             <CircularWithValueLabel value={finalscore}/>
                             <button className='boton-elegante' onClick={handleSubmit}>Submit Data</button>
