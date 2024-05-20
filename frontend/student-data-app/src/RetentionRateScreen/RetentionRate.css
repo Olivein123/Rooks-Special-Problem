@@ -39,20 +39,22 @@
 .rinput-container{
     overflow-y: auto;
     flex: 1;
-    border: solid;
+    border: 1px solid black; /* You can adjust the color */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     box-sizing: border-box;
     text-align: -webkit-center;
     background-color: whitesmoke;
     align-content: center;
+    place-content: flex-start;
 }
 .category{
     background-color: #800000;
 }
 .boton-elegante {
     padding: 15px 30px;
-    border: 2px solid #2c2c2c;
-    background-color: #1a1a1a;
+    border: 2px solid #800000;
+    background-color: #800000;
     color: #ffffff;
     font-size: 1.2rem;
     cursor: pointer;
@@ -85,11 +87,23 @@
   }
   
   .boton-elegante:hover {
-    border-color: #666666;
-    background: #800000;
+    border-color: #800000;
+    background: gold;
+    color: #800000
   }
   .output{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
+.rinput-container::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    background-color: transparent; /* Make the background transparent */
+}
+
+/* Handle */
+.rinput-container::-webkit-scrollbar-thumb {
+  background: rgb(43, 43, 43); /* Color of the handle */
+  border-radius: 5px; /* Radius of the handle */
+}
